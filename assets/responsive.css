@@ -1,0 +1,18 @@
+/* mobile */
+@media (max-width: 767.98px) {
+    .nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .container {
+        margin: 0;
+    }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 999.98px) {
+    
+}

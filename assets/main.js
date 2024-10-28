@@ -35,9 +35,22 @@ const answers = [
     ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
 ];
 
+// tạo câu hỏi
+const questionTable = document.querySelector(`.question__table`);
+questions.forEach((_, index) => {
+    const questionItem = document.createElement('div');
+    questionItem.classList.add('question__item');
+    questionItem.textContent = index + 1; // Thiết lập nội dung là số thứ tự
+    questionTable.appendChild(questionItem);
+});
+
 const userAnswer = new Array(questions.length).fill(null);
 const startTime = Date.now();
 let time;
+
+const nav = document.querySelector(`.nav`);
+const menu = document.querySelector(`.fa-bars`);
+const closeMenu = document.querySelector(`.fa-xmark`);
 
 const questionItem = document.querySelectorAll(`.question__item`);
 const questionContent = document.querySelector(`.question__content`);
@@ -56,6 +69,8 @@ let score = 0;
 let show = false;
 
 let viTri = 0;
+
+
 
 window.onload = () => {
     function createShuffledArray(n) {
@@ -189,4 +204,23 @@ window.onload = () => {
         show = true;
         showAnswer();
     });    
+    if (window.innerWidth < 767.98) {
+        menu.addEventListener('click', () => {
+            nav.style.display = "block";
+            closeMenu.style.display = "block";
+            menu.style.display = "none";
+        });
+    
+        nav.addEventListener('click', () => {
+            nav.style.display = "none";
+            closeMenu.style.display = "none";
+            menu.style.display = "block";
+        });
+        
+        closeMenu.addEventListener('click', () => {
+            nav.style.display = "none";
+            closeMenu.style.display = "none";
+            menu.style.display = "block";
+        });
+    }    
 };
