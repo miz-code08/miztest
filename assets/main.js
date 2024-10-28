@@ -33,7 +33,7 @@ const answers = [
     ["A. Liên kết hóa học", "B. Mô mỡ và máu", "C. Phản ứng", "D. Bào quan của tế bào", 0],
     ["A. Nhiệt năng thành hóa năng", "B. Quang năng thành nhiệt năng", "C. Quang năng thành hóa năng", "D. Nhiệt năng thành quang năng", 2],
     ["A. 1", "B. 2", "C. 3", "D. 4", 1],
-    // ["aaaaa", "bbbbb", "ccccc", "ddddd", 1],
+    // ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
 ];
 
 // tạo câu hỏi
