@@ -147,13 +147,18 @@ window.onload = () => {
     function showAnswer() {
         if(show) {
             questionItem.forEach((val, idx) => {
-                if (val.classList.contains('red')) {
+                if(val.classList.contains('red')) {
                     if(viTri === idx) {
                         answerDesc.forEach(val => {
                             val.style.color = "#000";
                         })
                         answerDesc[lastElements[idx]].style.color = "red";
                     }
+                }
+                else {
+                    answerDesc.forEach(val => {
+                        val.style.color = "#000";
+                    })
                 }
             })
         }        
@@ -205,7 +210,7 @@ window.onload = () => {
         show = true;
         showAnswer();
     });    
-    if (window.innerWidth < 767.98) {
+    if(window.innerWidth < 767.98) {
         yesBtn.addEventListener('click', () => {
             nav.style.display = "block";
             closeMenu.style.display = "block";
