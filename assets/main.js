@@ -19,7 +19,7 @@ const questions = [
     "Vì sao khi chúng ta làm việc nhiều thì cần tiêu thụ nhiều thức ăn?",
     "Quá trình trao đổi chất của con người thải ra môi trường những chất nào?",
     "Trao đổi chất và chuyển hóa năng lượng có vai trò quan trọng đối với sự sống của sinh vật.",
-    "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng?",
+    "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng? 1.Quá trình đồng hóa ở cấp tế bào tổng hợp nên chất hữu cơ để xây dựng cơ thể và dự trữ năng lượng. 2.Quá trình dị hóa ở cấp tế bào phân giải các chất hữu cơ giải phóng năng lượng cung cấp cho hoạt động sống của tế bào và cơ thể. 3.Chất dinh dưỡng cơ thể lấy vào được vận chuyển đến tế bào làm nguyên liệu cho quá trình đồng hóa. 4.Chất thải sinh ra từ quá trình đồng hóa của tế bào được cơ thể thải ra môi trường.",
     "Chuyển hóa năng lượng trong sinh giới gồm?",
     "Sinh vật có thể tồn tại, sinh trưởng, phát triển thích nghi với môi trường sống là nhờ có quá trình nào?",
     "Rễ cây trên cạn hấp thụ nước và ion muối khoáng chủ yếu qua?",
