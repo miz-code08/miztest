@@ -196,29 +196,22 @@ window.onload = () => {
             }
             else {
                 questionItem[idx].classList.add("red");
-            }
-            
+            }            
         });
         scoreDesc.textContent = `Số câu đúng: ${score}/${questions.length}`;
     }
 
     function showAnswer() {
         if(show) {
+            answerDesc.forEach(val => {
+                val.style.color = "#000";
+            });
+            
             questionItem.forEach((val, idx) => {
-                if(val.classList.contains('red')) {
-                    if(viTri === idx) {
-                        answerDesc.forEach(val => {
-                            val.style.color = "#000";
-                        })
-                        answerDesc[lastElements[idx]].style.color = "red";
-                    }
+                if (val.classList.contains('red') && viTri === idx) {
+                    answerDesc[lastElements[idx]].style.color = "red";
                 }
-                else {
-                    answerDesc.forEach(val => {
-                        val.style.color = "#000";
-                    })
-                }
-            })
+            });
         }        
     }
 
