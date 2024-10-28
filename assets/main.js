@@ -6,14 +6,14 @@ const questions = [
     "Chuyển hóa năng lượng là?",
     "Quá trình trao đổi chất và chuyển hóa năng lượng giúp cơ thể sinh vật",
     "Chất nào sau đây là sản phẩm của quá trình trao đổi chất được động vật thải ra môi trường?",
-    "Trong quá trình trao đổi chất luôn có sự",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "Trong quá trình trao đổi chất, luôn có sự",
+    "Sinh vật có thể tồn tại, sinh trưởng, phát triển và thích nghi với môi trường sống nhờ vào quá trình nào?",
+    "Đồng hóa là?",
+    "Cho các chất sau: 1.Oxigen 2.Carbon dioxide 3.Chất dinh dưỡng 4.Nước uống 5.Năng lượng nhiệt 6.Chất thải. Trong quá trình trao đổi chất ở người, cơ thể thu nhận những chất nào sau đây?",
+    "Trong cơ thể người, chất hữu cơ được phân giải để giải phóng năng lượng có nguồn gốc từ sự trao đổi chất ở hệ:",
+    "Trong tế bào và cơ thể sinh vật, năng lượng chủ yếu được trữ trong các:",
+    "Trong quá trình quang hợp của cây xanh, cây có thể tự tổng hợp được chất hữu cơ nhờ ánh sáng mặt trời, nước và khí carbon dioxide. Năng lượng trong quá trình này là sự chuyển hóa năng lượng từ dạng:",
+    "Cho các nhận định sau: 1.Trao đổi chất giữa cơ thể và môi trường là điều kiện tồn tại và phát triển của cơ thể, là đặc tính cơ bản của sự sống. 2.Uống đủ nước, thức khuya, luyện tập thể dục thể thao sẽ thúc đẩy quá trình trao đổi chất ở cơ thể. 3.Tùy theo việc kiểm tra đủ chất, người ta chia sinh vật thành hai nhóm là sinh vật dị dưỡng và sinh vật hóa dưỡng. 4.Trong cơ thể con người đã có quá trình biến đổi hóa học thức ăn thành năng lượng cung cấp cho mọi hoạt động sống hàng ngày. Trong số các nhận định trên, số nhận định đúng là:",
 ];
 
 const answers = [
@@ -25,14 +25,13 @@ const answers = [
     ["A. Phát triển kích thước theo thời gian", "B. Tồn tại, sinh trưởng, phát triển, sinh sản", "C. Cân tịnh và vận động", "D. Tích lũy năng lượng", 1],
     ["A. Oxygen", "B. Carbon Dioxide", "C. Chất dinh dưỡng", "D. Vitamin", 1],
     ["A. Giải phóng năng lượng", "B. Tích lũy (lưu trữ) năng lượng", "C. Giải phóng hoặc tích lũy năng lượng", "D. Phản ứng dị hóa", 2],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
-    ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
+    ["A. Quá trình trao đổi chất và sinh sản", "B. Quá trình chuyển hóa năng lượng", "C. Hiệu quả trao đổi chất và chuyển hóa năng lượng", "D. Quá trình trao đổi chất và cảm ứng", 2],
+    ["A. Phân hủy các chất.", "B. Tổng hợp chất mới, tích lũy năng lượng.", "C. Giải phóng năng lượng.", "D. Biến đổi các chất.", 1],
+    ["A. 1, 2, 3, 4, 5", "B. 1, 2, 3, 4", "C. 1, 3, 4, 5", "D. 1, 3, 4", 3],
+    ["A. Bài tiết", "B. Tuần hoàn", "C. Tiêu hóa", "D. Thần kinh", 2],
+    ["A. Liên kết hóa học", "B. Mô mỡ và máu", "C. Phản ứng", "D. Bào quan của tế bào", 0],
+    ["A. Nhiệt năng thành hóa năng", "B. Quang năng thành nhiệt năng", "C. Quang năng thành hóa năng", "D. Nhiệt năng thành quang năng", 2],
+    ["A. 1", "B. 2", "C. 3", "D. 4", 1],
 ];
 
 // tạo câu hỏi
@@ -205,6 +204,11 @@ window.onload = () => {
         showAnswer();
     });    
     if (window.innerWidth < 767.98) {
+        yesBtn.addEventListener('click', () => {
+            nav.style.display = "block";
+            closeMenu.style.display = "block";
+            menu.style.display = "none";
+        });   
         menu.addEventListener('click', () => {
             nav.style.display = "block";
             closeMenu.style.display = "block";

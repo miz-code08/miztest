@@ -11,6 +11,14 @@
     .container {
         margin: 0;
     }
+
+    .question__content {
+
+    }
+
+    .question__desc {
+        font-size: 3rem;
+    }
 }
 /* tablet */
 @media (min-width: 768px) and (max-width: 999.98px) {
