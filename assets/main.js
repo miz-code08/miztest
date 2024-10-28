@@ -214,6 +214,21 @@ window.onload = () => {
         }}        
     });
 
+    document.addEventListener('keydown', function(event) {
+        if(event.key === 'ArrowLeft') {
+            if(viTri > 0) {{
+                updateQuestion(viTri-1);
+                showAnswer();
+            }}  
+        } 
+        else if(event.key === 'ArrowRight') {
+            if(viTri < questions.length - 1) {{
+                updateQuestion(viTri+1);
+                showAnswer();
+            }}  
+        }
+    });
+
     radio.forEach((val, idx) => {
         val.addEventListener('click', () => {
             questionItem[viTri].classList.add("blue");
