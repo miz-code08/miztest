@@ -21,6 +21,7 @@ const questions = [
     "Trao đổi chất và chuyển hóa năng lượng có vai trò quan trọng đối với sự sống của sinh vật.",
     "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng? 1.Quá trình đồng hóa ở cấp tế bào tổng hợp nên chất hữu cơ để xây dựng cơ thể và dự trữ năng lượng. 2.Quá trình dị hóa ở cấp tế bào phân giải các chất hữu cơ giải phóng năng lượng cung cấp cho hoạt động sống của tế bào và cơ thể. 3.Chất dinh dưỡng cơ thể lấy vào được vận chuyển đến tế bào làm nguyên liệu cho quá trình đồng hóa. 4.Chất thải sinh ra từ quá trình đồng hóa của tế bào được cơ thể thải ra môi trường.",
     "Chuyển hóa năng lượng trong sinh giới gồm?",
+    "Sinh vật có thể tồn tại, sinh trưởng, phát triển thích nghi với môi trường sống là nhờ có quá trình nào?",
     // "",
 ];
 
@@ -47,6 +48,7 @@ const answers = [
     ["A. Sự chuyển hóa của sinh vật.", "B. Có vai trò quan trọng đối với sự biến đổi các chất.", "C. Sự trao đổi năng lượng.", "D. Sự sống của sinh vật.", 3],
     ["A. 2.", "B. 3.", "C. 1.", "D. 4.", 1],
     ["A. Phân giải → Tổng hợp → Huy động năng lượng.", "B. Tổng hợp → Huy động năng lượng.", "C. Tổng hợp → Phân giải → Huy động năng lượng.", "D. Phân giải → Huy động năng lượng → Tổng hợp.", 2],
+    ["A. Quá trình trao đổi chất và cảm ứng.", "B. Quá trình trao đổi chất và chuyển hóa năng lượng.", "C. Quá trình chuyển hóa năng lượng.", "D. Quá trình trao đổi chất và sinh sản.", 1],
     // ["aaaaa", "bbbbb", "ccccc", "ddddd", 
 ];
 
