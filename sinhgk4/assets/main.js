@@ -19,7 +19,6 @@ const questions = [
     "Quang hợp ở các nhóm thực vật C3, C4 và CAM giống nhau như thế nào?",
     "Khi nói về ảnh hưởng ánh sáng đến quang hợp, phát biểu nào sau đây sai?",
     "Khi nói về ảnh hưởng của CO2 đến quang hợp, phát biểu nào sau đây sai?",
-
     "Nhận định nào sau đây đúng?",
     "Khi nói về ảnh hưởng của nhiệt độ đến quang hợp, phát biểu nào sau đây sai?",
     "Nhận định không đúng khi nói về sự ảnh hưởng của ánh sáng tới cường độ quang hợp?",

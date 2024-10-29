@@ -18,7 +18,6 @@ const questions = [
     "Chọn từ thích hợp điền vào chỗ trống sau: ...là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là carbohydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt năng.",
     "Những phát biểu nào sau đây đúng khi nói về vai trò của hô hấp đối với cơ thể thực vật? 1.Năng lượng (ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổnghợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… 2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơthể thực vật diễn ra một cách bình thường. 3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệuđể tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,…IV. Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dượcphẩm của con người; cung cấp năng lượng, điều hoà không khí.",
     "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?"
-
     // "",
 ];
 
