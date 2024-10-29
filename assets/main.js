@@ -43,7 +43,7 @@ const questions = [
     "Hiện tượng lá cây bị vàng do thiếu chất diệp lục là do thiếu những nguyên tố khoáng nào?",
     "Sự biểu hiện triệu chứng thiếu nitrogen của cây là gì?",
     "Nguyên tố nitơ có trong thành phần của",
-    
+
     "Có bao nhiêu phát biểu đúng khi nói về hậu quả bón liều lượng phân bón cao quá mức cần thiết cho cây? 1. Gây độc hại đối với cây. 2. Gây ô nhiễm nông phẩm và môi trường. 3. Làm đất đai phì nhiêu nhưng cây không hấp thụ được hết. 4. Dư lượng phân bón khoáng chất sẽ làm xấu lí tính của đất, giết chết các vi sinh vật có lợi.",
     "Khi nói về quá trình trao đổi nước và khoáng ở thực vật có bao nhiêu phát biểu sau đây đúng? I. Nguyên tố khoáng hòa tan trong nước, do vậy trao đổi khoáng có thể đồng thời với trao đổi nước. II. Nước và các chất khoáng được vận chuyển từ lông hút vào mạch gỗ của rễ theo con đường gian bào và con đường tế bào chất. III. Thoát hơi nước ở lá tạo động lực kéo dòng mạch gỗ đi theo một chiều từ rễ lên thân và lá. IV. Hoạt động trao đổi nước và chất khoáng có thể chịu ảnh hưởng của các yếu tố môi trường.",
     "Khi nói về sự thoát hơi nước ở lá cây, phát biểu nào sau đây đúng?",
@@ -71,6 +71,7 @@ const questions = [
     "Quang hợp ở các nhóm thực vật C3, C4 và CAM giống nhau như thế nào?",
     "Khi nói về ảnh hưởng ánh sáng đến quang hợp, phát biểu nào sau đây sai?",
     "Khi nói về ảnh hưởng của CO2 đến quang hợp, phát biểu nào sau đây sai?",
+
     "Nhận định nào sau đây đúng?",
     "Khi nói về ảnh hưởng của nhiệt độ đến quang hợp, phát biểu nào sau đây sai?",
     "Nhận định không đúng khi nói về sự ảnh hưởng của ánh sáng tới cường độ quang hợp?",
@@ -79,24 +80,25 @@ const questions = [
     "Khi nói về đặc điểm chung của pha tối quang hợp ở thực vật C3 và C4, phát biểu nào sau đây sai?",
     "Xét các loài thực vật: ngô; xương rồng; cao lương. Khi nói về quá trình quang hợp ở các loài cây đó, phát biểu sau đây đúng?",
     "Hô hấp là quá trình",
-    "... là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là carbohydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt.",
+    "… là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là cacborhydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt.",
     "Các giai đoạn của hô hấp tế bào diễn ra theo trật tự nào?",
-    "Đường phân → Chu trình crep → Chuỗi chuyền êlectron hô hấp là các giai đoạn của",
+    "Đường phân → Chu trình crep → Chuổi chuyền êlectron hô hấp là các giai đoạn của",
     "Đường phân → lên men là các giai đoạn của",
     "Giai đoạn nào chung cho quá trình lên men và hô hấp hiếu khí?",
     "Quá trình hô hấp trong cơ thể thực vật, trải qua các giai đoạn",
     "Sản phẩm của phân giải kị khí (đường phân và lên men) từ axit piruvic là",
     "Đâu không phải là vai trò của hô hấp ở thực vật?",
-    "Vai trò của hô hấp đối với cơ thể thực vật là",
+    "Vai trò của hô hấp đối với cơ thể thực vật là. 1.Năng lượng(ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổng hợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… 2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơ thể thực vật diễn ra một cách bình thường. 3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… 4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dược phẩm của con người; cung cấp năng lượng, điều hoà không khí.",
     "Khi nói về vấn đề hô hấp ở thực vật, nhân tố môi trường nào sau đây không tác động đến hô hấp?",
     "Nhận định nào sau đây là đúng nhất?",
     "Nhận định nào sau đây là sai?",
     "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?",
     "Các yếu tố ảnh hưởng đến hô hấp ở thực vật gồm",
     "Vai trò quan trọng nhất của hô hấp đối với cây trồng là",
-    "Chọn từ thích hợp điền vào chỗ trống sau: ......................... là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là carbohydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt năng.",
+    "Chọn từ thích hợp điền vào chỗ trống sau: ...là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là carbohydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt năng.",
     "Những phát biểu nào sau đây đúng khi nói về vai trò của hô hấp đối với cơ thể thực vật?",
-    "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?",
+    "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?"
+
     // "",
 ];
 
@@ -172,30 +174,35 @@ const answers = [
     ["A. thời gian cố định CO2", "B. enzim cố định CO2", "C. sản phẩm đầu tiên của pha tối", "D. chất nhận CO2 đầu tiên", 0], // Câu 17
     ["A. sản phẩm cố định CO2 đầu tiên", "B. chất nhận CO2 đầu tiên", "C. các phản ứng sáng tương tự", "D. loại tế bào thực hiện quang hợp", 2], // Câu 18
     ["A. Điểm bão hòa ánh sáng là cường độ ánh sáng mà ở đó cường độ hô hấp bằng cường độ quang hợp.", "B. Trong giới hạn từ điểm bù đến điểm bão hòa ánh sáng, cường độ quang hợp tỉ lệ thuận với cường độ ánh sáng.","C. Cây ưa bóng có điểm bù ánh sáng thấp hơn cây ưa sáng.","D. Thành phần ánh sáng ảnh hưởng đến quá trình chuyển hóa sản phẩm quang hợp.", 0], // Câu 19
-    ["A. Khi tăng nồng độ CO2 thì cường độ quang hợp tăng.", "B. Nồng độ CO2 tối thiểu mà cường độ hô hấp bằng quang hợp gọi là điểm bù CO2.","C. Điểm bão hòa CO2 là nồng độ CO2 mà tại đó quang hợp đạt cực đại.","D. Điểm bão hòa CO2 có thể đạt ở cây trồng ngoài ánh sáng tự nhiên.", 0], // Câu 20    
-    ["A. Ở điều kiện cường độ ánh sáng cao, tăng nồng độ CO2 thuận lợi cho quang hợp.", "B. Ở điều kiện cường độ ánh sáng thấp, tăng nồng độ CO2 thuận lợi cho quang hợp.","C. Ở điều kiện cường độ ánh sáng thấp, giảm nồng độ CO2 thuận lợi cho quang hợp.","D. Ở điều kiện cường độ ánh sáng cao, giảm nồng độ CO2 thuận lợi cho quang hợp.", 0],        
-    ["A. Cây nhiệt đới bắt đầu quang hợp ở nhiệt độ khoảng 3 -5 oC.", "B. Nhiệt độ tối ưu cho quang hợp ở cây nhiệt đới cao hơn cây ôn đới.", "C. Cây vùng lạnh có thể quang hợp ở nhiệt độ thấp hơn 0oC.", "D. Nhiệt độ tối ưu cho quang hợp khác nhau tuỳ theo từng loài.", 0],        
-    ["A. Quang hợp chỉ xảy ra tại miền ánh sáng xanh tím và miền ánh sáng đỏ.","B. Các tia sáng có độ dài bước sóng khác nhau ảnh hưởng đến cường độ quang hợp là như nhau.", "C. Các tia sáng đỏ xúc tiến quá trình hình thành cacbohiđrat.", "D. Các tia sáng xanh tím kích thích sự tổng hợp các axit amin, prôtêin.", 1],        
-    ["A. Quang hợp xảy ra khi bộ máy quang hợp hấp thu ánh sáng tại miền xanh tím và ánh sáng đỏ.", "B. Các cây dưới tán rừng thường chứa nhiều diệp lục b giúp hấp thụ các tia sáng có bước sóng ngắn.", "C. Khi cường độ ánh sáng cao hơn điểm bù ánh sáng thì cường độ quang hợp tăng tỉ lệ thuận với cường độ ánh sáng cho đến khi đạt tới điểm bão hòa ánh sáng.", "D. Các tia sáng xanh tím kích thích sự tổng hợp cabohydrate và lipid, trong khi các tia đỏ kích thích tổng hợp acid amin và protein.", 3],        
-    ["A. Chu trình Canvin tồn tại ở cả 3 nhóm thực vật C3, C4 và CAM.", "B. O2 được tạo ra trong pha sáng có nguồn gốc từ phân tử CO2.", "C. Pha tối (pha cố định CO2) diễn ra trong xoang tilacôit của lục lạp.", "D. Quá trình quang hợp ở các nhóm thực vật C3, C4 và CAM chỉ khác nhau chủ yếu ở pha sáng.", 0],        
-    ["A. Vị trí cố định CO2 đầu tiên là ở tế bào nhu mô thịt lá.", "B. Có giai đoạn cố định CO2 theo chu trình Canvin.", "C. Tạo ra hợp chất G3P để tổng hợp các chất hữu cơ khác nhau trong tế bào.", "D. Tinh bột đều được tổng hợp từ chu trình Canvin.", 0],        
-    ["A. Ở cùng một nồng độ CO2 giống nhau thì cả 3 loài cây này đều có cường độ quang hợp giống nhau.","B. Ở cùng một cưởng độ ánh sáng như nhau thì cả 3 loài cây này đều có cường độ quang hợp như nhau.", "C. Pha tối của cả 3 loài cây này đều có chu trình C4 và chu trình Canvin.", "D. Cả 3 loài này đều có pha tối diễn ra ở lục lạp của tế bào bao quanh bó mạch.", 2],        
-    ["A. oxi hóa các hợp chất hữu cơ thành CO2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", "B. oxi hóa các hợp chất hữu cơ thành O2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", "C. oxi hóa các hợp chất hữu cơ thành CO2 và H2O, đồng thời tích lũy năng lượng cần thiết cho các hoạt động sống của cơ thể.", "D. khử các hợp chất hữu cơ thành CO2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", 0],        
-    ["A. Quang hợp ở thực vật.", "B. Hô hấp sáng ở thực vật.", "C. Hô hấp ở thực vật.", "D. Lên men.", 2],        
-    ["A. Chu trình crep → Đường phân → Chuổi chuyền êlectron hô hấp.", "B. Đường phân → Chuổi chuyền êlectron hô hấp → Chu trình crep.", "C. Đường phân → Chu trình crep → Chuổi chuyền êlectron hô hấp.", "D. Chuổi chuyền êlectron hô hấp → Chu trình crep → Đường phân.", 2],        
-    ["A. Quang hợp chỉ diễn ra ở thực vật.", "B. Quang hợp và hô hấp đều diễn ra ở thực vật.", "C. Quang hợp và hô hấp đều diễn ra ở động vật.", "D. Quang hợp không xảy ra ở vi khuẩn.", 1],        
-    ["A. Quang hợp là quá trình tạo ra glucose từ CO2 và nước dưới tác dụng của ánh sáng.", "B. Hô hấp là quá trình tạo ra ATP từ glucose và oxygen.", "C. Quang hợp chỉ xảy ra ở thực vật, hô hấp diễn ra ở cả thực vật và động vật.", "D. Tất cả đều đúng.", 3],        
-    ["A. Quang hợp là quá trình tổng hợp năng lượng hóa học từ năng lượng ánh sáng.", "B. Hô hấp là quá trình chuyển hóa năng lượng hóa học thành năng lượng có thể sử dụng.", "C. Cả hai quá trình đều liên quan đến ATP.", "D. Tất cả đều sai.", 3],        
-    ["A. Quang hợp không thể diễn ra nếu thiếu ánh sáng.", "B. Hô hấp chỉ diễn ra vào ban đêm.", "C. Cả hai quá trình đều không thể diễn ra nếu thiếu nước.", "D. Cả hai quá trình đều không thể diễn ra nếu thiếu CO2.", 2],        
-    ["A. Nhiệt độ thấp hơn 0°C sẽ làm giảm cường độ quang hợp.", "B. Nhiệt độ cao hơn 45°C sẽ làm giảm cường độ quang hợp.", "C. Nhiệt độ tối ưu cho quang hợp là 25-35°C.", "D. Tất cả đều đúng.", 3],        
-    ["A. Tinh bột được tổng hợp từ G3P trong quá trình quang hợp.", "B. Tinh bột có thể được tạo ra từ quá trình hô hấp.", "C. Tinh bột không phải là sản phẩm của quang hợp.", "D. Tinh bột được phân giải trong quá trình quang hợp.", 0],        
-    ["A. Diệp lục có vai trò hấp thụ ánh sáng cho quang hợp.", "B. Diệp lục có vai trò bảo vệ thực vật khỏi tác động của ánh sáng.", "C. Diệp lục không có vai trò gì trong quang hợp.", "D. Diệp lục chỉ có vai trò trong quá trình hô hấp.", 0],        
-    ["A. O2 được sản xuất trong pha tối của quang hợp.", "B. O2 được sản xuất trong pha sáng của quang hợp.", "C. O2 không được sản xuất trong quang hợp.", "D. O2 được sản xuất trong hô hấp.", 1],        
-    ["A. C3 có 3 carbon, C4 có 4 carbon.", "B. C3 diễn ra ở điều kiện ánh sáng yếu, C4 ở điều kiện ánh sáng mạnh.", "C. C3 không cần nước, C4 cần nước.", "D. Tất cả đều đúng.", 0],        
-    ["A. Quá trình quang hợp không cần CO2.", "B. Quá trình quang hợp cần ánh sáng.", "C. Quá trình quang hợp không cần nước.", "D. Quá trình quang hợp cần O2.", 1],        
-    ["A. Quang hợp xảy ra trong lục lạp của tế bào thực vật.", "B. Hô hấp xảy ra trong bào tương.", "C. Hô hấp không diễn ra ở thực vật.", "D. Tất cả đều sai.", 3],        
-    ["A. Quá trình quang hợp không cần ATP.", "B. Quá trình quang hợp cần NADPH.", "C. Quá trình quang hợp không cần CO2.", "D. Quá trình quang hợp cần glucose.", 1],        
-    ["A. Quang hợp xảy ra trong quá trình sáng của thực vật.", "B. Hô hấp diễn ra liên tục cả ngày và đêm.", "C. Hô hấp chỉ diễn ra vào ban đêm.", "D. Tất cả đều đúng.", 1]    // ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
+    ["A. Khi tăng nồng độ CO2 thì cường độ quang hợp tăng.", "B. Nồng độ CO2 tối thiểu mà cường độ hô hấp bằng quang hợp gọi là điểm bù CO2.","C. Điểm bão hòa CO2 là nồng độ CO2 mà tại đó quang hợp đạt cực đại.","D. Điểm bù CO2 ở thực vật C4 thấp hơn thực vật C3.", 0], // Câu 20  
+
+    ["A. Ở điều kiện cường độ ánh sáng cao, tăng nồng độ CO2 thuận lợi cho quang hợp.", "B. Ở điều kiện cường độ ánh sáng thấp, tăng nồng độ CO2 thuận lợi cho quang hợp.", "C. Ở điều kiện cường độ ánh sáng thấp, giảm nồng độ CO2 thuận lợi cho quang hợp.", "D. Ở điều kiện cường độ ánh sáng cao, giảm nồng độ CO2 thuận lợi cho quang hợp.", 0],
+    ["A. Cây nhiệt đới bắt đầu quang hợp ở nhiệt độ khoảng 3 -5 oC.", "B. Nhiệt độ tối ưu cho quang hợp ở cây nhiệt đới cao hơn cây ôn đới.", "C. Cây vùng lạnh có thể quang hợp ở nhiệt độ thấp hơn 0oC.", "D. Nhiệt độ tối ưu cho quang hợp khác nhau tuỳ theo từng loài.", 0],
+    ["A. Quang hợp chỉ xảy ra tại miền ánh sáng xanh tím và miền ánh sáng đỏ.", "B. Các tia sáng có độ dài bước sóng khác nhau ảnh hưởng đến cường độ quang hợp là như nhau.", "C. Các tia sáng đỏ xúc tiến quá trình hình thành cacbohiđrat.", "D. Các tia sáng xanh tím kích thích sự tổng hợp các axit amin, prôtêin.", 0],
+    ["A. Quang hợp xảy ra khi bộ máy quang hợp hấp thu ánh sáng tại miền xanh tím và ánh sáng đỏ.", "B. Các cây dưới tán rừng thường chứa nhiều diệp lục b giúp hấp thụ các tia sáng có bước sóng ngắn.", "C. Khi cường độ ánh sáng cao hơn điểm bù ánh sáng thì cường độ quang hợp tăng tỉ lệ thuận với cường độ ánh sáng cho đến khi đạt tới điểm bão hòa ánh sáng.", "D. Các tia sáng xanh tím kích thích sự tổng hợp cabohydrate và lipid, trong khi các tia đỏ kích thích tổng hợp acid amin và protein.", 0],
+    ["A. Chu trình Canvin tồn tại ở cả 3 nhóm thực vật C3, C4 và CAM.", "B. O2 được tạo ra trong pha sáng có nguồn gốc từ phân tử CO2.", "C. Pha tối (pha cố định CO2) diễn ra trong xoang tilacôit của lục lạp.", "D. Quá trình quang hợp ở các nhóm thực vật C3, C4 và CAM chỉ khác nhau chủ yếu ở pha sáng.", 0],
+    ["A. Vị trí cố định CO2 đầu tiên là ở tế bào nhu mô thịt lá.", "B. Có giai đoạn cố định CO2 theo chu trình Canvin.", "C. Tạo ra hợp chất G3P để tổng hợp các chất hữu cơ khác nhau trong tế bào.", "D. Tinh bột đều được tổng hợp từ chu trình Canvin.", 0],
+    ["A. Ở cùng một nồng độ CO2 giống nhau thì cả 3 loài cây này đều có cường độ quang hợp giống nhau.", "B. Ở cùng một cưởng độ ánh sáng như nhau thì cả 3 loài cây này đều có cường độ quang hợp như nhau.", "C. Pha tối của cả 3 loài cây này đều có chu trình C4 và chu trình Canvin.", "D. Cả 3 loài này đều có pha tối diễn ra ở lục lạp của tế bào bao quanh bó mạch.",3],
+    ["A. oxi hóa các hợp chất hữu cơ thành CO2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", "B. oxi hóa các hợp chất hữu cơ thành O2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", "C. oxi hóa các hợp chất hữu cơ thành CO2 và H2O, đồng thời tích lũy năng lượng cần thiết cho các hoạt động sống của cơ thể.", "D. khử các hợp chất hữu cơ thành CO2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", 0],
+    ["A. quang hợp ở thực vật.", "B. hô hấp sáng ở thực vật.", "C. hô hấp ở thực vật.", "D. Lên men.", 1],
+    ["A. Chu trình crep → Đường phân → Chuổi chuyền êlectron hô hấp.", "B. Đường phân → Chuổi chuyền êlectron hô hấp → Chu trình crep.", "C. Đường phân → Chu trình crep → Chuổi chuyền êlectron hô hấp.", "D. Chuổi chuyền êlectron hô hấp → Chu trình crep → Đường phân.", 2],
+    ["A. phân giải hiếu khí.", "B. hô hấp sáng.", "C. phân giải kị khí.", "D. Lên men.", 0],
+    ["A. phân giải hiếu khí.", "B. hô hấp sáng.", "C. phân giải kị khí.", "D. hô hấp hiếu khí.", 2],
+    ["A. Chu trình Crep.", "B. Chuỗi chuyền điện tử electron.", "C. Đường phân.", "D. Tổng hợp axetyl – CoA.", 2],
+    ["A. đường phân và hô hấp hiếu khí.", "B. đường phân hiếu khí và chu trình Crep.", "C. cacboxi hóa - khử - tái tạo chất nhận.", "D. oxy hóa chất hữu cơ và khử.", 0],
+    ["A. rượu etylic + CO2 + năng lượng.", "B. axit lactic + CO2 + năng lượng.", "C. rượu etylic + năng lượng.", "D. rượu etylic + CO2.", 0],
+    ["A. Giải phóng năng lượng ATP.", "B. Giải phóng năng lượng dạng nhiệt.", "C. Tạo các sản phẩm trung gian.", "D. Tổng hợp các chất hữu cơ.", 3],
+    ["A. (1), (2) và (3).", "B. (2), (3) và (4).", "C. (1), (2) và (4).", "D. (1), (3) và (4).", 2],
+    ["A. Nhiệt độ.", "B. Nồng độ khí CO2.", "C. Nồng độ khí Nitơ (N2).", "D. Hàm lượng nước.", 2],
+    ["A. Hàm lượng nước tỉ lệ nghịch với cường độ hô hấp.", "B. Cường độ hô hấp và nhiệt độ tỉ lệ thuận với nhau.", "C. Nồng độ CO2 cao sẽ ức chế hô hấp.", "D. Nồng độ CO2 thấp sẽ ức chế hô hấp.", 1],
+    ["A. Hàm lượng nước tỉ lệ thuận với cường độ hô hấp.", "B. Cường độ hô hấp và nhiệt độ luôn tỉ lệ thuận với nhau.", "C. Nồng độ CO2 cao sẽ ức chế hô hấp.", "D. Vượt qua nhiệt độ tối ưu thì cường độ hô hấp giảm.", 2],
+    ["A. Hô hấp bị ảnh hưởng nếu O2 giảm dưới 10%.", "B. Nhiệt độ môi trường ảnh hưởng đến hô hấp ở thực vật.", "C. Nồng độ CO2 cao có thể ức chế quá trình hô hấp.", "D. Trong điều kiện thiếu ôxi, thực vật tăng cường quá trình hô hấp hiếu khí.", 3],
+    ["A. Nước, nhiệt độ, hàm lượng O2.", "B. Nước, nhiệt độ, hàm lượng CO2.", "C. Nước, hàm lượng O2, CO2.", "D. Nước, nhiệt độ, hàm lượng O2, CO2.", 3],
+    ["A. Cung cấp năng lượng chống chịu.", "B. Tăng khả năng chống chịu.", "C. Tạo ra sản phẩm trung gian.", "D. Miễn dịch cho cây.", 0],
+    ["A. Quang hợp ở thực vật.", "B. Hô hấp ở thực vật.", "C. Lên men.", "D. Hô hấp sáng ở thực vật.", 1],
+    ["A. I, III và IV.", "B. I, II và IV.", "C. I, II và III.", "D. II, III và IV.", 2],
+    ["A. Nhiệt độ môi trường ảnh hưởng đến hô hấp ở thực vật.", "B. Các loại hạt khô như hạt thóc, hạt ngô có cường độ hô hấp thấp.", "C. Nồng độ CO2 cao có thể ức chế quá trình hô hấp.", "D. Trong điều kiện thiếu oxy, thực vật tăng cường quá trình hô hấp hiếu khí.", 3],
+    // ["aaaaa", "bbbbb", "ccccc", "ddddd", 
 ];
 
 // tạo câu hỏi
@@ -233,6 +240,7 @@ let show = false;
 
 let viTri = 0;
 
+console.log(questions.length , answers.length);
 
 
 window.onload = () => {
