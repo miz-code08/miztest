@@ -42,7 +42,34 @@ const questions = [
     "Yếu tố nào đóng vai trò quyết định đến quá trình thoát hơi nước ở lá?",
     "Hiện tượng lá cây bị vàng do thiếu chất diệp lục là do thiếu những nguyên tố khoáng nào?",
     "Sự biểu hiện triệu chứng thiếu nitrogen của cây là gì?",
-    "Nguyên tố nitơ có trong thành phần của những hợp chất nào?",
+    "Nguyên tố nitơ có trong thành phần của",
+    "Có bao nhiêu phát biểu đúng khi nói về hậu quả bón liều lượng phân bón cao quá mức cần thiết cho cây? 1. Gây độc hại đối với cây. 2. Gây ô nhiễm nông phẩm và môi trường. 3. Làm đất đai phì nhiêu nhưng cây không hấp thụ được hết. 4. Dư lượng phân bón khoáng chất sẽ làm xấu lí tính của đất, giết chết các vi sinh vật có lợi.",
+    "Khi nói về quá trình trao đổi nước và khoáng ở thực vật có bao nhiêu phát biểu sau đây đúng? I. Nguyên tố khoáng hòa tan trong nước, do vậy trao đổi khoáng có thể đồng thời với trao đổi nước. II. Nước và các chất khoáng được vận chuyển từ lông hút vào mạch gỗ của rễ theo con đường gian bào và con đường tế bào chất. III. Thoát hơi nước ở lá tạo động lực kéo dòng mạch gỗ đi theo một chiều từ rễ lên thân và lá. IV. Hoạt động trao đổi nước và chất khoáng có thể chịu ảnh hưởng của các yếu tố môi trường.",
+    "Khi nói về sự thoát hơi nước ở lá cây, phát biểu nào sau đây đúng?",
+    "Khi nói về quá trình biến đổi nitrate và amonium ở thực vật, có bao nhiêu phát biểu sau đây đúng? I. Nitrogen ở dạng NH4 + và NO3 - sau khi được cây hấp thụ sẽ biến đổi thành nitrogen trong các hợp chất hữu cơ. II. Trong cây, NO3 - được khử thành NH4 + do xúc tác của enzyme nitrate reductase và nitrite reductase. III. Hình thành amide giúp giải độc cho tế bào khi lượng NO3 - tích lũy quá nhiều. IV. Hình thành amide là cơ chế dự trữ ammonium cho tế bào thực vật.",
+    "Thực vật hấp thụ nitrogen chủ yếu ở dạng nào sau đây?",
+    "Khi nói về vai trò của nitrogen phát biểu nào sau đây sai?",
+    "Vai trò sinh lí của nitrogen là gì?",
+    "Quang hợp ở thực vật là quá trình gì?",
+    "Phương trình tổng quát của quang hợp ở thực vật là gì?",
+    "Phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với thực vật?",
+    "Phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với sinh quyển?",
+    "Những phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với sinh vật?",
+    "Hệ sắc tố quang hợp ở cây xanh bao gồm những gì?",
+    "Vai trò chủ yếu của hệ sắc tố đối với quang hợp ở cây xanh là gì?",
+    "Sắc tố quang hợp chủ đạo không thể thiếu ở thực vật có hoa là gì?",
+    "Sắc tố quang hợp nào sau đây có chức năng chuyển hóa quang năng thành hóa năng trong các phân tử ATP và NADPH?",
+    "Các sắc tố quang hợp của lá có màu đỏ hấp thụ ánh sáng và truyền năng lượng hấp thụ theo sơ đồ nào sau đây?",
+    "Pha sáng của quang hợp là pha chuyển hóa năng lượng của ánh sáng đã được diệp lục hấp thụ thành năng lượng của các liên kết hóa học trong chất nào?",
+    "Trong pha sáng của quá trình quang hợp, ATP và NADPH được chuyển hóa từ quá trình nào?",
+    "Ở thực vật C3, sản phẩm cố định CO2 được tạo ra ổn định đầu tiên là gì?",
+    "Ở thực vật C4, sản phẩm cố định CO2 được tạo ra ổn định đầu tiên là gì?",
+    "Ở thực vật CAM, sản phẩm dự trữ CO2 vào ban đêm để cung cấp cho pha tối ban ngày là gì?",
+    "Sự giống nhau trong quang hợp giữa thực vật C3 và C4 là gì?",
+    "Sự khác nhau trong quang hợp giữa thực vật C4 và thực vật CAM là gì?",
+    "Quang hợp ở các nhóm thực vật C3, C4 và CAM giống nhau như thế nào?",
+    "Khi nói về ảnh hưởng ánh sáng đến quang hợp, phát biểu nào sau đây sai?",
+    "Khi nói về ảnh hưởng của CO2 đến quang hợp, phát biểu nào sau đây sai?",
     // "",
 ];
 
@@ -91,6 +118,33 @@ const answers = [
     ["A. P, K, Fe", "B. S, P, K", "C. N, Mg, Fe", "D. N, K, Mn", 2],
     ["A. Sinh trưởng bị còi cọc, lá có màu vàng", "B. Lá mới có màu vàng, sinh trưởng rễ bị tiêu giảm", "C. Lá màu vàng nhạt, mép lá màu đỏ và có nhiều chấm đỏ trên mặt lá", "D. Lá nhỏ có màu lục đậm, màu của thân không bình thường, sinh trưởng rễ bị tiêu giảm", 0],
     ["A. Protein và axit nucleic", "B. Lipid", "C. Saccarit", "D. Phốt pho", 0],
+    ["A. 1", "B. 3", "C. 2", "D. 4", 3], // Câu 22
+    ["A. 3", "B. 2", "C. 1", "D. 4", 3], // Câu 23
+    ["A. Thoát hơi nước là sự vận chuyển chủ động của nước qua bề mặt cơ thể thực vật vào khí quyển.", "B. Lượng nước thoát qua khí khổng chỉ phụ thuộc vào số lượng khí khổng của lá.", "C. Khi cây trưởng thành, tầng cutin dày, lượng nước thoát qua bề mặt lá chỉ chiếm khoảng 10 - 20%.", "D. Thoát hơi nước ở lá chỉ diễn ra theo con đường qua khí khổng của lá.", 2], // Câu 24
+    ["A. 4", "B. 2", "C. 3", "D. 1", 0], // Câu 25
+    ["A. NO2 - và NH3", "B. NO3 - và NH4 +", "C. NH3 và NH4 +", "D. NO3 - và NH3", 1], // Câu 26
+    ["A. Khi thiếu nitrogen, lá cây có màu vàng, cây sinh trưởng chậm.","B. Nitrogen là thành phần của protein, nucleic acid, dKiệp lục.","C. Nitrogen tham gia cấu tạo enzyme, các hormone thực vật.","D. Nitrogen thúc đẩy khí khổng mở, làm tăng tốc độ thoát hơi nước.", 3], // Câu 27
+    ["A. vai trò cấu trúc", "B. vai trò điều tiết", "C. tham gia cấu tạo protein, axit nucleic", "D. vai trò cấu trúc, vai trò điều tiết", 3], // Câu 28
+    ["A. lục lạp hấp thụ và sử dụng năng lượng ánh sáng mặt trời để tổng hợp chất hữu cơ và giải phóng O2 từ CO2 và nước.", "B. sử dụng năng lượng ánh sáng mặt trời đựơc lục lạp hấp thu để tổng hợp các chất hữu cơ từ các chất vô cơ đơn giản (CO2)", "C. tổng hợp được các hợp chất cacbonhyđrat và O2 từ các chất vô cơ đơn giản xảy ra ở lá cây.","D. sử dụng năng lượng ATP được lục lạp hấp thụ để tổng hợp cacbonhydrat và giải phóng O2 từ CO2 và nước.", 0], // Câu 1
+    ["A. 6CO2 + 12 H2O ASMT, DL C6H12O6 + 6 O2 + 6 H2O.","B. C6H12O6 + 6 O2 ASMT, DL 6 H2O+ 6CO2","C. 6CO2 + 12H2O ASMT, DL C6H12O6 + 12 O2.","D. C6H12O6 + 6 O2 + 6 H2O ASMT, DL 6CO2 + 12 H2O.", 0], // Câu 2
+    ["A. Tạo ra đường xây dựng nên tế bào, cơ thể đồng thời làm nguyên liệu cho quá trình giải phóng năng lượng và là nguồn dự trữ năng lượng.","B. Giải phóng O2 cung cấp dưỡng khí cho nhiều sinh vật trên Trái Đất.","C. Tạo ra nguyên liệu và năng lượng cung cấp cho các sinh vật khác trên Trái Đất.","D. Hấp thụ CO2 giải phóng O2 giúp điều hòa không khí kiến tạo và duy trì tầng ozon giảm hiệu ứng nhà kính.", 0], // Câu 3
+    ["A. Tạo ra đường xây dựng nên tế bào, cơ thể đồng thời làm nguyên liệu cho quá trình giải phóng năng lượng và là nguồn dự trữ năng lượng.","B. Giải phóng O2 cung cấp dưỡng khí cho nhiều sinh vật trên Trái Đất.","C. Tạo ra nguyên liệu và năng lượng cung cấp cho các sinh vật khác trên Trái Đất.","D. Hấp thụ CO2 giải phóng O2 giúp điều hòa không khí kiến tạo và duy trì tầng ozon giảm hiệu ứng nhà kính", 0], // Câu 4
+    ["A. I, II", "B. II, III", "C. I, III", "D. II, IV", 0], // Câu 5
+    ["A. Diệp lục và carôtenôit", "B. Diệp lục a và diệp lục b", "C. Carôten và xantôphyl", "D. Diệp lục a và carôten", 1], // Câu 6
+    ["A. hấp thụ năng lượng ánh sáng", "B. tạo màu sắc đặc trưng cho cây", "C. chuyển hóa năng lượng ánh sáng thành năng lượng hóa học", "D. hấp thụ CO2", 2], // Câu 7
+    ["A. diệp lục a", "B. diệp lục b", "C. carotene", "D. xanthophyl", 0], // Câu 8
+    ["A. diệp lục a", "B. diệp lục b", "C. carotene", "D. xanthophyl", 0], // Câu 9
+    ["A. Diệp lục b → diệp lục a → diệp lục a ở trung tâm phản ứng → carotenoid","B. Carotenoid → diệp lục b → diệp lục a → diệp lục a ở trung tâm phản ứng","C. Carotenoid → xanthophyl → diệp lục b ở trung tâm phản ứng","D. Diệp lục b → diệp lục a → Carotenoid → diệp lục a ở trung tâm phản ứng", 1], // Câu 10
+    ["A. ATP và NADPH", "B. NADH", "C. ADP và NADH", "D. ADP", 0], // Câu 11
+    ["A. Hấp thụ năng lượng của nước", "B. Hoạt động của chuỗi truyền điện tử trong quang hợp", "C. Quang phân li nước", "D. Diệp lục hấp thu ánh sáng trở thành trạng thái kích động", 2], // Câu 12
+    ["A. RuBP (Ribulose 1,5 bisphosphate)", "B. G3P (Glyceraldehyde 3 phosphate)", "C. 3-PGA (3-phosphoglycerid acid)", "D. OAA (Oxaloacetic acid)", 2], // Câu 13
+    ["A. OAA (Oxaloacetic acid)", "B. G3P (Glyceraldehyde 3 phosphate)", "C. RuBP (Ribulose 1,5 bisphosphate)", "D. 3-PGA (3-phosphoglycerid acid)", 0], // Câu 14
+    ["A. AM (Malic acid)", "B. G3P (Glyceraldehyde 3 phosphate)", "C. RuBP (Ribulose 1,5 bisphosphate)", "D. 3-PGA (3-phosphoglycerid acid)", 0], // Câu 15
+    ["A. thời gian cố định CO2", "B. enzim cố định CO2", "C. sản phẩm đầu tiên của pha tối", "D. chất nhận CO2 đầu tiên", 3], // Câu 16
+    ["A. thời gian cố định CO2", "B. enzim cố định CO2", "C. sản phẩm đầu tiên của pha tối", "D. chất nhận CO2 đầu tiên", 0], // Câu 17
+    ["A. sản phẩm cố định CO2 đầu tiên", "B. chất nhận CO2 đầu tiên", "C. các phản ứng sáng tương tự", "D. loại tế bào thực hiện quang hợp", 2], // Câu 18
+    ["A. Điểm bão hòa ánh sáng là cường độ ánh sáng mà ở đó cường độ hô hấp bằng cường độ quang hợp.", "B. Trong giới hạn từ điểm bù đến điểm bão hòa ánh sáng, cường độ quang hợp tỉ lệ thuận với cường độ ánh sáng.","C. Cây ưa bóng có điểm bù ánh sáng thấp hơn cây ưa sáng.","D. Thành phần ánh sáng ảnh hưởng đến quá trình chuyển hóa sản phẩm quang hợp.", 0], // Câu 19
+    ["A. Khi tăng nồng độ CO2 thì cường độ quang hợp tăng.", "B. Nồng độ CO2 tối thiểu mà cường độ hô hấp bằng quang hợp gọi là điểm bù CO2.","C. Điểm bão hòa CO2 là nồng độ CO2 mà tại đó quang hợp đạt cực đại.","D. Điểm bão hòa CO2 có thể đạt ở cây trồng ngoài ánh sáng tự nhiên.", 0], // Câu 20    
     // ["aaaaa", "bbbbb", "ccccc", "ddddd", 0],
 ];
 
@@ -208,7 +262,7 @@ window.onload = () => {
             });
             
             questionItem.forEach((val, idx) => {
-                if (val.classList.contains('red') && viTri === idx) {
+                if(viTri === idx) {
                     answerDesc[lastElements[idx]].style.color = "red";
                 }
             });
