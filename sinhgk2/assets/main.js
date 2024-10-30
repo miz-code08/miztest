@@ -43,7 +43,7 @@ const answers = [
     ["A. Tế bào chết là quản bào và mạch ống", "B. Tế bào sống là mạch ống và tế bào kèm", "C. Tế bào chết là mạch ống và tế bào kèm", "D. Tế bào sống là quản bào và mạch ống", 1],
     ["A. Lá", "B. Cành", "C. Thân", "D. Rễ", 0],
     ["A. Vai trò cấu trúc, vai trò điều tiết", "B. Vai trò cấu trúc", "C. Vai trò điều tiết", "D. Tham gia cấu tạo protein, axit nucleic", 0],
-    ["A. 1", "B. 2", "C. 3", "D. 4", 3],
+    ["A. 1", "B. 2", "C. 3", "D. 4", 2],
     ["A. Mỏng căng ra, thành dày co lại làm cho khí khổng mở ra", "B. Dày căng ra làm cho thành mỏng căng theo, khí khổng mở ra", "C. Dày căng ra làm cho thành mỏng co lại, khí khổng mở ra", "D. Mỏng căng ra làm cho thành dày căng theo, khí khổng mở ra", 3],
     ["A. Mỏng hết căng ra làm cho thành dày duỗi thẳng, khí khổng đóng lại", "B. Dày căng ra làm cho thành mỏng cong theo, khí khổng đóng lại", "C. Dày căng ra làm cho thành mỏng co lại, khí khổng đóng lại", "D. Mỏng căng ra làm cho thành dày duỗi thẳng, khí khổng khép lại", 0],
     ["A. 1", "B. 2", "C. 3", "D. 4", 1],
@@ -52,7 +52,7 @@ const answers = [
     ["A. P, K, Fe", "B. S, P, K", "C. N, Mg, Fe", "D. N, K, Mn", 2],
     ["A. Sinh trưởng bị còi cọc, lá có màu vàng", "B. Lá mới có màu vàng, sinh trưởng rễ bị tiêu giảm", "C. Lá màu vàng nhạt, mép lá màu đỏ và có nhiều chấm đỏ trên mặt lá", "D. Lá nhỏ có màu lục đậm, màu của thân không bình thường, sinh trưởng rễ bị tiêu giảm", 0],
     ["A. Protein và axit nucleic", "B. Lipid", "C. Saccarit", "D. Phốt pho", 0],
-    ["A. 1", "B. 3", "C. 2", "D. 4", 3], // Câu 22
+    ["A. 1", "B. 2", "C. 3", "D. 4", 2], // Câu 22
     ["A. 3", "B. 2", "C. 1", "D. 4", 3], // Câu 23
     ["A. Thoát hơi nước là sự vận chuyển chủ động của nước qua bề mặt cơ thể thực vật vào khí quyển.", "B. Lượng nước thoát qua khí khổng chỉ phụ thuộc vào số lượng khí khổng của lá.", "C. Khi cây trưởng thành, tầng cutin dày, lượng nước thoát qua bề mặt lá chỉ chiếm khoảng 10 - 20%.", "D. Thoát hơi nước ở lá chỉ diễn ra theo con đường qua khí khổng của lá.", 2], // Câu 24
     ["A. 4", "B. 2", "C. 3", "D. 1", 0], // Câu 25

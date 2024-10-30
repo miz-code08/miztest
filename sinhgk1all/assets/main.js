@@ -104,6 +104,7 @@ const questions = [
 ];
 
 const answers = [
+    // bài 1
     ["A. Nước uống", "B. Thức ăn", "C. Carbon dioxide", "D. Oxygen", 2],
     ["A. Hệ tuần hoàn", "B. Hệ hô hấp", "C. Hệ tiêu hóa", "D. Hệ thần kinh", 1],
     ["A. Nhóm sinh vật tự dưỡng và nhóm sinh vật hoại dưỡng", "B. Nhóm sinh vật tự dưỡng và nhóm sinh vật dị dưỡng", "C. Nhóm sinh vật dị dưỡng và nhóm sinh vật ngoại dưỡng", "D. Nhóm sinh vật dị dưỡng và nhóm sinh vật hóa dưỡng", 1],
@@ -127,6 +128,7 @@ const answers = [
     ["A. 2.", "B. 3.", "C. 1.", "D. 4.", 1],
     ["A. Phân giải — Tổng hợp — Huy động năng lượng.", "B. Tổng hợp → Huy động năng lượng.", "C. Tổng hợp → Phân giải — Huy động năng lượng.", "D. Phân giải — Huy động năng lượng — Tổng hợp.", 2],
     ["A. Quá trình trao đổi chất và cảm ứng.", "B. Quá trình trao đổi chất và chuyển hóa năng lượng.", "C. Quá trình chuyển hóa năng lượng.", "D. Quá trình trao đổi chất và sinh sản.", 1],
+    // bài 2
     ["A. Miền lông hút.", "B. Miền chóp rễ.", "C. Miền sinh trưởng.", "D. Miền trưởng thành.", 0],
     ["A. Thẩm thấu.", "B. Cần tiêu tốn năng lượng.", "C. Nhờ các bơm ion.", "D. Chủ động.", 0],
     ["A. Hoạt động trao đổi chất.", "B. Chênh lệch nồng độ ion.", "C. Cung cấp năng lượng.", "D. Hoạt động thẩm thấu.", 1],
@@ -139,7 +141,7 @@ const answers = [
     ["A. Tế bào chết là quản bào và mạch ống", "B. Tế bào sống là mạch ống và tế bào kèm", "C. Tế bào chết là mạch ống và tế bào kèm", "D. Tế bào sống là quản bào và mạch ống", 1],
     ["A. Lá", "B. Cành", "C. Thân", "D. Rễ", 0],
     ["A. Vai trò cấu trúc, vai trò điều tiết", "B. Vai trò cấu trúc", "C. Vai trò điều tiết", "D. Tham gia cấu tạo protein, axit nucleic", 0],
-    ["A. 1", "B. 2", "C. 3", "D. 4", 3],
+    ["A. 1", "B. 2", "C. 3", "D. 4", 2],
     ["A. Mỏng căng ra, thành dày co lại làm cho khí khổng mở ra", "B. Dày căng ra làm cho thành mỏng căng theo, khí khổng mở ra", "C. Dày căng ra làm cho thành mỏng co lại, khí khổng mở ra", "D. Mỏng căng ra làm cho thành dày căng theo, khí khổng mở ra", 3],
     ["A. Mỏng hết căng ra làm cho thành dày duỗi thẳng, khí khổng đóng lại", "B. Dày căng ra làm cho thành mỏng cong theo, khí khổng đóng lại", "C. Dày căng ra làm cho thành mỏng co lại, khí khổng đóng lại", "D. Mỏng căng ra làm cho thành dày duỗi thẳng, khí khổng khép lại", 0],
     ["A. 1", "B. 2", "C. 3", "D. 4", 1],
@@ -148,13 +150,14 @@ const answers = [
     ["A. P, K, Fe", "B. S, P, K", "C. N, Mg, Fe", "D. N, K, Mn", 2],
     ["A. Sinh trưởng bị còi cọc, lá có màu vàng", "B. Lá mới có màu vàng, sinh trưởng rễ bị tiêu giảm", "C. Lá màu vàng nhạt, mép lá màu đỏ và có nhiều chấm đỏ trên mặt lá", "D. Lá nhỏ có màu lục đậm, màu của thân không bình thường, sinh trưởng rễ bị tiêu giảm", 0],
     ["A. Protein và axit nucleic", "B. Lipid", "C. Saccarit", "D. Phốt pho", 0],
-    ["A. 1", "B. 3", "C. 2", "D. 4", 3], // Câu 22
+    ["A. 1", "B. 2", "C. 3", "D. 4", 2], // Câu 22
     ["A. 3", "B. 2", "C. 1", "D. 4", 3], // Câu 23
     ["A. Thoát hơi nước là sự vận chuyển chủ động của nước qua bề mặt cơ thể thực vật vào khí quyển.", "B. Lượng nước thoát qua khí khổng chỉ phụ thuộc vào số lượng khí khổng của lá.", "C. Khi cây trưởng thành, tầng cutin dày, lượng nước thoát qua bề mặt lá chỉ chiếm khoảng 10 - 20%.", "D. Thoát hơi nước ở lá chỉ diễn ra theo con đường qua khí khổng của lá.", 2], // Câu 24
     ["A. 4", "B. 2", "C. 3", "D. 1", 0], // Câu 25
     ["A. NO2 - và NH3", "B. NO3 - và NH4 +", "C. NH3 và NH4 +", "D. NO3 - và NH3", 1], // Câu 26
     ["A. Khi thiếu nitrogen, lá cây có màu vàng, cây sinh trưởng chậm.","B. Nitrogen là thành phần của protein, nucleic acid, dKiệp lục.","C. Nitrogen tham gia cấu tạo enzyme, các hormone thực vật.","D. Nitrogen thúc đẩy khí khổng mở, làm tăng tốc độ thoát hơi nước.", 3], // Câu 27
     ["A. vai trò cấu trúc", "B. vai trò điều tiết", "C. tham gia cấu tạo protein, axit nucleic", "D. vai trò cấu trúc, vai trò điều tiết", 3], // Câu 28
+    // bài 4
     ["A. lục lạp hấp thụ và sử dụng năng lượng ánh sáng mặt trời để tổng hợp chất hữu cơ và giải phóng O2 từ CO2 và nước.", "B. sử dụng năng lượng ánh sáng mặt trời đựơc lục lạp hấp thu để tổng hợp các chất hữu cơ từ các chất vô cơ đơn giản (CO2)", "C. tổng hợp được các hợp chất cacbonhyđrat và O2 từ các chất vô cơ đơn giản xảy ra ở lá cây.","D. sử dụng năng lượng ATP được lục lạp hấp thụ để tổng hợp cacbonhydrat và giải phóng O2 từ CO2 và nước.", 0], // Câu 1
     ["A. 6CO2 + 12 H2O ASMT, DL C6H12O6 + 6 O2 + 6 H2O.","B. C6H12O6 + 6 O2 ASMT, DL 6 H2O+ 6CO2","C. 6CO2 + 12H2O ASMT, DL C6H12O6 + 12 O2.","D. C6H12O6 + 6 O2 + 6 H2O ASMT, DL 6CO2 + 12 H2O.", 0], // Câu 2
     ["A. Tạo ra đường xây dựng nên tế bào, cơ thể đồng thời làm nguyên liệu cho quá trình giải phóng năng lượng và là nguồn dự trữ năng lượng.","B. Giải phóng O2 cung cấp dưỡng khí cho nhiều sinh vật trên Trái Đất.","C. Tạo ra nguyên liệu và năng lượng cung cấp cho các sinh vật khác trên Trái Đất.","D. Hấp thụ CO2 giải phóng O2 giúp điều hòa không khí kiến tạo và duy trì tầng ozon giảm hiệu ứng nhà kính.", 0], // Câu 3
@@ -182,6 +185,7 @@ const answers = [
     ["A. Chu trình Canvin tồn tại ở cả 3 nhóm thực vật C3, C4 và CAM.", "B. O2 được tạo ra trong pha sáng có nguồn gốc từ phân tử CO2.", "C. Pha tối (pha cố định CO2) diễn ra trong xoang tilacôit của lục lạp.", "D. Quá trình quang hợp ở các nhóm thực vật C3, C4 và CAM chỉ khác nhau chủ yếu ở pha sáng.", 0],
     ["A. Vị trí cố định CO2 đầu tiên là ở tế bào nhu mô thịt lá.", "B. Có giai đoạn cố định CO2 theo chu trình Canvin.", "C. Tạo ra hợp chất G3P để tổng hợp các chất hữu cơ khác nhau trong tế bào.", "D. Tinh bột đều được tổng hợp từ chu trình Canvin.", 0],
     ["A. Ở cùng một nồng độ CO2 giống nhau thì cả 3 loài cây này đều có cường độ quang hợp giống nhau.", "B. Ở cùng một cưởng độ ánh sáng như nhau thì cả 3 loài cây này đều có cường độ quang hợp như nhau.", "C. Pha tối của cả 3 loài cây này đều có chu trình C4 và chu trình Canvin.", "D. Cả 3 loài này đều có pha tối diễn ra ở lục lạp của tế bào bao quanh bó mạch.",3],
+    // bài 6
     ["A. oxi hóa các hợp chất hữu cơ thành CO2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", "B. oxi hóa các hợp chất hữu cơ thành O2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", "C. oxi hóa các hợp chất hữu cơ thành CO2 và H2O, đồng thời tích lũy năng lượng cần thiết cho các hoạt động sống của cơ thể.", "D. khử các hợp chất hữu cơ thành CO2 và H2O, đồng thời giải phóng năng lượng cần thiết cho các hoạt động sống của cơ thể.", 0],
     ["A. quang hợp ở thực vật.", "B. hô hấp sáng ở thực vật.", "C. hô hấp ở thực vật.", "D. Lên men.", 1],
     ["A. Chu trình crep → Đường phân → Chuổi chuyền êlectron hô hấp.", "B. Đường phân → Chuổi chuyền êlectron hô hấp → Chu trình crep.", "C. Đường phân → Chu trình crep → Chuổi chuyền êlectron hô hấp.", "D. Chuổi chuyền êlectron hô hấp → Chu trình crep → Đường phân.", 2],
