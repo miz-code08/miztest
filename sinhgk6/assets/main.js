@@ -39,7 +39,7 @@ const answers = [
     ["A. Nước, nhiệt độ, hàm lượng O2.", "B. Nước, nhiệt độ, hàm lượng CO2.", "C. Nước, hàm lượng O2, CO2.", "D. Nước, nhiệt độ, hàm lượng O2, CO2.", 3],
     ["A. Cung cấp năng lượng chống chịu.", "B. Tăng khả năng chống chịu.", "C. Tạo ra sản phẩm trung gian.", "D. Miễn dịch cho cây.", 0],
     ["A. Quang hợp ở thực vật.", "B. Hô hấp ở thực vật.", "C. Lên men.", "D. Hô hấp sáng ở thực vật.", 1],
-    ["A. I, III và IV.", "B. I, II và IV.", "C. I, II và III.", "D. II, III và IV.", 2],
+    ["A. 1, 3 và 4.", "B. 1, 2 và 4.", "C. 1, 2 và 3.", "D. 2, 3 và 4.", 2],
     ["A. Nhiệt độ môi trường ảnh hưởng đến hô hấp ở thực vật.", "B. Các loại hạt khô như hạt thóc, hạt ngô có cường độ hô hấp thấp.", "C. Nồng độ CO2 cao có thể ức chế quá trình hô hấp.", "D. Trong điều kiện thiếu oxy, thực vật tăng cường quá trình hô hấp hiếu khí.", 3],
     // ["aaaaa", "bbbbb", "ccccc", "ddddd", 
 ];

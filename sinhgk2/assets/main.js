@@ -53,9 +53,9 @@ const answers = [
     ["A. Sinh trưởng bị còi cọc, lá có màu vàng", "B. Lá mới có màu vàng, sinh trưởng rễ bị tiêu giảm", "C. Lá màu vàng nhạt, mép lá màu đỏ và có nhiều chấm đỏ trên mặt lá", "D. Lá nhỏ có màu lục đậm, màu của thân không bình thường, sinh trưởng rễ bị tiêu giảm", 0],
     ["A. Protein và axit nucleic", "B. Lipid", "C. Saccarit", "D. Phốt pho", 0],
     ["A. 1", "B. 2", "C. 3", "D. 4", 2], // Câu 22
-    ["A. 3", "B. 2", "C. 1", "D. 4", 3], // Câu 23
+    ["A. 1", "B. 2", "C. 3", "D. 4", 3], // Câu 23
     ["A. Thoát hơi nước là sự vận chuyển chủ động của nước qua bề mặt cơ thể thực vật vào khí quyển.", "B. Lượng nước thoát qua khí khổng chỉ phụ thuộc vào số lượng khí khổng của lá.", "C. Khi cây trưởng thành, tầng cutin dày, lượng nước thoát qua bề mặt lá chỉ chiếm khoảng 10 - 20%.", "D. Thoát hơi nước ở lá chỉ diễn ra theo con đường qua khí khổng của lá.", 2], // Câu 24
-    ["A. 4", "B. 2", "C. 3", "D. 1", 0], // Câu 25
+    ["A. 1", "B. 2", "C. 3", "D. 4", 3], // Câu 25
     ["A. NO2 - và NH3", "B. NO3 - và NH4 +", "C. NH3 và NH4 +", "D. NO3 - và NH3", 1], // Câu 26
     ["A. Khi thiếu nitrogen, lá cây có màu vàng, cây sinh trưởng chậm.","B. Nitrogen là thành phần của protein, nucleic acid, dKiệp lục.","C. Nitrogen tham gia cấu tạo enzyme, các hormone thực vật.","D. Nitrogen thúc đẩy khí khổng mở, làm tăng tốc độ thoát hơi nước.", 3], // Câu 27
     ["A. vai trò cấu trúc", "B. vai trò điều tiết", "C. tham gia cấu tạo protein, axit nucleic", "D. vai trò cấu trúc, vai trò điều tiết", 3], // Câu 28

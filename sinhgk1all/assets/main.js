@@ -151,9 +151,9 @@ const answers = [
     ["A. Sinh trưởng bị còi cọc, lá có màu vàng", "B. Lá mới có màu vàng, sinh trưởng rễ bị tiêu giảm", "C. Lá màu vàng nhạt, mép lá màu đỏ và có nhiều chấm đỏ trên mặt lá", "D. Lá nhỏ có màu lục đậm, màu của thân không bình thường, sinh trưởng rễ bị tiêu giảm", 0],
     ["A. Protein và axit nucleic", "B. Lipid", "C. Saccarit", "D. Phốt pho", 0],
     ["A. 1", "B. 2", "C. 3", "D. 4", 2], // Câu 22
-    ["A. 3", "B. 2", "C. 1", "D. 4", 3], // Câu 23
+    ["A. 1", "B. 2", "C. 3", "D. 4", 3], // Câu 23
     ["A. Thoát hơi nước là sự vận chuyển chủ động của nước qua bề mặt cơ thể thực vật vào khí quyển.", "B. Lượng nước thoát qua khí khổng chỉ phụ thuộc vào số lượng khí khổng của lá.", "C. Khi cây trưởng thành, tầng cutin dày, lượng nước thoát qua bề mặt lá chỉ chiếm khoảng 10 - 20%.", "D. Thoát hơi nước ở lá chỉ diễn ra theo con đường qua khí khổng của lá.", 2], // Câu 24
-    ["A. 4", "B. 2", "C. 3", "D. 1", 0], // Câu 25
+    ["A. 1", "B. 2", "C. 3", "D. 4", 3], // Câu 25
     ["A. NO2 - và NH3", "B. NO3 - và NH4 +", "C. NH3 và NH4 +", "D. NO3 - và NH3", 1], // Câu 26
     ["A. Khi thiếu nitrogen, lá cây có màu vàng, cây sinh trưởng chậm.","B. Nitrogen là thành phần của protein, nucleic acid, dKiệp lục.","C. Nitrogen tham gia cấu tạo enzyme, các hormone thực vật.","D. Nitrogen thúc đẩy khí khổng mở, làm tăng tốc độ thoát hơi nước.", 3], // Câu 27
     ["A. vai trò cấu trúc", "B. vai trò điều tiết", "C. tham gia cấu tạo protein, axit nucleic", "D. vai trò cấu trúc, vai trò điều tiết", 3], // Câu 28
@@ -162,7 +162,7 @@ const answers = [
     ["A. 6CO2 + 12 H2O ASMT, DL C6H12O6 + 6 O2 + 6 H2O.","B. C6H12O6 + 6 O2 ASMT, DL 6 H2O+ 6CO2","C. 6CO2 + 12H2O ASMT, DL C6H12O6 + 12 O2.","D. C6H12O6 + 6 O2 + 6 H2O ASMT, DL 6CO2 + 12 H2O.", 0], // Câu 2
     ["A. Tạo ra đường xây dựng nên tế bào, cơ thể đồng thời làm nguyên liệu cho quá trình giải phóng năng lượng và là nguồn dự trữ năng lượng.","B. Giải phóng O2 cung cấp dưỡng khí cho nhiều sinh vật trên Trái Đất.","C. Tạo ra nguyên liệu và năng lượng cung cấp cho các sinh vật khác trên Trái Đất.","D. Hấp thụ CO2 giải phóng O2 giúp điều hòa không khí kiến tạo và duy trì tầng ozon giảm hiệu ứng nhà kính.", 0], // Câu 3
     ["A. Tạo ra đường xây dựng nên tế bào, cơ thể đồng thời làm nguyên liệu cho quá trình giải phóng năng lượng và là nguồn dự trữ năng lượng.","B. Giải phóng O2 cung cấp dưỡng khí cho nhiều sinh vật trên Trái Đất.","C. Tạo ra nguyên liệu và năng lượng cung cấp cho các sinh vật khác trên Trái Đất.","D. Hấp thụ CO2 giải phóng O2 giúp điều hòa không khí kiến tạo và duy trì tầng ozon giảm hiệu ứng nhà kính", 0], // Câu 4
-    ["A. I, II", "B. II, III", "C. I, III", "D. II, IV", 0], // Câu 5
+    ["A. 1, 2", "B. 2, 3", "C. 1, 3", "D. 2, 4", 0], // Câu 5
     ["A. Diệp lục và carôtenôit", "B. Diệp lục a và diệp lục b", "C. Carôten và xantôphyl", "D. Diệp lục a và carôten", 1], // Câu 6
     ["A. hấp thụ năng lượng ánh sáng", "B. tạo màu sắc đặc trưng cho cây", "C. chuyển hóa năng lượng ánh sáng thành năng lượng hóa học", "D. hấp thụ CO2", 2], // Câu 7
     ["A. diệp lục a", "B. diệp lục b", "C. carotene", "D. xanthophyl", 0], // Câu 8
@@ -203,7 +203,7 @@ const answers = [
     ["A. Nước, nhiệt độ, hàm lượng O2.", "B. Nước, nhiệt độ, hàm lượng CO2.", "C. Nước, hàm lượng O2, CO2.", "D. Nước, nhiệt độ, hàm lượng O2, CO2.", 3],
     ["A. Cung cấp năng lượng chống chịu.", "B. Tăng khả năng chống chịu.", "C. Tạo ra sản phẩm trung gian.", "D. Miễn dịch cho cây.", 0],
     ["A. Quang hợp ở thực vật.", "B. Hô hấp ở thực vật.", "C. Lên men.", "D. Hô hấp sáng ở thực vật.", 1],
-    ["A. I, III và IV.", "B. I, II và IV.", "C. I, II và III.", "D. II, III và IV.", 2],
+    ["A. 1, 3 và 4.", "B. 1, 2 và 4.", "C. 1, 2 và 3.", "D. 2, 3 và 4.", 2],
     ["A. Nhiệt độ môi trường ảnh hưởng đến hô hấp ở thực vật.", "B. Các loại hạt khô như hạt thóc, hạt ngô có cường độ hô hấp thấp.", "C. Nồng độ CO2 cao có thể ức chế quá trình hô hấp.", "D. Trong điều kiện thiếu oxy, thực vật tăng cường quá trình hô hấp hiếu khí.", 3],
     // ["aaaaa", "bbbbb", "ccccc", "ddddd", 
 ];
