@@ -46,8 +46,8 @@ const answers = [
     ["A. Thức ăn là nguồn cung cấp nguyên liệu cho quá trình chuyển hóa tạo năng lượng để hoạt động.", "B. Thức ăn là nguồn cung cấp nguyên liệu cho quá trình chuyển hóa tạo nhiệt năng để duy trì nhiệt độ cơ thể.", "C. Thức ăn là nguồn cung cấp nguyên liệu cho quá trình chuyển hóa tạo năng lượng để đào thải khí carbon dioxide ra ngoài.", "D. Thức ăn là nguồn cung cấp nguyên liệu cho quá trình chuyển hóa tạo nhiệt năng để đào thải mồ hôi ra ngoài.", 0],
     ["A. Khi carbon dioxide, nước tiểu, mô hôi.", "B. Khí oxygen, nước tiểu, mồ hôi, nước mắt.", "C. Khi oxygen, khí carbon dioxide, nước tiểu.", "D. Khí oxygen, phân, nước tiểu, mồ hôi.", 0],
     ["A. Sự chuyển hóa của sinh vật.", "B. Có vai trò quan trọng đối với sự biến đổi các chất.", "C. Sự trao đổi năng lượng.", "D. Sự sống của sinh vật.", 3],
-    ["A. 2.", "B. 3.", "C. 1.", "D. 4.", 1],
-    ["A. Phân giải → Tổng hợp → Huy động năng lượng.", "B. Tổng hợp → Huy động năng lượng.", "C. Tổng hợp → Phân giải → Huy động năng lượng.", "D. Phân giải → Huy động năng lượng → Tổng hợp.", 2],
+    ["A. 1.", "B. 2.", "C. 3.", "D. 4.", 2],
+    ["A. Phân giải — Tổng hợp — Huy động năng lượng.", "B. Tổng hợp → Huy động năng lượng.", "C. Tổng hợp → Phân giải — Huy động năng lượng.", "D. Phân giải — Huy động năng lượng — Tổng hợp.", 2],
     ["A. Quá trình trao đổi chất và cảm ứng.", "B. Quá trình trao đổi chất và chuyển hóa năng lượng.", "C. Quá trình chuyển hóa năng lượng.", "D. Quá trình trao đổi chất và sinh sản.", 1],
     // ["aaaaa", "bbbbb", "ccccc", "ddddd", 
 ];
