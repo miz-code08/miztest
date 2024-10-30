@@ -3,7 +3,7 @@ const questions = [
     "Phương trình tổng quát của quang hợp ở thực vật là gì?",
     "Phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với thực vật?",
     "Phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với sinh quyển?",
-    "Những phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với sinh vật?",
+    "Những phát biểu nào sau đây đúng khi nói về vai trò của quang hợp đối với sinh vật? <br>1.Tạo ra đường xây dựng nên tế bào, cơ thể đồng thời làm nguyên liệu cho quá trình giải phóng năng lượng và là nguồn dự trữ năng lượng. <br> 2.Giải phóng O2 cung cấp dưỡng khí cho nhiều sinh vật trên Trái Đất. <br>3.Tạo ra nguyên liệu và năng lượng cung cấp cho các sinh vật khác trên Trái Đất. <br>4.Hấp thụ CO2 giải phóng O2 giúp điều hòa không khí kiến tạo và duy trì tầng ozon giảm hiệu ứng nhà kính.",
     "Hệ sắc tố quang hợp ở cây xanh bao gồm những gì?",
     "Vai trò chủ yếu của hệ sắc tố đối với quang hợp ở cây xanh là gì?",
     "Sắc tố quang hợp chủ đạo không thể thiếu ở thực vật có hoa là gì?",
