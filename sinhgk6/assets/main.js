@@ -8,7 +8,7 @@ const questions = [
     "Quá trình hô hấp trong cơ thể thực vật, trải qua các giai đoạn",
     "Sản phẩm của phân giải kị khí (đường phân và lên men) từ axit piruvic là",
     "Đâu không phải là vai trò của hô hấp ở thực vật?",
-    "Vai trò của hô hấp đối với cơ thể thực vật là. 1.Năng lượng(ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổng hợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… 2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơ thể thực vật diễn ra một cách bình thường. 3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… 4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dược phẩm của con người; cung cấp năng lượng, điều hoà không khí.",
+    "Vai trò của hô hấp đối với cơ thể thực vật là. <br>1.Năng lượng(ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổng hợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… <br>2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơ thể thực vật diễn ra một cách bình thường. <br>3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… <br>4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dược phẩm của con người; cung cấp năng lượng, điều hoà không khí.",
     "Khi nói về vấn đề hô hấp ở thực vật, nhân tố môi trường nào sau đây không tác động đến hô hấp?",
     "Nhận định nào sau đây là đúng nhất?",
     "Nhận định nào sau đây là sai?",
@@ -16,8 +16,8 @@ const questions = [
     "Các yếu tố ảnh hưởng đến hô hấp ở thực vật gồm",
     "Vai trò quan trọng nhất của hô hấp đối với cây trồng là",
     "Chọn từ thích hợp điền vào chỗ trống sau: ...là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là carbohydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt năng.",
-    "Những phát biểu nào sau đây đúng khi nói về vai trò của hô hấp đối với cơ thể thực vật? 1.Năng lượng (ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổnghợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… 2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơthể thực vật diễn ra một cách bình thường. 3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệuđể tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,…IV. Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dượcphẩm của con người; cung cấp năng lượng, điều hoà không khí.",
-    "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?"
+    "Những phát biểu nào sau đây đúng khi nói về vai trò của hô hấp đối với cơ thể thực vật? <br>1.Năng lượng (ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổnghợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… <br>2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơthể thực vật diễn ra một cách bình thường. <br>3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… <br>4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dượcphẩm của con người; cung cấp năng lượng, điều hoà không khí.",
+    "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?",
     // "",
 ];
 
@@ -106,9 +106,9 @@ window.onload = () => {
         if(userAnswer[viTri] != null) {
             radio[userAnswer[viTri]].checked = true;
         }
-        questionContent.textContent = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
+        questionContent.innerHTML = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
         answerDesc.forEach((val, idx) => {
-            val.textContent = `${answers[shuffledArray[viTri]][idx]}`;
+            val.innerHTML = `${answers[shuffledArray[viTri]][idx]}`;
         });
         questionItem.forEach((val, idx) => {
             val.classList.remove("active");

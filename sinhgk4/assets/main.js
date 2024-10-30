@@ -122,9 +122,9 @@ window.onload = () => {
         if(userAnswer[viTri] != null) {
             radio[userAnswer[viTri]].checked = true;
         }
-        questionContent.textContent = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
+        questionContent.innerHTML = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
         answerDesc.forEach((val, idx) => {
-            val.textContent = `${answers[shuffledArray[viTri]][idx]}`;
+            val.innerHTML = `${answers[shuffledArray[viTri]][idx]}`;
         });
         questionItem.forEach((val, idx) => {
             val.classList.remove("active");

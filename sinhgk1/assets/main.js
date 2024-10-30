@@ -9,17 +9,17 @@ const questions = [
     "Trong quá trình trao đổi chất, luôn có sự",
     "Sinh vật có thể tồn tại, sinh trưởng, phát triển và thích nghi với môi trường sống nhờ vào quá trình nào?",
     "Đồng hóa là?",
-    "1.Oxigen 2.Carbon dioxide 3.Chất dinh dưỡng 4.Nước uống 5.Năng lượng nhiệt 6.Chất thải. Trong quá trình trao đổi chất ở người, cơ thể thu nhận những chất nào sau đây?",
+    "Trong quá trình trao đổi chất ở người, cơ thể thu nhận những chất nào sau đây? <br>1.Oxigen 2.Carbon dioxide 3.Chất dinh dưỡng 4.Nước uống 5.Năng lượng nhiệt 6.Chất thải.",
     "Trong cơ thể người, chất hữu cơ được phân giải để giải phóng năng lượng có nguồn gốc từ sự trao đổi chất ở hệ:",
     "Trong tế bào và cơ thể sinh vật, năng lượng chủ yếu được trữ trong các:",
     "Trong quá trình quang hợp của cây xanh, cây có thể tự tổng hợp được chất hữu cơ nhờ ánh sáng mặt trời, nước và khí carbon dioxide. Năng lượng trong quá trình này là sự chuyển hóa năng lượng từ dạng:",
-    "1.Trao đổi chất giữa cơ thể và môi trường là điều kiện tồn tại và phát triển của cơ thể, là đặc tính cơ bản của sự sống. 2.Uống đủ nước, thức khuya, luyện tập thể dục thể thao sẽ thúc đẩy quá trình trao đổi chất ở cơ thể. 3.Tùy theo việc kiểm tra đủ chất, người ta chia sinh vật thành hai nhóm là sinh vật dị dưỡng và sinh vật hóa dưỡng. 4.Trong cơ thể con người đã có quá trình biến đổi hóa học thức ăn thành năng lượng cung cấp cho mọi hoạt động sống hàng ngày. Trong số các nhận định trên, số nhận định đúng là:",
+    "Trong số các nhận định trên, số nhận định đúng là: <br>1.Trao đổi chất giữa cơ thể và môi trường là điều kiện tồn tại và phát triển của cơ thể, là đặc tính cơ bản của sự sống. <br>2.Uống đủ nước, thức khuya, luyện tập thể dục thể thao sẽ thúc đẩy quá trình trao đổi chất ở cơ thể. <br>3.Tùy theo việc kiểm tra đủ chất, người ta chia sinh vật thành hai nhóm là sinh vật dị dưỡng và sinh vật hóa dưỡng. <br>4.Trong cơ thể con người đã có quá trình biến đổi hóa học thức ăn thành năng lượng cung cấp cho mọi hoạt động sống hàng ngày.",
     "Vì sao khi vận động thì cơ thể nóng dần lên?",
-    "1.Cung cấp năng lượng cho các hoạt động của cơ thể. 2.Làm phát sinh các cơ quan và chức năng mới trong cơ thể. 3.Xây dựng cơ thể. 4.Loại bỏ các chất thải ra khỏi cơ thể. 5.Tạo ra các cơ chế mới. Nhận định nào đúng khi nói về vai trò của trao đổi chất và chuyển hóa năng lượng?",
+    "Nhận định nào đúng khi nói về vai trò của trao đổi chất và chuyển hóa năng lượng? <br>1.Cung cấp năng lượng cho các hoạt động của cơ thể. <br>2.Làm phát sinh các cơ quan và chức năng mới trong cơ thể. <br>3.Xây dựng cơ thể. <br>4.Loại bỏ các chất thải ra khỏi cơ thể. <br>5.Tạo ra các cơ chế mới.",
     "Vì sao khi chúng ta làm việc nhiều thì cần tiêu thụ nhiều thức ăn?",
     "Quá trình trao đổi chất của con người thải ra môi trường những chất nào?",
     "Trao đổi chất và chuyển hóa năng lượng có vai trò quan trọng đối với sự sống của sinh vật.",
-    "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng? 1.Quá trình đồng hóa ở cấp tế bào tổng hợp nên chất hữu cơ để xây dựng cơ thể và dự trữ năng lượng. 2.Quá trình dị hóa ở cấp tế bào phân giải các chất hữu cơ giải phóng năng lượng cung cấp cho hoạt động sống của tế bào và cơ thể. 3.Chất dinh dưỡng cơ thể lấy vào được vận chuyển đến tế bào làm nguyên liệu cho quá trình đồng hóa. 4.Chất thải sinh ra từ quá trình đồng hóa của tế bào được cơ thể thải ra môi trường.",
+    "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng? <br>1.Quá trình đồng hóa ở cấp tế bào tổng hợp nên chất hữu cơ để xây dựng cơ thể và dự trữ năng lượng. <br>2.Quá trình dị hóa ở cấp tế bào phân giải các chất hữu cơ giải phóng năng lượng cung cấp cho hoạt động sống của tế bào và cơ thể. <br>3.Chất dinh dưỡng cơ thể lấy vào được vận chuyển đến tế bào làm nguyên liệu cho quá trình đồng hóa. <br>4.Chất thải sinh ra từ quá trình đồng hóa của tế bào được cơ thể thải ra môi trường.",
     "Chuyển hóa năng lượng trong sinh giới gồm?",
     "Sinh vật có thể tồn tại, sinh trưởng, phát triển thích nghi với môi trường sống là nhờ có quá trình nào?",
     // "",
@@ -114,9 +114,9 @@ window.onload = () => {
         if(userAnswer[viTri] != null) {
             radio[userAnswer[viTri]].checked = true;
         }
-        questionContent.textContent = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
+        questionContent.innerHTML = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
         answerDesc.forEach((val, idx) => {
-            val.textContent = `${answers[shuffledArray[viTri]][idx]}`;
+            val.innerHTML = `${answers[shuffledArray[viTri]][idx]}`;
         });
         questionItem.forEach((val, idx) => {
             val.classList.remove("active");

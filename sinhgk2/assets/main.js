@@ -11,19 +11,19 @@ const questions = [
     "Cấu tạo của dòng mạch rây gồm những gì?",
     "Cơ quan thoát hơi nước chủ yếu của cây là gì?",
     "Vai trò sinh lý của nitrogen gồm những gì?",
-    "1.Phơi ải đất, cày sâu, bừa kĩ. 2.Tưới nước đầy đủ và bón phân hữu cơ cho đất. 3.Giảm bón phân vô cơ và hữu cơ cho đất. 4.Vun gốc và xới đất cho cây. Có bao nhiêu biện pháp giúp cho bộ rễ cây phát triển?",
+    "Có bao nhiêu biện pháp giúp cho bộ rễ cây phát triển? <br>1.Phơi ải đất, cày sâu, bừa kĩ. <br>2.Tưới nước đầy đủ và bón phân hữu cơ cho đất. <br>3.Giảm bón phân vô cơ và hữu cơ cho đất. <br>4.Vun gốc và xới đất cho cây.",
     "Khi tế bào khí khổng no nước thì thành tế bào thay đổi như thế nào?",
     "Khi tế bào khí khổng mất nước thì thành tế bào thay đổi như thế nào?",
-    "1.Được điều chỉnh bằng việc đóng mở khí khổng. 2.Vận tốc lớn. 3.Không được điều chỉnh bằng việc đóng mở khí khổng. 4.Vận tốc nhỏ. Con đường thoát hơi nước qua cutin có bao nhiêu đặc điểm trên?",
+    "Con đường thoát hơi nước qua cutin có bao nhiêu đặc điểm trên? <br>1.Được điều chỉnh bằng việc đóng mở khí khổng. <br>2.Vận tốc lớn. <br>3.Không được điều chỉnh bằng việc đóng mở khí khổng. <br>4.Vận tốc nhỏ.",
     "Lực đóng vai trò chính trong quá trình vận chuyển nước ở thân là",
     "Yếu tố nào đóng vai trò quyết định đến quá trình thoát hơi nước ở lá?",
     "Hiện tượng lá cây bị vàng do thiếu chất diệp lục là do thiếu những nguyên tố khoáng nào?",
     "Sự biểu hiện triệu chứng thiếu nitrogen của cây là gì?",
     "Nguyên tố nitơ có trong thành phần của",
-    "Có bao nhiêu phát biểu đúng khi nói về hậu quả bón liều lượng phân bón cao quá mức cần thiết cho cây? 1. Gây độc hại đối với cây. 2. Gây ô nhiễm nông phẩm và môi trường. 3. Làm đất đai phì nhiêu nhưng cây không hấp thụ được hết. 4. Dư lượng phân bón khoáng chất sẽ làm xấu lí tính của đất, giết chết các vi sinh vật có lợi.",
-    "Khi nói về quá trình trao đổi nước và khoáng ở thực vật có bao nhiêu phát biểu sau đây đúng? I. Nguyên tố khoáng hòa tan trong nước, do vậy trao đổi khoáng có thể đồng thời với trao đổi nước. II. Nước và các chất khoáng được vận chuyển từ lông hút vào mạch gỗ của rễ theo con đường gian bào và con đường tế bào chất. III. Thoát hơi nước ở lá tạo động lực kéo dòng mạch gỗ đi theo một chiều từ rễ lên thân và lá. IV. Hoạt động trao đổi nước và chất khoáng có thể chịu ảnh hưởng của các yếu tố môi trường.",
+    "Có bao nhiêu phát biểu đúng khi nói về hậu quả bón liều lượng phân bón cao quá mức cần thiết cho cây? <br>1.Gây độc hại đối với cây. <br>2.Gây ô nhiễm nông phẩm và môi trường. <br>3.Làm đất đai phì nhiêu nhưng cây không hấp thụ được hết. <br>4.Dư lượng phân bón khoáng chất sẽ làm xấu lí tính của đất, giết chết các vi sinh vật có lợi.",
+    "Khi nói về quá trình trao đổi nước và khoáng ở thực vật có bao nhiêu phát biểu sau đây đúng? <br>1.Nguyên tố khoáng hòa tan trong nước, do vậy trao đổi khoáng có thể đồng thời với trao đổi nước. <br>2.Nước và các chất khoáng được vận chuyển từ lông hút vào mạch gỗ của rễ theo con đường gian bào và con đường tế bào chất. <br>3.Thoát hơi nước ở lá tạo động lực kéo dòng mạch gỗ đi theo một chiều từ rễ lên thân và lá. <br>4.Hoạt động trao đổi nước và chất khoáng có thể chịu ảnh hưởng của các yếu tố môi trường.",
     "Khi nói về sự thoát hơi nước ở lá cây, phát biểu nào sau đây đúng?",
-    "Khi nói về quá trình biến đổi nitrate và amonium ở thực vật, có bao nhiêu phát biểu sau đây đúng? I. Nitrogen ở dạng NH4 + và NO3 - sau khi được cây hấp thụ sẽ biến đổi thành nitrogen trong các hợp chất hữu cơ. II. Trong cây, NO3 - được khử thành NH4 + do xúc tác của enzyme nitrate reductase và nitrite reductase. III. Hình thành amide giúp giải độc cho tế bào khi lượng NO3 - tích lũy quá nhiều. IV. Hình thành amide là cơ chế dự trữ ammonium cho tế bào thực vật.",
+    "Khi nói về quá trình biến đổi nitrate và amonium ở thực vật, có bao nhiêu phát biểu sau đây đúng? <br>1.Nitrogen ở dạng NH4 + và NO3 - sau khi được cây hấp thụ sẽ biến đổi thành nitrogen trong các hợp chất hữu cơ. <br>2.Trong cây, NO3 - được khử thành NH4 + do xúc tác của enzyme nitrate reductase và nitrite reductase. <br>3.Hình thành amide giúp giải độc cho tế bào khi lượng NO3 - tích lũy quá nhiều. <br>4.Hình thành amide là cơ chế dự trữ ammonium cho tế bào thực vật.",
     "Thực vật hấp thụ nitrogen chủ yếu ở dạng nào sau đây?",
     "Khi nói về vai trò của nitrogen phát biểu nào sau đây sai?",
     "Vai trò sinh lí của nitrogen là gì?",
@@ -124,9 +124,9 @@ window.onload = () => {
         if(userAnswer[viTri] != null) {
             radio[userAnswer[viTri]].checked = true;
         }
-        questionContent.textContent = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
+        questionContent.innerHTML = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
         answerDesc.forEach((val, idx) => {
-            val.textContent = `${answers[shuffledArray[viTri]][idx]}`;
+            val.innerHTML = `${answers[shuffledArray[viTri]][idx]}`;
         });
         questionItem.forEach((val, idx) => {
             val.classList.remove("active");

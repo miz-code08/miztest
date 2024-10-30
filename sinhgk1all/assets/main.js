@@ -10,17 +10,17 @@ const questions = [
     "Trong quá trình trao đổi chất, luôn có sự",
     "Sinh vật có thể tồn tại, sinh trưởng, phát triển và thích nghi với môi trường sống nhờ vào quá trình nào?",
     "Đồng hóa là?",
-    "1.Oxigen 2.Carbon dioxide 3.Chất dinh dưỡng 4.Nước uống 5.Năng lượng nhiệt 6.Chất thải. Trong quá trình trao đổi chất ở người, cơ thể thu nhận những chất nào sau đây?",
+    "Trong quá trình trao đổi chất ở người, cơ thể thu nhận những chất nào sau đây? <br>1.Oxigen 2.Carbon dioxide 3.Chất dinh dưỡng 4.Nước uống 5.Năng lượng nhiệt 6.Chất thải.",
     "Trong cơ thể người, chất hữu cơ được phân giải để giải phóng năng lượng có nguồn gốc từ sự trao đổi chất ở hệ:",
     "Trong tế bào và cơ thể sinh vật, năng lượng chủ yếu được trữ trong các:",
     "Trong quá trình quang hợp của cây xanh, cây có thể tự tổng hợp được chất hữu cơ nhờ ánh sáng mặt trời, nước và khí carbon dioxide. Năng lượng trong quá trình này là sự chuyển hóa năng lượng từ dạng:",
-    "1.Trao đổi chất giữa cơ thể và môi trường là điều kiện tồn tại và phát triển của cơ thể, là đặc tính cơ bản của sự sống. 2.Uống đủ nước, thức khuya, luyện tập thể dục thể thao sẽ thúc đẩy quá trình trao đổi chất ở cơ thể. 3.Tùy theo việc kiểm tra đủ chất, người ta chia sinh vật thành hai nhóm là sinh vật dị dưỡng và sinh vật hóa dưỡng. 4.Trong cơ thể con người đã có quá trình biến đổi hóa học thức ăn thành năng lượng cung cấp cho mọi hoạt động sống hàng ngày. Trong số các nhận định trên, số nhận định đúng là:",
+    "Trong số các nhận định trên, số nhận định đúng là: <br>1.Trao đổi chất giữa cơ thể và môi trường là điều kiện tồn tại và phát triển của cơ thể, là đặc tính cơ bản của sự sống. <br>2.Uống đủ nước, thức khuya, luyện tập thể dục thể thao sẽ thúc đẩy quá trình trao đổi chất ở cơ thể. <br>3.Tùy theo việc kiểm tra đủ chất, người ta chia sinh vật thành hai nhóm là sinh vật dị dưỡng và sinh vật hóa dưỡng. <br>4.Trong cơ thể con người đã có quá trình biến đổi hóa học thức ăn thành năng lượng cung cấp cho mọi hoạt động sống hàng ngày.",
     "Vì sao khi vận động thì cơ thể nóng dần lên?",
-    "1.Cung cấp năng lượng cho các hoạt động của cơ thể. 2.Làm phát sinh các cơ quan và chức năng mới trong cơ thể. 3.Xây dựng cơ thể. 4.Loại bỏ các chất thải ra khỏi cơ thể. 5.Tạo ra các cơ chế mới. Nhận định nào đúng khi nói về vai trò của trao đổi chất và chuyển hóa năng lượng?",
+    "Nhận định nào đúng khi nói về vai trò của trao đổi chất và chuyển hóa năng lượng? <br>1.Cung cấp năng lượng cho các hoạt động của cơ thể. <br>2.Làm phát sinh các cơ quan và chức năng mới trong cơ thể. <br>3.Xây dựng cơ thể. <br>4.Loại bỏ các chất thải ra khỏi cơ thể. <br>5.Tạo ra các cơ chế mới.",
     "Vì sao khi chúng ta làm việc nhiều thì cần tiêu thụ nhiều thức ăn?",
     "Quá trình trao đổi chất của con người thải ra môi trường những chất nào?",
     "Trao đổi chất và chuyển hóa năng lượng có vai trò quan trọng đối với sự sống của sinh vật.",
-    "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng? 1.Quá trình đồng hóa ở cấp tế bào tổng hợp nên chất hữu cơ để xây dựng cơ thể và dự trữ năng lượng. 2.Quá trình dị hóa ở cấp tế bào phân giải các chất hữu cơ giải phóng năng lượng cung cấp cho hoạt động sống của tế bào và cơ thể. 3.Chất dinh dưỡng cơ thể lấy vào được vận chuyển đến tế bào làm nguyên liệu cho quá trình đồng hóa. 4.Chất thải sinh ra từ quá trình đồng hóa của tế bào được cơ thể thải ra môi trường.",
+    "Khi nói về mối quan hệ giữa trao đổi chất và chuyển hóa năng lượng ở cấp tế bào và cơ thể, có mấy phát biểu sau đây đúng? <br>1.Quá trình đồng hóa ở cấp tế bào tổng hợp nên chất hữu cơ để xây dựng cơ thể và dự trữ năng lượng. <br>2.Quá trình dị hóa ở cấp tế bào phân giải các chất hữu cơ giải phóng năng lượng cung cấp cho hoạt động sống của tế bào và cơ thể. <br>3.Chất dinh dưỡng cơ thể lấy vào được vận chuyển đến tế bào làm nguyên liệu cho quá trình đồng hóa. <br>4.Chất thải sinh ra từ quá trình đồng hóa của tế bào được cơ thể thải ra môi trường.",
     "Chuyển hóa năng lượng trong sinh giới gồm?",
     "Sinh vật có thể tồn tại, sinh trưởng, phát triển thích nghi với môi trường sống là nhờ có quá trình nào?",
     // bài 2
@@ -30,28 +30,28 @@ const questions = [
     "Phần lớn các ion khoáng xâm nhập vào rễ cây theo cơ chế chủ động diễn ra theo phương thức vận chuyển từ nơi có nồng độ?",
     "Động lực của dòng mạch rây là sự chênh lệch áp suất thẩm thấu giữa?",
     "Nước được vận chuyển ở thân chủ yếu",
-    "Động lực của dịch mạch gỗ từ rễ đến lá là",
+    "Động lực của dịch mạch gỗ từ rễ đến lá là gì?",
     "Nước và các ion khoáng đi từ đất vào mạch gỗ của rễ theo các con đường nào?",
-    "Cấu tạo của dòng mạch gỗ gồm những",
-    "Cấu tạo của dòng mạch rây gồm những",
-    "Cơ quan thoát hơi nước chủ yếu của cây là",
-    "Vai trò sinh lý của nitrogen gồm những",
-    "1.Phơi ải đất, cày sâu, bừa kĩ. 2.Tưới nước đầy đủ và bón phân hữu cơ cho đất. 3.Giảm bón phân vô cơ và hữu cơ cho đất. 4.Vun gốc và xới đất cho cây. Có bao nhiêu biện pháp giúp cho bộ rễ cây phát triển?",
+    "Cấu tạo của dòng mạch gỗ gồm những gì?",
+    "Cấu tạo của dòng mạch rây gồm những gì?",
+    "Cơ quan thoát hơi nước chủ yếu của cây là gì?",
+    "Vai trò sinh lý của nitrogen gồm những gì?",
+    "Có bao nhiêu biện pháp giúp cho bộ rễ cây phát triển? <br>1.Phơi ải đất, cày sâu, bừa kĩ. <br>2.Tưới nước đầy đủ và bón phân hữu cơ cho đất. <br>3.Giảm bón phân vô cơ và hữu cơ cho đất. <br>4.Vun gốc và xới đất cho cây.",
     "Khi tế bào khí khổng no nước thì thành tế bào thay đổi như thế nào?",
     "Khi tế bào khí khổng mất nước thì thành tế bào thay đổi như thế nào?",
-    "1.Được điều chỉnh bằng việc đóng mở khí khổng. 2.Vận tốc lớn. 3.Không được điều chỉnh bằng việc đóng mở khí khổng. 4.Vận tốc nhỏ. Con đường thoát hơi nước qua cutin có bao nhiêu đặc điểm trên?",
+    "Con đường thoát hơi nước qua cutin có bao nhiêu đặc điểm trên? <br>1.Được điều chỉnh bằng việc đóng mở khí khổng. <br>2.Vận tốc lớn. <br>3.Không được điều chỉnh bằng việc đóng mở khí khổng. <br>4.Vận tốc nhỏ.",
     "Lực đóng vai trò chính trong quá trình vận chuyển nước ở thân là",
     "Yếu tố nào đóng vai trò quyết định đến quá trình thoát hơi nước ở lá?",
     "Hiện tượng lá cây bị vàng do thiếu chất diệp lục là do thiếu những nguyên tố khoáng nào?",
-    "Sự biểu hiện triệu chứng thiếu nitrogen của cây là",
+    "Sự biểu hiện triệu chứng thiếu nitrogen của cây là gì?",
     "Nguyên tố nitơ có trong thành phần của",
-    "Có bao nhiêu phát biểu đúng khi nói về hậu quả bón liều lượng phân bón cao quá mức cần thiết cho cây? 1. Gây độc hại đối với cây. 2. Gây ô nhiễm nông phẩm và môi trường. 3. Làm đất đai phì nhiêu nhưng cây không hấp thụ được hết. 4. Dư lượng phân bón khoáng chất sẽ làm xấu lí tính của đất, giết chết các vi sinh vật có lợi.",
-    "Khi nói về quá trình trao đổi nước và khoáng ở thực vật có bao nhiêu phát biểu sau đây đúng? I. Nguyên tố khoáng hòa tan trong nước, do vậy trao đổi khoáng có thể đồng thời với trao đổi nước. II. Nước và các chất khoáng được vận chuyển từ lông hút vào mạch gỗ của rễ theo con đường gian bào và con đường tế bào chất. III. Thoát hơi nước ở lá tạo động lực kéo dòng mạch gỗ đi theo một chiều từ rễ lên thân và lá. IV. Hoạt động trao đổi nước và chất khoáng có thể chịu ảnh hưởng của các yếu tố môi trường.",
+    "Có bao nhiêu phát biểu đúng khi nói về hậu quả bón liều lượng phân bón cao quá mức cần thiết cho cây? <br>1.Gây độc hại đối với cây. <br>2.Gây ô nhiễm nông phẩm và môi trường. <br>3.Làm đất đai phì nhiêu nhưng cây không hấp thụ được hết. <br>4.Dư lượng phân bón khoáng chất sẽ làm xấu lí tính của đất, giết chết các vi sinh vật có lợi.",
+    "Khi nói về quá trình trao đổi nước và khoáng ở thực vật có bao nhiêu phát biểu sau đây đúng? <br>1.Nguyên tố khoáng hòa tan trong nước, do vậy trao đổi khoáng có thể đồng thời với trao đổi nước. <br>2.Nước và các chất khoáng được vận chuyển từ lông hút vào mạch gỗ của rễ theo con đường gian bào và con đường tế bào chất. <br>3.Thoát hơi nước ở lá tạo động lực kéo dòng mạch gỗ đi theo một chiều từ rễ lên thân và lá. <br>4.Hoạt động trao đổi nước và chất khoáng có thể chịu ảnh hưởng của các yếu tố môi trường.",
     "Khi nói về sự thoát hơi nước ở lá cây, phát biểu nào sau đây đúng?",
-    "Khi nói về quá trình biến đổi nitrate và amonium ở thực vật, có bao nhiêu phát biểu sau đây đúng? I. Nitrogen ở dạng NH4 + và NO3 - sau khi được cây hấp thụ sẽ biến đổi thành nitrogen trong các hợp chất hữu cơ. II. Trong cây, NO3 - được khử thành NH4 + do xúc tác của enzyme nitrate reductase và nitrite reductase. III. Hình thành amide giúp giải độc cho tế bào khi lượng NO3 - tích lũy quá nhiều. IV. Hình thành amide là cơ chế dự trữ ammonium cho tế bào thực vật.",
+    "Khi nói về quá trình biến đổi nitrate và amonium ở thực vật, có bao nhiêu phát biểu sau đây đúng? <br>1.Nitrogen ở dạng NH4 + và NO3 - sau khi được cây hấp thụ sẽ biến đổi thành nitrogen trong các hợp chất hữu cơ. <br>2.Trong cây, NO3 - được khử thành NH4 + do xúc tác của enzyme nitrate reductase và nitrite reductase. <br>3.Hình thành amide giúp giải độc cho tế bào khi lượng NO3 - tích lũy quá nhiều. <br>4.Hình thành amide là cơ chế dự trữ ammonium cho tế bào thực vật.",
     "Thực vật hấp thụ nitrogen chủ yếu ở dạng nào sau đây?",
     "Khi nói về vai trò của nitrogen phát biểu nào sau đây sai?",
-    "Vai trò sinh lí của nitrogen là",
+    "Vai trò sinh lí của nitrogen là gì?",
     // bài 4
     "Quang hợp ở thực vật là quá trình",
     "Phương trình tổng quát của quang hợp ở thực vật là",
@@ -90,7 +90,7 @@ const questions = [
     "Quá trình hô hấp trong cơ thể thực vật, trải qua các giai đoạn",
     "Sản phẩm của phân giải kị khí (đường phân và lên men) từ axit piruvic là",
     "Đâu không phải là vai trò của hô hấp ở thực vật?",
-    "Vai trò của hô hấp đối với cơ thể thực vật là. 1.Năng lượng(ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổng hợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… 2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơ thể thực vật diễn ra một cách bình thường. 3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… 4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dược phẩm của con người; cung cấp năng lượng, điều hoà không khí.",
+    "Vai trò của hô hấp đối với cơ thể thực vật là. <br>1.Năng lượng(ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổng hợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… <br>2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơ thể thực vật diễn ra một cách bình thường. <br>3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… <br>4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dược phẩm của con người; cung cấp năng lượng, điều hoà không khí.",
     "Khi nói về vấn đề hô hấp ở thực vật, nhân tố môi trường nào sau đây không tác động đến hô hấp?",
     "Nhận định nào sau đây là đúng nhất?",
     "Nhận định nào sau đây là sai?",
@@ -98,9 +98,8 @@ const questions = [
     "Các yếu tố ảnh hưởng đến hô hấp ở thực vật gồm",
     "Vai trò quan trọng nhất của hô hấp đối với cây trồng là",
     "Chọn từ thích hợp điền vào chỗ trống sau: ...là quá trình phân giải các hợp chất hữu cơ phức tạp, phổ biến là carbohydrate thành các chất đơn giản (CO2 và H2O), đồng thời giải phóng năng lượng ATP và nhiệt năng.",
-    "Những phát biểu nào sau đây đúng khi nói về vai trò của hô hấp đối với cơ thể thực vật? 1.Năng lượng (ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổnghợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… 2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơthể thực vật diễn ra một cách bình thường. 3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệuđể tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,…IV. Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dượcphẩm của con người; cung cấp năng lượng, điều hoà không khí.",
-    "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?"
-
+    "Những phát biểu nào sau đây đúng khi nói về vai trò của hô hấp đối với cơ thể thực vật? <br>1.Năng lượng (ATP) sinh ra từ hô hấp được sử dụng cho hầu hết các hoạt động sống của cây như tổnghợp và vận chuyển các chất, sinh trưởng và phát triển, cảm ứng,… <br>2.Nhiệt năng được giải phóng ra trong hô hấp giúp duy trì nhiệt độ cơ thể, đảm bảo cho các hoạt động sống trong cơthể thực vật diễn ra một cách bình thường. <br>3.Các sản phẩm trung gian được tạo ra từ quá trình hô hấp ở thực vật (đường 3 carbon, pyruvate,…) là nguyên liệu để tổng hợp nên các hợp chất hữu cơ trong cơ thể như protein, acid béo,… <br>4.Cung cấp nguồn thức ăn cho sinh vật dị dưỡng và là nguồn nguyên liệu cho sản xuất công nghiệp, chế biến dượcphẩm của con người; cung cấp năng lượng, điều hoà không khí.",
+    "Khi nói về ảnh hưởng của các nhân tố môi trường đến quá trình hô hấp hiếu khí ở thực vật, phát biểu nào sau đây sai?",
     // "",
 ];
 
@@ -267,9 +266,9 @@ window.onload = () => {
         if(userAnswer[viTri] != null) {
             radio[userAnswer[viTri]].checked = true;
         }
-        questionContent.textContent = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
+        questionContent.innerHTML = `Câu hỏi ${viTri+1}: ${questions[shuffledArray[viTri]]}`
         answerDesc.forEach((val, idx) => {
-            val.textContent = `${answers[shuffledArray[viTri]][idx]}`;
+            val.innerHTML = `${answers[shuffledArray[viTri]][idx]}`;
         });
         questionItem.forEach((val, idx) => {
             val.classList.remove("active");
