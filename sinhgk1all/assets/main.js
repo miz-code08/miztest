@@ -191,7 +191,7 @@ const answers = [
     ["A. Chu trình crep → Đường phân → Chuổi chuyền êlectron hô hấp.", "B. Đường phân → Chuổi chuyền êlectron hô hấp → Chu trình crep.", "C. Đường phân → Chu trình crep → Chuổi chuyền êlectron hô hấp.", "D. Chuổi chuyền êlectron hô hấp → Chu trình crep → Đường phân.", 2],
     ["A. phân giải hiếu khí.", "B. hô hấp sáng.", "C. phân giải kị khí.", "D. Lên men.", 0],
     ["A. phân giải hiếu khí.", "B. hô hấp sáng.", "C. phân giải kị khí.", "D. hô hấp hiếu khí.", 2],
-    ["A. Chu trình Crep.", "B. Chuỗi chuyền điện tử electron.", "C. Đường phân.", "D. Tổng hợp axetyl - CoA.", 0],
+    ["A. Chu trình Crep.", "B. Chuỗi chuyền điện tử electron.", "C. Đường phân.", "D. Tổng hợp axetyl - CoA.", 2],
     ["A. đường phân và hô hấp hiếu khí.", "B. đường phân hiếu khí và chu trình Crep.", "C. cacboxi hóa - khử - tái tạo chất nhận.", "D. oxy hóa chất hữu cơ và khử.", 0],
     ["A. rượu etylic + CO2 + năng lượng.", "B. axit lactic + CO2 + năng lượng.", "C. rượu etylic + năng lượng.", "D. rượu etylic + CO2.", 0],
     ["A. Giải phóng năng lượng ATP.", "B. Giải phóng năng lượng dạng nhiệt.", "C. Tạo các sản phẩm trung gian.", "D. Tổng hợp các chất hữu cơ.", 3],
