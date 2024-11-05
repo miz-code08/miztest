@@ -52,6 +52,18 @@ const questions = [
     "Trong những năm 1944-1945, các nước Đông Âu nổi dậy giành chính quyền xuất phát từ điều kiện khách quan thuận lợi nào sau đây?",
     "Năm 1948, ở châu Á, quốc gia nào sau đây đi lên xây dựng chủ nghĩa xã hội?",
     "Tháng 12-1975, nhà nước nào sau đây được thành lập và đi lên xây dựng chủ nghĩa xã hội?",
+    // Tự thêm
+    "Đây là câu nói của ai “Ngoại thương là sự giàu có của quốc vương, là danh dự của vương quốc, là sứ mệnh cao quý của thương nhân, là sự tồn tại của chúng ta và là công ăn việc làm của người nghèo ở nước ta, là sự cải thiện đất đai của chúng ta, là trường học của các thủy thủ chúng ta, là động lực chiến tranh của chúng ta, là sự hùng mạnh của kẻ thù chúng ta.”",
+    "Ngày 14/07/1789 có sự kiện gì quan trọng diễn ra ở Paris?",
+    "Sự kiện “cảng Bô-xtơn tấn công tàu chở chè của Anh” diễn ra vào thời gian nào",
+    "Nhà tư tưởng tiêu biểu trào lưu Triết học as ở pháp:",
+    "Các nhà lãnh đạo CMTS tiêu biểu:",
+    "Đây là nội dung bản tuyên ngôn nào “Tất cả mn đều sinh ra và có quyền bình đẳng, Tạo hóa cho họ những quyền không ai có thể xâm phạm được; trong những quyền ấy có quyền được sống, quyền tự do và quyền mưu cầu hạnh phúc.”",
+    "Đế quốc pháp còn có tên gọi khác là gì?",
+    "Các nước nào sau đây là bốn nước cộng hòa xã hội chủ nghĩa Xô viết đầu tiên:",
+    "Đoạn trích trên được lấy từ bản tuyên ngôn độc lập của nước nào “Tài sản là quyền bất khả xâm phạm và thiêng liêng, không ai có thể bị tước đoạt tài sản…rõ ràng đòi hỏi và phải bồi thường trước một cách công bằng”",
+    "Trong bản tuyên ngôn độc lập pháp điều 1 “Người ta sinh ra … và …về quyền lợi, và phải luôn luôn được tự do và bình đẳng về quyền lợi” bổ sung vào chỗ trống còn thiếu",
+    "“Điều 1: Người ta sinh ra tự do và bình đẳng về quyền lợi, và phải luôn luôn được tự do và bình đẳng về quyền lợi. Điều 17: Tài sản là quyền bất khả xâm phạm và thiêng liêng, không ai có thể bị tước đoạt tài sản, trừ trường hợp nhu cầu công cộng, được pháp luật chứng nhận, rõ ràng đòi hỏi và phải bồi thường trước một cách công bằng”",
     // "",
 ];
 
@@ -109,6 +121,18 @@ const answers = [
     ["A. Phát xít Nhật đã bị tiêu diệt hoàn toàn", "B. Chiến tranh thế giới II lan rộng sang châu Á", "C. Khối Đồng minh chống phát xít được thành lập", "D. Thất bại của chủ nghĩa phát xít ở châu Âu", 3],
     ["A. Triều Tiên", "B. Cu Ba", "C. Việt Nam", "D. Lào", 0],
     ["A. Cộng hòa nhân dân Trung Hoa", "B. Cộng hòa Indonesia", "C. Cộng hòa Dân chủ nhân dân Lào.", "D. Cộng hòa Nhân dân Campuchia.", 2],
+    // Tự thêm
+    ["A. Adam Smith", "B. Thomas Mun", "C. Một vị vua hoặc hoàng đế", "D. Một nhà tư tưởng chính trị thời Phục hưng", 1],
+    ["A. Nhân dân Paris đánh chiếm ngục Ba-xti", "B. Vua Louis XIV đăng quang", "C. Cách mạng công nghiệp bùng nổ ở Pháp", "D. Napoleon Bonaparte lên nắm quyền", 0], 
+    ["A. 12/1776", "B. 12/1773", "C. 06/1789", "D. 06/1765", 1], 
+    ["A. Mông-te-xki-ơ, Descartes, Rút-xô", "B. Mông-te-xki-ơ, Vôn-te, Rút-xô", "C. Denis Diderot, Mông-te-xki-ơ, Descartes", "D. Descartes, Rút-xô, Denis Diderot", 1], 
+    ["A. Mông-te-xki-ơ, Descartes, Rút-xô", "B. Mông-te-xki-ơ, Vôn-te, Rút-xô", "C. Crôm-oen, Oa-sinh-tơn, Rô-be-spie", "D. Descartes, Rút-xô, Denis Diderot", 2], 
+    ["A. Tuyên ngôn độc lập Mỹ năm 1776", "B. Tuyên ngôn Nhân quyền và Dân quyền của người Pháp năm 1789", "C. Nước khác", "D. Tuyên ngôn Độc lập của Việt Nam năm 1945", 0], 
+    ["A. Đế Quốc cho vay nặng lãi", "B. Đế Quốc Tơ-Rớt", "C. Đế Quốc Thuộc Địa", "D. Đế Quốc Phong Kiến", 0], 
+    ["A. Nga, Đức, Pháp, Ý", "B. Anh, Mỹ, Nga, Trung Quốc", "C. Nga, Belarus, Ukraine, và Ngoại Kavkaz", "D. Nhật Bản, Hàn Quốc, Trung Quốc, Việt Nam", 2],
+    ["A. Bản Tuyên Ngôn Độc Lập VN", "B. Bản Tuyên Ngôn Độc Lập Mỹ", "C. Bản Tuyên Ngôn Độc Lập Pháp", "D. Không Đáp Án Nào Đúng", 2], 
+    ["A. Tự Do và Độc Lập", "B. Tự Do Và Dân Chủ", "C. Độc Lập và Tự Do", "D. Tự Do và Bình Đẳng", 3], 
+    ["A. Bản Tuyên Ngôn Độc Lập VN", "B. Bản Tuyên Ngôn Độc Lập Mỹ", "C. Bản Tuyên Ngôn Độc Lập Pháp", "D. Không Đáp Án Nào Đúng", 2], 
     // ["aaaaa", "bbbbb", "ccccc", "ddddd", 0], 
 ];
 
