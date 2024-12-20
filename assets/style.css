@@ -73,3 +73,80 @@ button {
     color: #000;
     font-size: 3rem;
 }
+
+.container,
+.box {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.lock {
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    /* margin-top: 45vh; */
+}
+
+.lock-input {
+    width: 30%;
+    height: 45px;
+
+    line-height: 30px;
+    padding: 0 5rem;
+    padding-left: 3rem;
+    
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+
+    background: #c1e0ff;
+    color: #000;
+    transition: .5s ease;
+}
+
+.lock-input::placeholder {
+    color: inherit;
+}
+
+.lock-input:focus, .lock-input:hover {
+    outline: none;
+    border-color: rgba(129, 140, 248);
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
