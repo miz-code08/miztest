@@ -10,15 +10,15 @@ const questions = [
     "Nhóm động vật nào sau đây có túi tiêu hóa?",
     "Ở động vật có ống tiêu hóa, thức ăn được tiêu hóa theo hình thức",
     "Động vật nào sau đây chưa có cơ quan tiêu hóa?",
-    "Tóm tắt quá trình tiêu hóa thức ăn trong túi tiêu hóa.",
+    "Tóm tắt quá trình tiêu hóa thức ăn trong túi tiêu hóa. <br> I. Thức ăn đi qua miệng vào trong túi. <br> II. Tế bào trên thành túi tiêu hóa tiết ra enzyme phân giải thức ăn thành các mảnh nhỏ. <br> III. Các mảnh thức ăn tiếp tục được các tế bào thành túi tiêu hóa nội bào. <br> IV. Chất thải được thải đi qua miệng ra ngoài.",
     "Ưu điểm của tiêu hóa thức ăn ở động vật có túi tiêu hóa so với động vật chưa có túi tiêu hóa là",
     "Bộ phận nào sau đây của ống tiêu hóa có quá trình tiêu hóa cơ học mạnh hơn tiêu hóa hóa học?",
     "Ở động vật có ống tiêu hóa, quá trình tiêu hóa hóa học diễn ra chủ yếu ở cơ quan nào sau đây?",
     "Khi nói về quá trình tiêu hóa thức ăn ở động vật có túi tiêu hóa, phát biểu nào sau đây đúng?",
     "Khi nói về hoạt động tiêu hóa thức ăn trong các bộ phận của ống tiêu hóa ở người, phát biểu nào sau đây sai?",
     "Sự tiến hóa của các hình thức tiêu hóa diễn ra theo hướng nào sau đây?",
-    "Những ưu điểm của tiêu hóa thức ăn trong ống tiêu hóa so với trong túi tiêu hóa:",
-    "Khi nói về đặc điểm cấu tạo của ruột non thích nghi với hấp thụ các chất dinh dưỡng, có bao nhiêu nhận định sau đây đúng?"
+    "Những ưu điểm của tiêu hóa thức ăn trong ống tiêu hóa so với trong túi tiêu hóa: <br> I. Thức ăn đi theo 1 chiều trong ống tiêu hóa không bị trộn lẫn với chất thải (phân) còn thức ăn trong túi tiêu hóa bị trộn lẫn chất thải. <br> II. Trong ống tiêu hóa dịch tiêu hóa không bị hòa loãng <br> III. Thức ăn đi theo 1 chiều nên hình thành các bộ phận chuyên hóa, thực hiện các chức năng khác nhau: tiêu hóa cơ học, hóa học, hấp thụ thức ăn <br> IV. Thức ăn đi qua ống tiêu hóa được biến đổi cơ học, hóa học trở thành những chất phức tạp và được hấp thụ vào máu.",
+    "Khi nói về đặc điểm cấu tạo của ruột non thích nghi với hấp thụ các chất dinh dưỡng, có bao nhiêu nhận định sau đây đúng? <br> I. Bề mặt hấp thụ của ruột tăng lên nhiều lần nhờ các nếp gấp của niêm mạc ruột (van ruột). <br> II. Cấu tạo bởi cơ vân nên tạo nhu động ruột đẩy thức ăn di chuyển trong lòng ruột. <br> III. Bề mặt các nếp gấp lại có nhiều lông ruột và vi lông hút nằm trên đỉnh của tế bào lông ruột. <br> IV. Lông ruột chứa lớp tế bào biểu mô, bên trong có hệ mạch máu và dây thần kinh.",
 ];
 
 const answers = [

@@ -15,7 +15,9 @@ const answers = [
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
-const correctAnswers = [0, 0, 0, 0, 0];
+const correctAnswers = [
+    0, 0, 0, 0, 0,
+];
 
 function shuffleOptions() {
     // Xáo trộn câu hỏi
