@@ -64,20 +64,20 @@ const answers = [
     ["áp lực dòng máu khi tâm nhĩ co.", "áp lực dòng máu khi tâm thất dãn.", "áp lực của máu tác dụng lên thành mạch.", "do sự ma sát giữa máu và thành mạch."],
     ["Kì tim dãn.", "Kì co tâm nhĩ.", "Kì co tâm thất.", "Giữa hai kì co tâm nhĩ và co tâm thất."],
     ["Kì tim dãn.", "Kì tim co.", "Kì dãn tâm thất.", "Giữa hai kì dãn tâm nhĩ và dãn tâm thất."],
-    ["80 - 90 mmHg và 130 - 150 mmHg.", "130 - 150 mmHg và 80 - 90 mmHg.", "70 - 80 mmHg và 110 - 120 mmHg.", "110 - 120 mmHg và 60 - 80 mmHg."],
+    ["80 - 90 mmHg và 130 - 150 mmHg.", "130 - 150 mmHg và 80 - 90 mmHg.", "70 - 80 mmHg và 110 - 120 mmHg.", "110 - 120 mmHg và 70 - 80 mmHg."],
     ["Huyết áp tâm thu được đo lúc tim đang dãn.", "Hệ tuần hoàn của động vật gồm 2 thành phần là tim và hệ mạch.", "Huyết áp tâm trương được đo ứng với lúc tim co.", "Huyết áp là áp lực của máu tác động lên thành mạch."],
     ["cá xương, chim, thú.", "Lưỡng cư, thú.", "bò sát (Trừ cá sấu), chim, thú.", "lưỡng cư, bò sát, chim."],
     ["động mạch chủ → tiểu động mạch → mao mạch → tiểu tĩnh mạch → tĩnh mạch chủ.", "tĩnh mạch chủ → tiểu tĩnh mạch → mao mạch → tiểu động mạch → động  mạch chủ.", "động mạch chủ → tiểu tĩnh mạch → mao mạch → tiểu động mạch → tĩnh mạch chủ.", "mao mạch → tiểu động mạch → động mạch chủ → tĩnh mạch chủ → tiểu tĩnh mạch."],
     ["động mạch chủ → mao mạch → tĩnh mạch chủ.", "tĩnh mạch chủ → mao mạch → động mạch chủ.", "động mạch chủ → tĩnh mạch chủ → mao mạch.", "mao mạch → tĩnh mạch chủ → động mạch chủ."],
     ["Huyết áp cao nhất ở động mạch, giảm ở tĩnh mạch và thấp nhất ở mao mạch.", "Huyết áp cao nhất ở động mạch, giảm ở mao mạch và thấp nhất ở tĩnh mạch.", "Huyết áp cao nhất ở động mạch, tĩnh mạch và thấp nhất ở mao mạch.", "Huyết áp cao nhất ở động mạch chủ và giữ ổn định ở tĩnh mạch, mao mạch."],
     ["1, 2, 3, 4, 5.", "1, 2, 3, 4, 6.", "2, 3, 4, 5, 6.", "1, 2, 3, 5, 6."],
-    ["Máu chảy trong ĐM dưới áp lực cao hoặc trung bình.", "Tốc độ máu chảy nhanh, máu đi được xa đến các cơ quan nhanh.", "Đáp ứng tốt hơn nhu cầu trao đổi khí và trao đổi chất của cơ thể.", "Áp lực đẩy máu lưu thông trong hệ mạch rất thấp, chảy chậm."],
-    ["máu chảy trong động mạch dưới áp lực thấp hoặc trung bình.", "tốc độ máu chảy chậm, máu đi được xa đến các cơ quan nhanh.", "áp lực đẩy máu lưu thông trong hệ mạch rất lớn, chảy nhanh, đi được xa.", "tăng hiệu quả cung cấp O2 và chất dinh dưỡng cho tế bào.", "đồng thời thải chậm các chất thải ra ngoài"],
-    ["Giảm cân, vận động thể lực hạn chế căng thẳng", "Giảm lượng muối ăn hàng ngày (< 6g NaCl)", "Hạn chế uống rượu bia không hút thuốc lá.", "Ăn muối nhiều nhưng tăng cường vận động"],
-    ["Suy tim, hẹp động mạch vành, thiếu máu cơ tim, nhồi máu cơ tim.", "xuất huyết não, nhũn não, cơn thiếu máu não", "Suy thận", "Giảm cân"],
-    ["tuổi cao, di truyền", "béo phì, ít vận động", "thói quen ăn mặn", "Rối loạn tim mạch do lo âu, căng thẳng"],
+    ["2", "3", "4", "5"],
+    ["2", "3", "4", "5"],
+    ["2", "3", "1", "4"],
+    ["2", "3", "1", "4"],
+    ["2", "3", "1", "4"],
     ["Có nhịp tim nhanh nên bị cao huyết áp.", "Vì khả năng hấp thụ chất dinh dưỡng kém dễ gây thiếu máu nên thường bị cao huyết áp.", "Tạo ra sức cản của thành mạch đối với tốc độ dòng chảy của máu cao.", "Có lực co bóp của tim mạnh nên bị cao huyết áp."],
-    ["Tập thể dục, thể thao điều độ.", "Ăn các loại thức ăn có nhiều chất béo, bột đường.", "Hạn chế ăn các loại thức ăn có nồng độ muối cao.", "Sử dụng dầu thực vật hoặc dầu cá, hạn chế ăn mỡ động vật."]
+    ["1", "2", "3", "4"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
