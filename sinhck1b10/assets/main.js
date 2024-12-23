@@ -36,7 +36,7 @@ const questions = [
     "Cho các thông tin. <br> 1. Suy tim, hẹp động mạch vành, thiếu máu cơ tim, nhồi máu cơ tim. <br> 2. xuất huyết não, nhũn não, cơn thiếu máu não <br> 3. Suy thận <br> 4. Giảm cân <br> Số phương án đúng về hậu quả của bệnh tăng huyết áp:",
     "Tăng huyết áp là do <br> 1. tuổi cao,di truyền <br> 2. béo phì, ít vận động <br> 3. thói quen ăn mặn <br> 4. Rối loạn tim mạch do lo âu, căng thẳng <br> Số phương án đúng:",
     "Tại sao người mắc bệnh xơ vữa thành mạch lại thường bị cao huyết áp?",
-    "Có bao nhiêu hành động sau đây mà người bị cao huyết áp nên thực hiện? <br> I. Tập thể dục, thể thao điều độ. <br> II. Ăn các loại thức ăn có nhiều chất béo, bột đường. <br> III. Hạn chế ăn các loại thức ăn có nồng độ muối cao. <br> IV. Sử dụng dầu thực vật hoặc dầu cá, hạn chế ăn mỡ động vật."
+    "Có bao nhiêu hành động sau đây mà người bị cao huyết áp nên thực hiện? <br> I. Tập thể dục, thể thao điều độ. <br> II. Ăn các loại thức ăn có nhiều chất béo, bột đường. <br> III. Hạn chế ăn các loại thức ăn có nồng độ muối cao. <br> IV. Sử dụng dầu thực vật hoặc dầu cá, hạn chế ăn mỡ động vật.",
 ];
 
 const answers = [

@@ -41,7 +41,7 @@ const answers = [
     ["Ở ruột già có tiêu hóa cơ học và hóa học.", "Ở dạ dày có tiêu hóa cơ học và hóa học.", "Ở miệng có tiêu hóa cơ học và hóa học.", "Ở ruột non có tiêu hóa cơ học và hóa học."],
     ["Tiêu hóa nội bào → tiêu hóa ngoại bào → tiêu hóa nội bào kết hợp với ngoại bào.", "Tiêu hóa ngoại bào → tiêu hóa nội bào kết hợp với ngoại bào → tiêu hóa nội bào.", "Tiêu hóa nội bào → tiêu hóa nội bào kết hợp với ngoại bào → tiêu hóa ngoại bào.", "Tiêu hóa nội bào kết hợp với ngoại bào → tiêu hóa nội bào → tiêu hóa ngoại bào."],
     ["I, II, IV.", "I, III, IV.", "II, III, IV.", "I, II, III."],
-    ["1.", "2.", "3.", "4."]
+    ["1.", "2.", "3.", "4."],
 ];
 
 

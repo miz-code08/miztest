@@ -18,7 +18,7 @@ const questions = [
     "Vai trò của phổi trong điều hòa cân bằng nội môi là",
     "Khi nói về cơ chế điều hòa cân bằng nội môi, có bao nhiêu phát biểu sau đây là đúng? <br> I. Hệ hô hấp giúp duy trì pH bằng cách thải CO2 ra môi trường. <br> II. Gan duy trì cân bằng nội môi thông qua điều hoà nồng độ nhiều chất tan như protein, glucose,…. <br> III. Hệ tiết niệu tham gia điều hòa pH máu thông qua điều hoà áp suất thẩm thấu, điều chỉnh tiết H+ và tái hấp thu HCO3-. <br> IV. Trong cơ thể, chỉ có gan, thận và phổi tham gia điều hoà cân bằng nội môi.",
     "Có bao nhiêu biện pháp sau đây bảo vệ thận của con người? <br> (I) Chế độ ăn uống hợp lí. <br> (II) Uống đủ nước. <br> (III) Không uống nhiều rượu bia. <br> (IV) Không sử dụng quá nhiều loại thuốc.",
-    "Khi nói về cơ chế duy trì cân bằng nội môi, trật tự nào sau đây đúng?"
+    "Khi nói về cơ chế duy trì cân bằng nội môi, trật tự nào sau đây đúng?",
 ];
 
 const answers = [
@@ -41,7 +41,7 @@ const answers = [
     ["điều hòa nồng độ của nhiều chất hòa tan như protein, glucose,… trong huyết tương.", "điều hòa cân bằng muối và nước, qua đó duy trì áp suất thẩm thấu của dịch cơ thể.", "duy trì pH máu qua điều chỉnh tiết H+ vào dịch lọc và tái hấp thụ HCO3- từ dịch lọc trả về máu.", "duy trì pH máu qua điều chỉnh lượng O2 và CO2 trong máu."],
     ["1", "2", "3", "4"],
     ["2", "3", "4", "1"],
-    ["Bộ phận tiếp nhận kích thích → bộ phận điều khiển → bộ phận thực hiện → bộ phận tiếp nhận kích thích.", "Bộ phận điều khiển → bộ phận tiếp nhận kích thích → bộ phận thực hiện → bộ phận tiếp nhận kích thích.", "Bộ phận tiếp nhận kích thích → bộ phận thực hiện → bộ phận điều khiển → bộ phận tiếp nhận kích thích.", "Bộ phận thực hiện → bộ phận tiếp nhận kích thích → bộ phận điều khiển → bộ phận tiếp nhận kích thích."]
+    ["Bộ phận tiếp nhận kích thích → bộ phận điều khiển → bộ phận thực hiện → bộ phận tiếp nhận kích thích.", "Bộ phận điều khiển → bộ phận tiếp nhận kích thích → bộ phận thực hiện → bộ phận tiếp nhận kích thích.", "Bộ phận tiếp nhận kích thích → bộ phận thực hiện → bộ phận điều khiển → bộ phận tiếp nhận kích thích.", "Bộ phận thực hiện → bộ phận tiếp nhận kích thích → bộ phận điều khiển → bộ phận tiếp nhận kích thích."],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi

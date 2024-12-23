@@ -14,7 +14,7 @@ const questions = [
     "Bệnh ung thư là",
     "Bệnh ung thư, tự miễn và AIDS là do chức năng",
     "Di căn là quá trình tế bào u ác tính có thể",
-    "Người bị nhiễm HIV/AIDS thường dễ mắc bệnh lao vì"
+    "Người bị nhiễm HIV/AIDS thường dễ mắc bệnh lao vì",
 ];
 
 const answers = [
@@ -33,7 +33,7 @@ const answers = [
     ["một nhóm tế bào trở nên bất thường và phân chia liên tục, không kiểm soát được dẫn đến tạo thành khối u, gọi là u ác tính.", "một nhóm tế bào trở nên bất thường và phân chia liên tục, không kiểm soát được dẫn đến tạo thành khối u, gọi là u lành tính.", "một tế bào trở nên bất thường và phân chia liên tục, không kiểm soát được dẫn đến tạo thành khối u, gọi là u ác tính.", "một hệ cơ quan trở nên bất thường và phân chia liên tục, không kiểm soát được dẫn đến tạo thành khối u, gọi là u ác tính."],
     ["miễn dịch không đặc hiệu bị phá vỡ.", "hệ miễn dịch bị phá vỡ.", "tế bào T bị ức chế.", "tế bào B bị phân chia liên tục."],
     ["tách ra khỏi khối u theo hệ thần kinh đến các vị trí khác trong cơ thể và hình thành khối u lành tính mới.", "tách ra khỏi khối u theo đường máu hoặc bạch huyết đến các vị trí khác trong cơ thể và hình thành khối u ác tính mới.", "tách ra khỏi khối u và tiêu diệt các mầm bệnh khác của cơ thể.", "di chuyển đến vị trí khác của cơ thể và làm tăng khả năng miễn dịch của cơ quan tại vị trí mà chúng di chuyển tới."],
-    ["cơ thể những người này suy giảm khả năng sản xuất kháng nguyên chống lại vi khuẩn lao.", "các tế bào thực bào ở những người này giảm khả năng bắt giữ vi khuẩn lao.", "tế bào bạch cầu bị tiêu diệt, làm suy yếu dần khả năng đáp ứng miễn dịch không đặc hiệu, làm khả năng chống mầm bệnh suy giảm.", "tế bào T hỗ trợ bị tiêu diệt, làm suy yếu dần khả năng đáp ứng miễn dịch dịch thể và đáp ứng miễn dịch tế bào, làm khả năng chống mầm bệnh suy giảm."]
+    ["cơ thể những người này suy giảm khả năng sản xuất kháng nguyên chống lại vi khuẩn lao.", "các tế bào thực bào ở những người này giảm khả năng bắt giữ vi khuẩn lao.", "tế bào bạch cầu bị tiêu diệt, làm suy yếu dần khả năng đáp ứng miễn dịch không đặc hiệu, làm khả năng chống mầm bệnh suy giảm.", "tế bào T hỗ trợ bị tiêu diệt, làm suy yếu dần khả năng đáp ứng miễn dịch dịch thể và đáp ứng miễn dịch tế bào, làm khả năng chống mầm bệnh suy giảm."],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
