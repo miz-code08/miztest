@@ -25,7 +25,7 @@ const questions = [
     "Trần Quốc Tuấn đã tổng kết nguyên nhân thắng lợi của cuộc kháng chiến chống quân Mông - Nguyên như sau: “vì vua tôi đồng tâm, anh em hòa mục, cả nước nhà góp sức, giặc phải bị bắt”. Nguyên nhân thắng lợi mà Trần Quốc Tuấn nhắc đến ở đây là",
     "Những cuộc kháng chiến nào của nhân dân ta đã ghi dấu chiến công lừng lẫy trên sông Bạch Đằng?",
     "Nội dung nào sau đây phản ánh đúng ý nghĩa của chiến thắng Bạch Đằng năm 938?",
-    "“Cuộc bại trận năm Giáp Thìn” của quân Xiêm là",
+    "“Người Xiêm từ sau cuộc bại trận năm Giáp Thìn (năm 1785), miệng tuy nói khoác mà lòng thì sợ Tây Sơn như sợ cọp” <br>  (Quốc sử quán triều Nguyễn, Đại Nam thực lục, tập 1, NXB Giáo dục, Hà Nội, 2002, trang 227, 228) <br> “Cuộc bại trận năm Giáp Thìn” của quân Xiêm là",
     "Cuộc kháng chiến nào sau đây của nhân dân ta chống lại kẻ thù xâm lược đến từ phương Tây?",
     "Năm 1075 - 1077 diễn ra cuộc khởi nghĩa nào sau đây?",
     "Chiến tranh bảo vệ Tổ quốc của ta là cuộc chiến tranh chính nghĩa. Tính chất chính nghĩa của cuộc chiến tranh được thể hiện chủ yếu thông qua",
@@ -38,8 +38,18 @@ const questions = [
     "Bài thơ thần “Nam Quốc Sơn Hà” được ra đời trong bối cảnh của cuộc kháng chiến nào sau đây?",
     "“Đánh cho để dài tóc. Đánh cho để đen răng. Đánh cho nó chích luân bất phản. Đánh cho nó phiến giáp bất hoàn. Đánh cho sử tri Nam quốc anh hùng chi hữu chủ” là lời hịch trong cuộc kháng chiến nào sau đây?",
     // bài 8
-
-
+    "Thời kỳ Bắc thuộc ở Việt Nam bắt đầu sau thất bại của",
+    "Các cuộc khởi nghĩa trong thời kỳ Bắc thuộc của nhân dân Việt Nam diễn ra trong bối cảnh nào?",
+    "Cuộc khởi nghĩa nào sau đây đã mở đầu thời kì đấu tranh chống Bắc thuộc của nhân dân Việt Nam?",
+    "Trong thời kì đấu tranh chống Bắc thuộc, cuộc khởi nghĩa nào của nhân dân Việt Nam đã giành được thắng lợi và lập ra nhà nước Vạn Xuân?",
+    "Chức quan mà nhà Hán đặt ra để cai trị nhân dân ta là",
+    "Viên tướng chỉ huy quân Hán đàn áp cuộc khởi nghĩa của Hai Bà Trưng là",
+    "Cuộc khởi nghĩa Bà Triệu (năm 248) nhằm lật đổ ách thống trị của triều đại nào?",
+    "Nước Vạn Xuân được thành lập (năm 544) là kết quả của cuộc khởi nghĩa nào?",
+    "Chức quan mà nhà Hán đặt ra để cai trị nhân dân ta là",
+    "Viên tướng chỉ huy quân Hán đàn áp cuộc khởi nghĩa của Hai Bà Trưng là",
+    "Cuộc khởi nghĩa Bà Triệu (năm 248) nhằm lật đổ ách thống trị của triều đại nào?",
+    "Nước Vạn Xuân được thành lập (năm 544) là kết quả của cuộc khởi nghĩa nào?",
 ];
 
 const answers = [
@@ -82,6 +92,18 @@ const answers = [
     ["Kháng chiến chống quân Minh thời Hồ.", "Kháng chiến chống Nam Hán thời Ngô.", "Kháng chiến chống quân Tống thời Lý.", "Kháng chiến chống Thanh thời Tây Sơn."],
     ["Kháng chiến chống Nguyên thời Trần.", "Kháng chiến chống Pháp thời Nguyễn.", "Kháng chiến chống Thanh thời Tây Sơn.", "Kháng chiến chống quân Tống thời Lý."],
     // bài 8
+    ["An Dương Vương (179 TCN)", "khởi nghĩa Hai Bà Trưng (43)", "khởi nghĩa Bà Triệu (248)", "khởi nghĩa Lý Nam Đế (542)"],
+    ["Đất nước có độc lập, chủ quyền", "Đất nước mất độc lập, tự chủ", "Đất nước thống nhất, chủ quyền", "Nhân dân Việt Nam đã bị đồng hóa"],
+    ["Hai Bà Trưng", "Bà Triệu", "Khúc Thừa Dụ", "Phùng Hưng"],
+    ["Hai Bà Trưng", "Bà Triệu", "Lý Bí", "Phùng Hưng"],
+    ["Thái thú", "Tổng đốc", "Tư đồ", "Giám quan"],
+    ["Mã Viện", "Triệu Tiết", "Quách Quỳ", "Lý Tín"],
+    ["Ngô", "Minh", "Tống", "Thanh"],
+    ["Lý Bí", "Ngô Quyền", "Phùng Hưng", "Quang Trung"],
+    ["Thái thú", "Tổng đốc", "Tư đồ", "Giám quan"],
+    ["Mã Viện", "Triệu Tiết", "Quách Quỳ", "Lý Tín"],
+    ["Ngô", "Minh", "Tống", "Thanh"],
+    ["Lý Bí", "Ngô Quyền", "Phùng Hưng", "Quang Trung"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -97,7 +119,9 @@ const correctAnswers = [
     1, 3, 2, 2, 2,
     2, 
     // bài 8
-
+    0, 1, 0, 2, 0,
+    0, 0, 0, 0, 0,
+    0, 0, 
 ];
 
 function shuffleOptions() {
