@@ -1,11 +1,44 @@
 const questions = [
     // bài 6
-    "Sau khi giành độc lập, những năm 50 – 60 các nước Đông Nam Á thực hiện chiến lược nào để phát triển kinh tế?",
-    "Sau khi giành độc lập, những năm 60 – 70 các nước Đông Nam Á thực hiện chiến lược nào để phát triển kinh tế?",
+    "Sau khi giành độc lập, những năm 50 - 60 các nước Đông Nam Á thực hiện chiến lược nào để phát triển kinh tế?",
+    "Sau khi giành độc lập, những năm 60 - 70 các nước Đông Nam Á thực hiện chiến lược nào để phát triển kinh tế?",
     "Nhóm 5 nước sáng lập ASEAN là",
     "Quốc gia nào sau đây là con rồng kinh tế châu Á?",
-    "Sau khi giành được độc lập, đâu là nguyên nhân chủ yếu giúp cho các nước Đông Nam Á thành công trong công cuộc tái thiết đất nước?"
+    "Sau khi giành được độc lập, đâu là nguyên nhân chủ yếu giúp cho các nước Đông Nam Á thành công trong công cuộc tái thiết đất nước?",
     // bài 7
+    "Chiến tranh bảo vệ Tổ quốc có vai trò quan trọng",
+    "Một trong những cuộc kháng chiến thắng lợi tiêu biểu của dân tộc Việt Nam trước Cách mạng tháng Tám năm 1945 là",
+    "Trận quyết chiến chiến lược trong cuộc kháng chiến chống quân xâm lược Nam Hán năm 938 diễn ra tại",
+    "Trận quyết chiến chiến lược trong cuộc kháng chiến chống quân xâm lược Tống thời Lý diễn ra tại",
+    "Trận quyết chiến chiến lược trong cuộc kháng chiến chống quân xâm lược Thanh năm 1789 diễn ra tại",
+    "Năm 938 diễn ra cuộc khởi nghĩa nào sau đây?",
+    "Lãnh đạo cuộc kháng chiến chống quân xâm lược Xiêm và Thanh cuối thế kỉ XVIII là",
+    "Dòng sông nào sau đây ba lần ghi danh quân dân Việt Nam chiến thắng quân xâm lược?",
+    "Một trong những cuộc kháng chiến không thành công của dân tộc Việt Nam trước cách mạng tháng Tám năm 1945 là",
+    "Năm 981 diễn ra cuộc khởi nghĩa nào sau đây?",
+    "Nội dung nào sau đây lý giải không đúng về nhận định: “Với vị trí địa chiến lược quan trọng, trong nhiều thế kỉ, Việt Nam là quốc gia thường xuyên trở thành đối tượng nhòm nhó, can thiệp và xâm lược của các thế lực bên ngoài”?",
+    "Năm 1258, trong cuộc kháng chiến chống quân Mông Cổ xâm lược, quân dân nhà Trần đã giành thắng lợi vang dội tại",
+    "Năm 1285, trong cuộc kháng chiến chống quân Nguyên xâm lược, quân dân nhà Trần đã tổ chức phản công và giành thắng lợi ở",
+    "Đoạn thông tin trên nhắc đến ý nghĩa lịch sử của cuộc kháng chiến nào sau đây?",
+    "Nội dung nào sau đây là nguyên nhân chủ quan dẫn đến thắng lợi của các cuộc kháng chiến bảo vệ Tổ quốc của nhân dân Việt Nam trước cách mạng Tháng Tám 1945?",
+    "Những câu thơ sau của thượng tướng Trần Quang Khải gợi đến cuộc kháng chiến nào sau đây?",
+    "Trần Quốc Tuấn đã tổng kết nguyên nhân thắng lợi của cuộc kháng chiến chống quân Mông - Nguyên như sau: “vì vua tôi đồng tâm, anh em hòa mục, cả nước nhà góp sức, giặc phải bị bắt”. Nguyên nhân thắng lợi mà Trần Quốc Tuấn nhắc đến ở đây là",
+    "Những cuộc kháng chiến nào của nhân dân ta đã ghi dấu chiến công lừng lẫy trên sông Bạch Đằng?",
+    "Nội dung nào sau đây phản ánh đúng ý nghĩa của chiến thắng Bạch Đằng năm 938?",
+    "“Cuộc bại trận năm Giáp Thìn” của quân Xiêm là",
+    "Cuộc kháng chiến nào sau đây của nhân dân ta chống lại kẻ thù xâm lược đến từ phương Tây?",
+    "Năm 1075 - 1077 diễn ra cuộc khởi nghĩa nào sau đây?",
+    "Chiến tranh bảo vệ Tổ quốc của ta là cuộc chiến tranh chính nghĩa. Tính chất chính nghĩa của cuộc chiến tranh được thể hiện chủ yếu thông qua",
+    "Cuộc kháng chiến nào sau đây đã mở đầu truyền thống kết thúc chiến tranh một cách mềm dẻo để giữ vững hoà hiếu với nước ngoài của dân tộc ta?",
+    "Một trong những nghệ thuật quân sự tiêu biểu của cuộc kháng chiến chống Tống thời Lý (1075 - 1077) là",
+    "Một trong những nghệ thuật quân sự tiêu biểu của cuộc kháng chiến chống quân Thanh (1789) là",
+    "Một trong những nghệ thuật quân sự tiêu biểu của cuộc kháng chiến chống quân Nam Hán (938) là",
+    "Nội dung nào sau đây phản ánh không đúng nguyên nhân thắng lợi của cuộc kháng chiến chống quân Mông - Nguyên xâm lược dưới thời Trần?",
+    "Dòng sông nào đã ghi dấu ấn lịch sử trong các cuộc kháng chiến chống Nam Hán, chống Tống và chống Mông - Nguyên trong lịch sử Việt Nam?",
+    "Bài thơ thần “Nam Quốc Sơn Hà” được ra đời trong bối cảnh của cuộc kháng chiến nào sau đây?",
+    "“Đánh cho để dài tóc. Đánh cho để đen răng. Đánh cho nó chích luân bất phản. Đánh cho nó phiến giáp bất hoàn. Đánh cho sử tri Nam quốc anh hùng chi hữu chủ” là lời hịch trong cuộc kháng chiến nào sau đây?",
+    // bài 8
+
 
 ];
 
@@ -15,9 +48,40 @@ const answers = [
     ["Kinh tế hướng nội", "Kinh tế hướng ngoại", "Kinh tế bao cấp", "Kinh tế tập trung"],
     ["In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po và Thái Lan", "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Việt Nam và Thái Lan", "In-đô-nê-xi-a, Cam-pu-chia, Phi-líp-pin, Xin-ga-po và Thái Lan", "In-đô-nê-xi-a, Ma-lai-xi-a, Mi-an-ma, Xin-ga-po và Thái Lan"],
     ["Xin-ga-po", "Thái Lan", "In-đô-nê-xi-a", "Ma-lai-xi-a"],
-    ["Tinh thần tự lực, tự cường", "Sự viện trợ của đồng minh", "Tính ưu việt của chế độ", "Sự hợp tác trong ASEAN"]
+    ["Tinh thần tự lực, tự cường", "Sự viện trợ của đồng minh", "Tính ưu việt của chế độ", "Sự hợp tác trong ASEAN"],
     // bài 7
-
+    ["trong việc hình thành và nâng cao lòng tự hào dân tộc.", "trong việc hình thành và phát triển truyền thống yêu nước.", "đối với sự sinh tồn và phát triển của quốc gia, dân tộc", "khơi dậy và củng cố tinh thần đoàn kết, lòng tự hào dân tộc."],
+    ["kháng chiến chống quân Nam Hán thế kỉ X", "kháng chiến chống quân Triệu thế kỉ II TCN", "kháng chiến chống quân Minh thế kỉ XV", "kháng chiến chống thực dân Pháp thế kỉ XIX"],
+    ["sông Bạch Đằng.", "sông Như Nguyệt.", "bến Đông Bộ Đầu.", "cửa ải Hàm Tử"],
+    ["sông Bạch Đằng.", "sông Như Nguyệt.", "đồn Ngọc Hồi - Đống Đa.", "bến Đông Bộ Đầu."],
+    ["sông Bạch Đằng.", "sông Như Nguyệt.", "đồn Ngọc Hồi - Đống Đa.", "cửa ải Chi Lăng"],
+    ["Kháng chiến chống quân Thanh", "Kháng chiến chống quân Nguyên", "Kháng chiến chống quân Xiêm", "Kháng chiến chống quân Nam Hán"],
+    ["Ngô Quyền.", "Trần Hưng Đạo.", "Lê Lợi.", "Nguyễn Huệ - Quang Trung."],
+    ["Sông Đà", "Sông Bạch Đằng", "Sông Hồng", "Sông Mê - công"],
+    ["kháng chiến chống quân Thanh thế kỉ XVIII", "kháng chiến chống quân Tống thế kỉ XI", "kháng chiến chống thực dân Pháp thế kỉ XIX", "kháng chiến chống quân Nam Hán thế kỉ X"],
+    ["Kháng chiến chống quân Thanh", "Kháng chiến chống quân Nguyên", "Kháng chiến chống quân Xiêm", "Kháng chiến chống quân Tống lần thứ nhất"],
+    ["Nằm trên tuyến đường giao thông, giao thương lâu đời và quan trọng giữa các nước lớn", "Là trung tâm kinh tế - tài chính duy nhất của thế giới, nhiều nước lớn muốn giao thương", "Là địa bàn tiền tiêu của Đông Nam Á từ phía bắc, cửa ngõ tiến vào bán đảo Trung Ấn", "Liền kề Trung Quốc, án ngữ biển Đông, là cầu nối giữa Đông Nam Á lục địa với hải đảo"],
+    ["Đông Bộ Đầu.", "sông Bạch Đằng.", "Chi Lăng - Xương Giang.", "sông Như Nguyệt."],
+    ["cửa Hàm Tử", "sông Như Nguyệt.", "ải Chi Lăng.", "sông Bạch Đằng"],
+    ["Kháng chiến chống quân Thanh 1789", "Kháng chiến chống quân Nguyên 1258", "Kháng chiến chống quân Xiêm 1785", "Kháng chiến chống quân Nam Hán 938"],
+    ["Mục đích kháng chiến của ta là chính nghĩa.", "Kẻ thù gặp khó khăn trong quá trình xâm lược", "Lực lượng quân sự của ta lớn mạnh hơn kẻ thù.", "Ta nhận được ủng hộ, giúp đỡ to lớn từ bên ngoài."],
+    ["Kháng chiến chống quân Nguyên 1258", "Kháng chiến chống quân Nguyên 1285", "Kháng chiến chống quân Nguyên 1287 - 1288", "Kháng chiến chống quân Tống 1075 - 1077"],
+    ["Lòng yêu nước và tinh thần đoàn kết của dân tộc", "Sự chỉ huy tài tình của các tướng lĩnh", "Những khó khăn của kẻ thù trong quá trình xâm lược", "Các cuộc kháng chiến của ta đều chính nghĩa"],
+    ["Kháng chiến chống quân Nam Hán (938), kháng chiến chống quân Tống (981), kháng chiến chống quân Mông - Nguyên (1287 - 1288)", "Kháng chiến chống quân Nam Hán (938), kháng chiến chống quân Tống (981), kháng chiến chống quân Xiêm (1785)", "Kháng chiến chống quân Nam Hán (938), kháng chiến chống quân Xiêm (1785), kháng chiến chống quân Thanh (1789)", "Kháng chiến chống quân Nam Hán (938), kháng chiến chống quân Nguyên (1285), kháng chiến chống quân Thanh (1789)"],
+    ["Lật đổ ách đô hộ của nhà Đường, mở ra thời đại độc lập, tự chủ của dân tộc.", "Đánh bại hoàn toàn tham vọng bành trướng của các triều đại phong kiến phương Bắc.", "Đánh bại hoàn toàn tham vọng bành trướng và ý chí xâm lược của quân Nam Hán.", "Mở đầu thời kì đấu tranh chống ách đô hộ của nhân dân ta thời Bắc thuộc."],
+    ["Chi Lăng - Xương Giang", "Ngọc Hồi - Đống Đa", "Rạch Gầm - Xoài Mút", "Chương Dương, Hàm Tử"],
+    ["kháng chiến chống quân Mông Cổ", "kháng chiến chống thực dân Pháp", "kháng chiến chống quân Thanh", "kháng chiến chống quân Tống"],
+    ["Kháng chiến chống quân Thanh", "Kháng chiến chống quân Nguyên", "Kháng chiến chống quân Xiêm", "Kháng chiến chống quân Tống lần thứ 2"],
+    ["hình thức chiến tranh.", "lực lượng tham gia.", "mục đích chiến tranh.", "thành phần lãnh đạo"],
+    ["Kháng chiến chống Nam Hán thế kỉ X", "Kháng chiến chống Tống thế kỉ XI.", "Kháng chiến chống Mông - Nguyênthế kỉ XIII.", "Kháng chiến chống Xiêm thế kỉ XVIII"],
+    ["vườn không nhà trống", "Chớp thời cơ", "Đóng cọc trên sông, lợi dụng thủy triều", "Tiên phát chế nhân"],
+    ["vườn không nhà trống", "Chớp thời cơ", "Đóng cọc trên sông, lợi dụng thủy triều", "Tiên phát chế nhân"],
+    ["Tiên phát chế nhân.", "Hành quân thần tốc.", "Vườn không nhà trống.", "Lợi dụng thủy triều."],
+    ["Vua tôi nhà Trần có chính sách tích cực đúng đắn, sáng tạo.", "Nhân dân Đại Việt có tinh thần yêu nước và bền bỉ đấu tranh.", "Quân giặc yếu, chủ quan, không có người lãnh đạo tài giỏi.", "Tinh thần đoàn kết và ý chí quyết chiến của quân dân nhà Trần"],
+    ["Sông Lục Nam.", "Sông Cửu Long.", "Sông Bạch Đằng.", "Sông Vàm Cỏ."],
+    ["Kháng chiến chống quân Minh thời Hồ.", "Kháng chiến chống Nam Hán thời Ngô.", "Kháng chiến chống quân Tống thời Lý.", "Kháng chiến chống Thanh thời Tây Sơn."],
+    ["Kháng chiến chống Nguyên thời Trần.", "Kháng chiến chống Pháp thời Nguyễn.", "Kháng chiến chống Thanh thời Tây Sơn.", "Kháng chiến chống quân Tống thời Lý."],
+    // bài 8
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -25,7 +89,15 @@ const correctAnswers = [
     // bài 6
     0, 1, 0, 0, 0,
     // bài 7
-    
+    2, 0, 0, 1, 2,
+    3, 3, 1, 2, 3,
+    1, 0, 0, 3, 0,
+    1, 0, 0, 2, 2,
+    1, 3, 2, 1, 3,
+    1, 3, 2, 2, 2,
+    2, 
+    // bài 8
+
 ];
 
 function shuffleOptions() {
