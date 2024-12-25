@@ -46,10 +46,6 @@ const questions = [
     "Viên tướng chỉ huy quân Hán đàn áp cuộc khởi nghĩa của Hai Bà Trưng là",
     "Cuộc khởi nghĩa Bà Triệu (năm 248) nhằm lật đổ ách thống trị của triều đại nào?",
     "Nước Vạn Xuân được thành lập (năm 544) là kết quả của cuộc khởi nghĩa nào?",
-    "Chức quan mà nhà Hán đặt ra để cai trị nhân dân ta là",
-    "Viên tướng chỉ huy quân Hán đàn áp cuộc khởi nghĩa của Hai Bà Trưng là",
-    "Cuộc khởi nghĩa Bà Triệu (năm 248) nhằm lật đổ ách thống trị của triều đại nào?",
-    "Nước Vạn Xuân được thành lập (năm 544) là kết quả của cuộc khởi nghĩa nào?",
 ];
 
 const answers = [
@@ -100,10 +96,6 @@ const answers = [
     ["Mã Viện", "Triệu Tiết", "Quách Quỳ", "Lý Tín"],
     ["Ngô", "Minh", "Tống", "Thanh"],
     ["Lý Bí", "Ngô Quyền", "Phùng Hưng", "Quang Trung"],
-    ["Thái thú", "Tổng đốc", "Tư đồ", "Giám quan"],
-    ["Mã Viện", "Triệu Tiết", "Quách Quỳ", "Lý Tín"],
-    ["Ngô", "Minh", "Tống", "Thanh"],
-    ["Lý Bí", "Ngô Quyền", "Phùng Hưng", "Quang Trung"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -120,8 +112,7 @@ const correctAnswers = [
     2, 
     // bài 8
     0, 1, 0, 2, 0,
-    0, 0, 0, 0, 0,
-    0, 0, 
+    0, 0, 0, 
 ];
 
 function shuffleOptions() {
