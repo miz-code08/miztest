@@ -19,9 +19,9 @@ const questions = [
     "Nội dung nào sau đây lý giải không đúng về nhận định: “Với vị trí địa chiến lược quan trọng, trong nhiều thế kỉ, Việt Nam là quốc gia thường xuyên trở thành đối tượng nhòm nhó, can thiệp và xâm lược của các thế lực bên ngoài”?",
     "Năm 1258, trong cuộc kháng chiến chống quân Mông Cổ xâm lược, quân dân nhà Trần đã giành thắng lợi vang dội tại",
     "Năm 1285, trong cuộc kháng chiến chống quân Nguyên xâm lược, quân dân nhà Trần đã tổ chức phản công và giành thắng lợi ở",
-    "Đoạn thông tin trên nhắc đến ý nghĩa lịch sử của cuộc kháng chiến nào sau đây?",
+    "“Tiền Ngô vương có thể lấy quân mới họp của nước Việt ta mà đánh tan được trăm vạn quân của Lưu Hoằng Tháo, mở nước xưng vương, làm cho người phương Bắc không dám lại sang nữa. Có thể nói là một lần nổi giận mà yên được dân, mưu giỏi mà đánh cũng giỏi vậy. Tuy chỉ xưng vương, chưa lên ngôi đế, đổi niên hiệu nhưng chính thống của nước Việt ta, ngõ hầu đã nối lại được” <br> (Ngô Sĩ Liên, Đại Việt sử kí toàn thư, tập 1. NXB Khoa học xã hội, Hà Nội, 1998, tr. 204, 205) <br> Đoạn thông tin trên nhắc đến ý nghĩa lịch sử của cuộc kháng chiến nào sau đây?",
     "Nội dung nào sau đây là nguyên nhân chủ quan dẫn đến thắng lợi của các cuộc kháng chiến bảo vệ Tổ quốc của nhân dân Việt Nam trước cách mạng Tháng Tám 1945?",
-    "Những câu thơ sau của thượng tướng Trần Quang Khải gợi đến cuộc kháng chiến nào sau đây?",
+    "Những câu thơ sau của thượng tướng Trần Quang Khải gợi đến cuộc kháng chiến nào sau đây? <br> Chương Dương cướp giáo giặc  <br> Hàm Tử bắt quân thù <br> Thái bình nên gắng sức <br> Non nước ấy ngàn thu <br>  (Hồi giá về kinh)",
     "Trần Quốc Tuấn đã tổng kết nguyên nhân thắng lợi của cuộc kháng chiến chống quân Mông - Nguyên như sau: “vì vua tôi đồng tâm, anh em hòa mục, cả nước nhà góp sức, giặc phải bị bắt”. Nguyên nhân thắng lợi mà Trần Quốc Tuấn nhắc đến ở đây là",
     "Những cuộc kháng chiến nào của nhân dân ta đã ghi dấu chiến công lừng lẫy trên sông Bạch Đằng?",
     "Nội dung nào sau đây phản ánh đúng ý nghĩa của chiến thắng Bạch Đằng năm 938?",
@@ -46,12 +46,22 @@ const questions = [
     "Viên tướng chỉ huy quân Hán đàn áp cuộc khởi nghĩa của Hai Bà Trưng là",
     "Cuộc khởi nghĩa Bà Triệu (năm 248) nhằm lật đổ ách thống trị của triều đại nào?",
     "Nước Vạn Xuân được thành lập (năm 544) là kết quả của cuộc khởi nghĩa nào?",
+    // tự thêm
+    "Từ giữa những năm 60 đến cuối những năm 80 của thế kỉ XX, nhóm 5 nước sáng lập ASEAN đã tiến hành chiến lược phát triển kinh tế nào sau đây?",
+    "Từ giữa những năm 50 đến giữa những năm 60 của thế kỉ XX, nhóm 5 nước sáng lập ASEAN tiến hành chiến lược công nghiệp hóa thay thế nhập khẩu với mục tiêu?",
+    "Nội dung nào sau đây là một trong những chính sách phát triển kinh tế của ba nước Việt Nam, Lào, Campuchia được thực hiện từ những năm 80 của thế kỉ XX?",
+    "Nội dung nào sau đây phản ánh không đúng hạn chế của chiến lược công nghiệp hóa thay thế nhập khẩu được tiến hành từ 5 nước sáng lập ASEAN?",
+    "Yếu tố chủ quan nào đóng vai trò quan trọng nhất trong việc dẫn đến thắng lợi của các cuộc kháng chiến bảo vệ Tổ quốc trong lịch sử Việt Nam?",
+    "Trong cuộc kháng chiến chống Tống (1075-1077), quân và dân nhà Lý đã sử dụng nghệ thuật quân sự nào sau đây?",
+    "Trong cuộc kháng chiến chống Tống (1075-1077), quân và dân nhà Lý đã sử dụng nghệ thuật quân sự nào sau đây?",
+    "Trong suốt quá trình lịch sử, dân tộc Việt Nam luôn phải đối phó với nhiều thế lực ngoại xâm vì lí do nào sau đây?",
+    "Trong suốt quá trình lịch sử, dân tộc Việt Nam luôn phải đối phó với nhiều thế lực ngoại xâm vì lí do nào sau đây?",
 ];
 
 const answers = [
     // bài 6
-    ["Kinh tế hướng nội", "Kinh tế hướng ngoại", "Kinh tế bao cấp", "Kinh tế tập trung"],
-    ["Kinh tế hướng nội", "Kinh tế hướng ngoại", "Kinh tế bao cấp", "Kinh tế tập trung"],
+    ["Công nghiệp hóa thay thế xuất khẩu", "Công nghiệp hóa hướng tới xuất khẩu", "Công nghiệp hóa, điện khí hoá toàn quốc", "Quốc hữu hóa các doanh nghiệp nước ngoài"],
+    ["Công nghiệp hóa thay thế xuất khẩu", "Công nghiệp hóa hướng tới xuất khẩu", "Công nghiệp hóa, điện khí hoá toàn quốc", "Quốc hữu hóa các doanh nghiệp nước ngoài"],
     ["In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Xin-ga-po và Thái Lan", "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin, Việt Nam và Thái Lan", "In-đô-nê-xi-a, Cam-pu-chia, Phi-líp-pin, Xin-ga-po và Thái Lan", "In-đô-nê-xi-a, Ma-lai-xi-a, Mi-an-ma, Xin-ga-po và Thái Lan"],
     ["Xin-ga-po", "Thái Lan", "In-đô-nê-xi-a", "Ma-lai-xi-a"],
     ["Tinh thần tự lực, tự cường", "Sự viện trợ của đồng minh", "Tính ưu việt của chế độ", "Sự hợp tác trong ASEAN"],
@@ -96,6 +106,16 @@ const answers = [
     ["Mã Viện", "Triệu Tiết", "Quách Quỳ", "Lý Tín"],
     ["Ngô", "Minh", "Tống", "Thanh"],
     ["Lý Bí", "Ngô Quyền", "Phùng Hưng", "Quang Trung"],
+    // tự thêm
+    ["Công nghiệp hóa thay thế xuất khẩu.", "Công nghiệp hóa lấy xuất khẩu làm chủ đạo.", "Công nghiệp hóa, điện khí hóa toàn quốc.", "Quốc hữu hóa các doanh nghiệp nước ngoài."],
+    ["Đưa đất nước thoát khỏi tình trạng nghèo nàn, lạc hậu, xây dựng nền kinh tế tự chủ.", "Nhanh chóng phát triển các ngành công nghiệp nặng, hội nhập với thị trường thế giới.", "Mở cửa nền kinh tế, thu hút vốn đầu tư, kĩ thuật và công nghệ hiện đại của nước ngoài.", "Tập trung sản xuất hàng hóa để xuất khẩu, phát triển kinh tế đối ngoại, hội nhập thế giới."],
+    ["Lựa chọn con đường phát triển đất nước theo hướng xã hội chủ nghĩa.", "Tiến hành công nghiệp hóa, từng bước chuyển sang nền kinh tế thị trường.", "Đẩy mạnh xây dựng nền kinh tế kế hoạch hóa tập trung, quan liêu bao cấp.", "Cải cách đất nước một cách toàn diện, trong đó đổi mới chính trị là trọng tâm."],
+    ["Đời sống nhân dân gặp nhiều khó khăn.", "Chi phí sản xuất cao dẫn đến trình trạng thua lỗ.", "Phụ thuộc nhiều vào vốn và thị trường bên ngoài.", "Thiếu nguồn vốn, nguyên liệu và công nghệ sản xuất."],
+    ["Truyền thống yêu nước.", "Tinh thần đoàn kết.", "Các cuộc kháng chiến đều mang tính chính nghĩa.", "Sự lãnh đạo tài tình với đường lối và chiến thuật đúng đắn."],
+    ["Đánh nhanh thắng nhanh", "Chủ động kết thúc chiến tranh", "Vây thành, diệt viện", "Vườn không nhà trống"],
+    ["Đánh nhanh thắng nhanh", "Chủ động tiến công", "Vây thành, diệt viện", "Vườn không nhà trống"],
+    ["Là quốc gia có vị trí địa lí chiến lược quan trọng", "Được xem là cái nôi của văn minh nhân loại", "Là trung tâm văn hóa bậc nhất phương đông", "Là một quốc gia chưa có độc lập, chủ quyền"],
+    ["Có tài nguyên phong phú, dân cư đông đúc", "Được xem là cái nôi của văn minh nhân loại", "Là trung tâm văn hóa bậc nhất phương đông", "Là một quốc gia chưa có độc lập, chủ quyền"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -113,6 +133,9 @@ const correctAnswers = [
     // bài 8
     0, 1, 0, 2, 0,
     0, 0, 0, 
+    // tự thêm
+    1, 0, 1, 2, 3,
+    1, 1, 0, 0, 
 ];
 
 function shuffleOptions() {
