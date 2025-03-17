@@ -59,6 +59,14 @@ const questions = [
     "Quá trình nào sau đây là quá trình sinh trưởng của thực vật?",
     "Trong các yếu tố sau đây, có bao nhiêu yếu tố không ảnh hưởng đến tuổi thọ của sinh vật? <br> (1) Di truyền <br> (2) Chế độ ăn uống <br> (3) Lối sống <br> (4) Chất phóng xạ <br> (5) Khói độc, bụi. <br> (6) Chế độ làm việc.",
     "Khi nói về các yếu tố ảnh hưởng đến tuổi thọ của con người, phát biểu nào sau đây đúng? <br> (1) Tuổi thọ của người hoàn toàn do yếu tố di truyền quyết định và không thể thay đổi. <br> (2) Môi trường sống không ảnh hưởng đến tuổi thọ của người. <br> (3) Tuổi thọ của người chịu ảnh hưởng của các yếu tố di truyền và môi trường, xã hội. <br> (4) Tầm vóc, thể trạng không ảnh hưởng đến tuổi thọ của người. <br> (5) Việc giữ gìn và rèn luyện cơ thể khỏe mạnh có thể giúp con người tăng tuổi thọ.",
+    // bài 20
+    "Nhóm hormone ức chế là gì?",
+    "Đâu là hormone kích thích?",
+    "Cytokinin có tác dụng kích thích nguyên phân ở mô phân sinh và có tác dụng gì?",
+    "Vai trò chủ yếu của Abscisic acid (ABA) là gì?",
+    "Hoocmôn thực vật là những chất hữu cơ có hoạt tính sinh học cao do cơ thể thực vật tiết ra để làm gì?",
+    "Mô phân sinh là nhóm tế bào có đặc điểm gì?",
+    "Mô phân sinh đỉnh không có ở vị trí nào của cây?",
 ];
 
 const answers = [
@@ -122,6 +130,14 @@ const answers = [
     ["Cơ thể thực vật ra hoa.", "Cơ thể thực vật tạo hạt.", "Cơ thể thực vật tăng kích thước.", "Cơ thể thực vật rụng lá, hoa."],
     ["0.", "3.", "4.", "5."],
     ["Tuổi thọ của người hoàn toàn do yếu tố di truyền quyết định và không thể thay đổi.", "Môi trường sống không ảnh hưởng đến tuổi thọ của người.", "Tuổi thọ của người chịu ảnh hưởng của các yếu tố di truyền và môi trường, xã hội.", "Tầm vóc, thể trạng không ảnh hưởng đến tuổi thọ của người.", "Việc giữ gìn và rèn luyện cơ thể khỏe mạnh có thể giúp con người tăng tuổi thọ."],
+    //  bài 20
+    ["Abscisic acid, cytokinin.", "Abscisic acid, ethylene.", "Cytokinin, ethylene.", "Ethylene, gibberellin."],
+    ["Abscisic acid, cytokinin, gibberellin.", "Abscisic acid, ethylene.", "Auxin, ethylene, gibberellin.", "Auxin, cytokinin, gibberellin."],
+    ["Phát triển chồi bên, làm tăng sự hóa già của tế bào.", "Phát triển chồi bên, làm chậm sự già hóa của tế bào.", "Làm chậm sự phát triển của chồi bên và sự hóa già của tế bào.", "Làm chậm sự phát triển của chồi bên, làm chậm sự hóa già của tế bào."],
+    ["Cây, lóng, trạng thái ngủ của chồi, của hạt, làm khí khổng mở.", "Cành, lóng, làm mất trạng thái ngủ của chồi, của hạt, làm khí khổng đóng.", "Cành, lóng, gây trạng thái ngủ của chồi, của hạt, làm khí khổng đóng.", "Cành, lóng, làm mất trạng thái ngủ của chồi, của hạt, làm khí khổng mở."],
+    ["Tham gia điều tiết các hoạt động sống của cây.", "Chỉ có tác dụng ức chế hoạt động của cây.", "Có tác dụng kháng bệnh cho cây.", "Chỉ có tác dụng kích thích sinh trưởng của cây."],
+    ["Phân hóa, không có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Chưa phân hóa, có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Chưa phân hóa, không có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Phân hóa, có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật."],
+    ["Ở thân.", "Ở chồi nách.", "Ở đỉnh rễ.", "Ở chồi đỉnh."],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -142,6 +158,9 @@ const correctAnswers = [
     // bài 19
     1, 3, 0, 3, 1,
     3, 0, 2, 0, 0,
+    //  bài 20
+    1, 3, 1, 2, 0,
+    1, 0, 
 ];
 
 function shuffleOptions() {

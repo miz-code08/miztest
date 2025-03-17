@@ -1,21 +1,43 @@
 const questions = [
-    "Câu hỏi 1?",
-    "Câu hỏi 2?",
-    "Câu hỏi 3?",
-    "Câu hỏi 4?",
-    "Câu hỏi 5?",
+    // bài 17
+    "Khi nói về các biện pháp góp phần bảo vệ sức khỏe hệ thần kinh. Phát biểu sau đây là đúng hay sai?",
+    "Cho đặc điểm của hệ thần kinh dạng ống. Nhận định sau đây là đúng hay sai?",
+    "Khi nói về cơ chế cảm giác ở người. Phát biểu sau đây là đúng hay sai?",
+    "Khi nói về phản xạ có điều kiện. Theo lí thuyết, phát biểu nào dưới đây đúng hay sai?",
+    // bài 20
+    "Phát biểu sau đây đúng hay sai về đặc điểm sinh trưởng và phát triển ở thực vật?",
+    "Khi nói về đặc điểm sinh trưởng và phát triển ở thực vật, phát biểu dưới đây đúng hay sai?",
+    "Phát biểu sau đây về hormone ở thực vật đúng hay sai?",
+    "Khi nói về hormone auxin (IAA) ở thực vật, phát biểu sau đúng hay sai?",
+    "Phát biểu sau đúng hay sai về hormone Abscisic acid ở thực vật?",
 ];
 
 const answers = [
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
+    // bài 17
+    ["Đảm bảo giấc ngủ hàng ngày hợp lí (ngủ đúng giờ, ngủ đủ giấc).", "Có chế độ lao động và nghỉ ngơi hợp lí, tránh căng thẳng mệt mỏi kéo dài.", "Có chế độ ăn uống hợp lí, thường xuyên tập thể dục thể thao.", "Thường xuyên sử dụng chất kích thích, chất giảm đau... khi bị căng thẳng."],
+    ["Cùng với sự tiến hóa, số lượng tế bào thần kinh ngày càng ít đi nhưng kích thước lớn dần.", "Cùng với sự tiến hóa, sự liên kết và phối hợp các hoạt động của các tế bào thần kinh ngày càng phức tạp.", "Bán cầu đại não ngày càng phát triển và đóng vai trò quan trọng trong điều khiển các hoạt động sống của cơ thể.", "Đầu trước của ống phát triển mạnh thành tủy sống, phần sau hình thành não bộ."],
+    ["Nếu tế bào thụ cảm âm thanh ở ốc tai bị tổn thương thì thính lực sẽ giảm.", "Ánh sáng từ vật truyền tới mắt, đi qua giác mạc, thủy tinh thể và được hội tụ ở võng mạc.", "Tai biến mạch máu não có thể dẫn đến tê liệt một phần cơ thể hoặc toàn thân.", "Các chất như hêroin, cocain,... kích thích mạnh lên hệ thần kinh gây cảm giác dễ chịu, sảng khoái... nên được sử dụng làm thuốc giảm đau chủ yếu."],
+    ["Dừng xe trước vạch kẻ khi thấy đèn tín hiệu giao thông chuyển sang màu đỏ.", "Người run lập cập khi mặc không đủ ấm trong thời tiết lạnh giá.", "Thở nhanh khi không khí trong phòng không đủ oxi.", "Tìm cách tránh xa khi gặp con chó dại trên đường."],
+    // bài 20
+    ["Xảy ra tại một số vị trí, cơ quan trên cơ thể thực vật.", "Diễn ra trong một giai đoạn nhất định của đời sống của thực vật.", "Đây là hình thức sinh trưởng có giới hạn.", "Đây là hình thức sinh trưởng biểu hiện bằng sự gia tăng kích thước, sự xuất hiện và thay mới của các cơ quan như cành, lá, rễ, hoa, quả,..."],
+    ["Đây là hình thức sinh trưởng không giới hạn, sự sinh trưởng không giới hạn này có thể quan sát thấy rõ ở các cây thân gỗ lâu năm, với sự gia tăng chiều cao cây, đường kính thân,... trong suốt chu kì sống của nó.", "Hình thức sinh trưởng do sự phân chia liên tục của các tế bào tại các mô phân sinh.", "Sinh trưởng xảy ra nơi có các mô phân sinh.", "Muốn phát triển phải trải qua sinh trưởng."],
+    ["Hormone thực vật là các chất hữu cơ sản sinh ra ở đâu chỉ gây tác động sinh lý nơi đó.", "Hormone tham gia điều khiển các đáp ứng của thực vật với các kích thích đến từ môi trường.", "Có thể ức chế sự sinh trưởng, đẩy nhanh sự già hoá ở cây qua các phản ứng ngủ của hạt, rụng lá, rụng quả,...", "Có thể thúc đẩy quá trình sinh trưởng, phát triển ở thực vật như: sinh trưởng của chồi ngọn, nảy mầm của hạt, chín của quả,..."],
+    ["Tác động sinh lý làm tăng chiều dài của thân và lóng.", "Vận chuyển hướng gốc đến rễ theo mạch rây.", "Dùng để kích thích ra rễ ở cành giâm, cành chiết, tăng tỉ lệ thụ quả (cà chua), tạo quả không hạt.", "Nơi sinh ra: Các cơ quan đang sinh trưởng mạnh."],
+    ["Nơi sinh ra: Ở hầu hết các bộ phận của cây.", "Vận chuyển hướng ngọn theo mạch gỗ và hướng gốc theo mạch rây.", "Được sử dụng để kích thích hoá già thân, lá,...", "Được sử dụng để ức chế sinh trưởng của cành, lóng,..."],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
+    // bài 17
+    [0, 1, 2],
+    [1, 2],
+    [0, 1, 2],
+    [0, 3],
+    // bài 20
+    [0, 3], 
+    [0, 1, 2, 3], 
+    [1, 3], 
+    [1, 2, 3], 
     [0, 1, 2, 3], 
 ];
 

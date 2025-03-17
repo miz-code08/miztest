@@ -1,23 +1,27 @@
 const questions = [
-    "Khi nói về các biện pháp góp phần bảo vệ sức khỏe hệ thần kinh. Phát biểu sau đây là đúng hay sai?",
-    "Cho đặc điểm của hệ thần kinh dạng ống. Nhận định sau đây là đúng hay sai?",
-    "Khi nói về cơ chế cảm giác ở người. Phát biểu sau đây là đúng hay sai?",
-    "Khi nói về phản xạ có điều kiện. Theo lí thuyết, phát biểu nào dưới đây đúng hay sai?",
+    "Nhóm hormone ức chế là gì?",
+    "Đâu là hormone kích thích?",
+    "Cytokinin có tác dụng kích thích nguyên phân ở mô phân sinh và có tác dụng gì?",
+    "Vai trò chủ yếu của Abscisic acid (ABA) là gì?",
+    "Hoocmôn thực vật là những chất hữu cơ có hoạt tính sinh học cao do cơ thể thực vật tiết ra để làm gì?",
+    "Mô phân sinh là nhóm tế bào có đặc điểm gì?",
+    "Mô phân sinh đỉnh không có ở vị trí nào của cây?",
 ];
 
 const answers = [
-    ["Đảm bảo giấc ngủ hàng ngày hợp lí (ngủ đúng giờ, ngủ đủ giấc).", "Có chế độ lao động và nghỉ ngơi hợp lí, tránh căng thẳng mệt mỏi kéo dài.", "Có chế độ ăn uống hợp lí, thường xuyên tập thể dục thể thao.", "Thường xuyên sử dụng chất kích thích, chất giảm đau... khi bị căng thẳng."],
-    ["Cùng với sự tiến hóa, số lượng tế bào thần kinh ngày càng ít đi nhưng kích thước lớn dần.", "Cùng với sự tiến hóa, sự liên kết và phối hợp các hoạt động của các tế bào thần kinh ngày càng phức tạp.", "Bán cầu đại não ngày càng phát triển và đóng vai trò quan trọng trong điều khiển các hoạt động sống của cơ thể.", "Đầu trước của ống phát triển mạnh thành tủy sống, phần sau hình thành não bộ."],
-    ["Nếu tế bào thụ cảm âm thanh ở ốc tai bị tổn thương thì thính lực sẽ giảm.", "Ánh sáng từ vật truyền tới mắt, đi qua giác mạc, thủy tinh thể và được hội tụ ở võng mạc.", "Tai biến mạch máu não có thể dẫn đến tê liệt một phần cơ thể hoặc toàn thân.", "Các chất như hêroin, cocain,... kích thích mạnh lên hệ thần kinh gây cảm giác dễ chịu, sảng khoái... nên được sử dụng làm thuốc giảm đau chủ yếu."],
-    ["Dừng xe trước vạch kẻ khi thấy đèn tín hiệu giao thông chuyển sang màu đỏ.", "Người run lập cập khi mặc không đủ ấm trong thời tiết lạnh giá.", "Thở nhanh khi không khí trong phòng không đủ oxi.", "Tìm cách tránh xa khi gặp con chó dại trên đường."],
-];
+    ["Abscisic acid, cytokinin.", "Abscisic acid, ethylene.", "Cytokinin, ethylene.", "Ethylene, gibberellin."],
+    ["Abscisic acid, cytokinin, gibberellin.", "Abscisic acid, ethylene.", "Auxin, ethylene, gibberellin.", "Auxin, cytokinin, gibberellin."],
+    ["Phát triển chồi bên, làm tăng sự hóa già của tế bào.", "Phát triển chồi bên, làm chậm sự già hóa của tế bào.", "Làm chậm sự phát triển của chồi bên và sự hóa già của tế bào.", "Làm chậm sự phát triển của chồi bên, làm chậm sự hóa già của tế bào."],
+    ["Cây, lóng, trạng thái ngủ của chồi, của hạt, làm khí khổng mở.", "Cành, lóng, làm mất trạng thái ngủ của chồi, của hạt, làm khí khổng đóng.", "Cành, lóng, gây trạng thái ngủ của chồi, của hạt, làm khí khổng đóng.", "Cành, lóng, làm mất trạng thái ngủ của chồi, của hạt, làm khí khổng mở."],
+    ["Tham gia điều tiết các hoạt động sống của cây.", "Chỉ có tác dụng ức chế hoạt động của cây.", "Có tác dụng kháng bệnh cho cây.", "Chỉ có tác dụng kích thích sinh trưởng của cây."],
+    ["Phân hóa, không có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Chưa phân hóa, có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Chưa phân hóa, không có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Phân hóa, có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật."],
+    ["Ở thân.", "Ở chồi nách.", "Ở đỉnh rễ.", "Ở chồi đỉnh."],
+];  
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    [0, 1, 2],
-    [1, 2],
-    [0, 1, 2],
-    [0, 3],
+    1, 3, 1, 2, 0,
+    1, 0, 
 ];
 
 function shuffleOptions() {
@@ -41,7 +45,7 @@ function shuffleOptions() {
     // Xáo trộn các đáp án trong mỗi câu hỏi
     for (let i = 0; i < answers.length; i++) {
         const answerSet = answers[i];
-        const correctIndices = correctAnswers[i];
+        const correctIndex = correctAnswers[i];
 
         // Tạo mảng chỉ số cho các đáp án
         const answerIndices = Array.from({ length: answerSet.length }, (_, idx) => idx);
@@ -55,7 +59,7 @@ function shuffleOptions() {
         // Áp dụng thứ tự xáo trộn cho các đáp án và cập nhật chỉ số đáp án đúng
         const shuffledAnswers = answerIndices.map(index => answerSet[index]);
         answers[i] = shuffledAnswers;
-        correctAnswers[i] = correctIndices.map(index => answerIndices.indexOf(index));
+        correctAnswers[i] = answerIndices.indexOf(correctIndex);
     }
 }
 
@@ -70,7 +74,7 @@ questions.forEach((_, index) => {
     questionTable.appendChild(questionItem);
 });
 
-const userAnswer = new Array(questions.length).fill(null).map(() => []);
+const userAnswer = new Array(questions.length).fill(null);
 const startTime = Date.now();
 let time;
 
@@ -100,21 +104,14 @@ window.onload = () => {
     function updateQuestion(e) {
         radio.forEach((val, idx) => {
             if (val.checked) {
-                if (!userAnswer[viTri].includes(idx)) {
-                    userAnswer[viTri].push(idx);
-                }
-            } else {
-                const index = userAnswer[viTri].indexOf(idx);
-                if (index > -1) {
-                    userAnswer[viTri].splice(index, 1);
-                }
+                userAnswer[viTri] = idx;
             }
             val.checked = false;
         });
         viTri = e;
-        userAnswer[viTri].forEach(idx => {
-            radio[idx].checked = true;
-        });
+        if (userAnswer[viTri] != null) {
+            radio[userAnswer[viTri]].checked = true;
+        }
         questionContent.innerHTML = `Câu hỏi ${viTri + 1}: ${questions[viTri]}`
         const sttAnswers = ["A", "B", "C", "D"];
         answerDesc.forEach((val, idx) => {
@@ -148,9 +145,8 @@ window.onload = () => {
     const timerInterval = setInterval(updateTimeDisplay, 1000);
 
     function updateResults() {
-        correctAnswers.forEach((correctAnswerIndices, idx) => {
-            const userSelected = userAnswer[idx];
-            if (correctAnswerIndices.every(val => userSelected.includes(val)) && userSelected.length === correctAnswerIndices.length) {
+        correctAnswers.forEach((correctAnswerIndex, idx) => {
+            if (userAnswer[idx] === correctAnswerIndex) {
                 score++;
                 questionItem[idx].classList.add("green");
             } else {
@@ -165,9 +161,7 @@ window.onload = () => {
             answerDesc.forEach(val => {
                 val.style.color = "#000";
             });
-            correctAnswers[viTri].forEach(correctIndex => {
-                answerDesc[correctIndex].style.color = "red";
-            });
+            answerDesc[correctAnswers[viTri]].style.color = "red";
         }
     }
 
@@ -202,18 +196,8 @@ window.onload = () => {
         }
     });
 
-    radio.forEach((val, idx) => {
+    radio.forEach((val) => {
         val.addEventListener('click', () => {
-            if (val.checked) {
-                if (!userAnswer[viTri].includes(idx)) {
-                    userAnswer[viTri].push(idx);
-                }
-            } else {
-                const index = userAnswer[viTri].indexOf(idx);
-                if (index > -1) {
-                    userAnswer[viTri].splice(index, 1);
-                }
-            }
             questionItem[viTri].classList.add("blue");
         });
     })
