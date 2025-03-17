@@ -48,6 +48,17 @@ const questions = [
     "Ý nào không phải là đặc điểm của tập tính bẩm sinh?",
     "Tập tính quen nhờn là tập tính động vật không trả lời khi kích thích nào?",
     "Khi nói về các hình thức học tập ở động vật, hình thức học tập nào sau đây là đơn giản nhất?",
+    // bài 19
+    "Sinh trưởng là quá trình tăng gì?",
+    "Phát triển là toàn bộ những biến đổi diễn ra bên trong chu kỳ sống của cá thể như thế nào?",
+    "Dấu hiệu đặc trưng của sinh trưởng là gì?",
+    "Tuổi thọ của sinh vật là thời gian gì?",
+    "Vòng đời của sinh vật là khoảng thời gian tính từ khi nào?",
+    "Ví dụ nào sau đây nói về quá trình sinh trưởng ở sinh vật?",
+    "Ví dụ nào sau đây nói về quá trình phát triển ở sinh vật?",
+    "Quá trình nào sau đây là quá trình sinh trưởng của thực vật?",
+    "Trong các yếu tố sau đây, có bao nhiêu yếu tố không ảnh hưởng đến tuổi thọ của sinh vật? <br> (1) Di truyền <br> (2) Chế độ ăn uống <br> (3) Lối sống <br> (4) Chất phóng xạ <br> (5) Khói độc, bụi. <br> (6) Chế độ làm việc.",
+    "Khi nói về các yếu tố ảnh hưởng đến tuổi thọ của con người, phát biểu nào sau đây đúng? <br> (1) Tuổi thọ của người hoàn toàn do yếu tố di truyền quyết định và không thể thay đổi. <br> (2) Môi trường sống không ảnh hưởng đến tuổi thọ của người. <br> (3) Tuổi thọ của người chịu ảnh hưởng của các yếu tố di truyền và môi trường, xã hội. <br> (4) Tầm vóc, thể trạng không ảnh hưởng đến tuổi thọ của người. <br> (5) Việc giữ gìn và rèn luyện cơ thể khỏe mạnh có thể giúp con người tăng tuổi thọ.",
 ];
 
 const answers = [
@@ -100,6 +111,17 @@ const answers = [
     ["Có sự thay đổi linh hoạt trong đời sống cá thể.", "Rất bền vững và không thay đổi.", "Là tập hợp các phản xạ không điều kiện diễn ra theo một trình tự nhất định.", "Do kiểu gen quy định."],
     ["Không liên tục và không gây nguy hiểm gì.", "Lặp đi lặp lại nhiều lần và không gây nguy hiểm gì.", "Ngắn gọn và không gây nguy hiểm gì.", "Giảm dần cường độ và không gây nguy hiểm gì."],
     ["In vết.", "Quen nhờn.", "Học liên kết.", "Học xã hội."],
+    // bài 19
+    ["Kích thước và tuổi của sinh vật.", "Kích thước và khối lượng cơ thể.", "Khối lượng và tuổi tác của sinh vật.", "Tuổi của sinh vật."],
+    ["Ngoài của cá thể, gồm thay đổi chiều cao và cân nặng.", "Ngoài chu kỳ sống của cá thể, gồm thay đổi về số lượng tế bào, cấu trúc, hình thái, trạng thái sinh lý.", "Trong chu kỳ sống của cá thể, gồm chiều cao, cân nặng.", "Trong chu kỳ sống của cá thể, gồm thay đổi về số lượng tế bào, cấu trúc, hình thái, trạng thái sinh lý."],
+    ["Tăng khối lượng, số lượng và kích thước của tế bào.", "Tăng khối lượng, số lượng và kích thước của chiều cao.", "Tăng khối lượng, số lượng và kích thước của cân nặng.", "Tăng khối lượng, số lượng của tế bào."],
+    ["Sống trung bình của các cá thể trong loài.", "Sinh con của sinh vật.", "Mà sinh vật chết.", "Sống của một sinh vật."],
+    ["Chết đi, sinh ra, lớn lên đẻ con và chết đi.", "Sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo cơ thể mới, già đi rồi chết.", "Sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo cơ thể mới.", "Sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo cơ thể mới và già đi."],
+    ["Hạt đậu nảy mầm thành cây con.", "Voi mẹ sinh ra voi con.", "Quả trứng gà nở ra gà con.", "Cây đậu cao thêm 3 cm sau hai ngày."],
+    ["Cây cam ra hoa.", "Lợn tăng thêm 3 cm sau một tuần.", "Sự tăng kích thước của lá cây.", "Diện tích phiến lá tăng lên."],
+    ["Cơ thể thực vật ra hoa.", "Cơ thể thực vật tạo hạt.", "Cơ thể thực vật tăng kích thước.", "Cơ thể thực vật rụng lá, hoa."],
+    ["0.", "3.", "4.", "5."],
+    ["Tuổi thọ của người hoàn toàn do yếu tố di truyền quyết định và không thể thay đổi.", "Môi trường sống không ảnh hưởng đến tuổi thọ của người.", "Tuổi thọ của người chịu ảnh hưởng của các yếu tố di truyền và môi trường, xã hội.", "Tầm vóc, thể trạng không ảnh hưởng đến tuổi thọ của người.", "Việc giữ gìn và rèn luyện cơ thể khỏe mạnh có thể giúp con người tăng tuổi thọ."],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -117,6 +139,9 @@ const correctAnswers = [
     // bài 18
     0, 3, 0, 1, 3,
     1, 0, 1, 1,
+    // bài 19
+    1, 3, 0, 3, 1,
+    3, 0, 2, 0, 0,
 ];
 
 function shuffleOptions() {
