@@ -16,7 +16,7 @@ const questions = [
     "Người ta làm thí nghiệm như sau: lấy một bình thủy tinh hay nhựa trắng có đất vườn, ngăn ở giữa bằng một miếng kính (gỗ mỏng, nhựa cứng), một bên đất khô, một bên thì tưới ẩm. Đặt hạt nảy mầm ở phía trên miệng bình theo dõi rễ mọc về phía đất ẩm, thí nghiệm này chứng minh kiểu hướng động nào của cây?",
     "Người ta làm thí nghiệm như sau: lấy một bình thủy tinh hay nhựa trắng có đất vườn, ngăn ở giữa bằng một miếng kính (gỗ mỏng, nhựa cứng), một bên bón phân đạm, một bên thì không bón phân. Đặt hạt nảy mầm ở phía trên miệng bình theo dõi sự phân bố của hệ rễ. Theo em rễ mọc nhiều về phía nào?",
     "Người ta làm thí nghiệm như sau: lấy một bình thủy tinh hay nhựa trắng có đất vườn, ngăn ở giữa bằng một miếng kính (gỗ mỏng, nhựa cứng), một bên bón phân đạm, một bên thì không bón phân. Đặt hạt nảy mầm ở phía trên miệng bình theo dõi sự phân bố của hệ rễ. Theo em rễ mọc nhiều về phía nào?",
-    "Con người vận dụng ứng động vào trong sản xuất trồng trọt để làm gì?"
+    "Con người vận dụng ứng động vào trong sản xuất trồng trọt để làm gì? <br> I. Điều khiển sự nở hoa vào các thời gian mong muốn của con người. <br> II. Giữ không để  chồi mọc mầm ở củ, ở thân dùng để ăn. <br> III. Dùng tác nhân kích thích để đánh thức chồi, củ, hạt. <br> IV. Điều khiển lá xòe hay khép theo ý muốn của con người. <br> Số phát biểu đúng?",
 ];
 
 const answers = [
