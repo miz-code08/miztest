@@ -31,33 +31,57 @@
     <!-- css -->
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/responsive.css">
+    <!-- <link rel="stylesheet" href="./assets/responsive.css"> -->
 </head>
 <body>
-    <div class="lock">
-        <input placeholder="Nhập mật khẩu" class="lock-input" autocomplete="none">
-        <button class="comic-button">Đăng nhập</button>
-    </div>
     <div class="container">
-        <!-- <a href="./sinhgk1all/index.html" class="box">Sinh giữa kì all</a>
-        <a href="./sinhgk1/index.html" class="box">Sinh bài 1</a>
-        <a href="./sinhgk2/index.html" class="box">Sinh bài 2</a>
-        <a href="./sinhgk4/index.html" class="box">Sinh bài 4</a>
-        <a href="./sinhgk6/index.html" class="box">Sinh bài 6</a>
-        <a href="./sugk1all/index.html" class="box">Sử giữa kì all</a> -->
-        
-        <!-- ck1 -->
-        <!-- <a href="./tinck1all/index.html" class="box">Tin cuối kì 1 all</a> -->
-        <!-- <a href="./suck1all/index.html" class="box">Sử cuối kì 1 all</a> -->
-        <a href="./hoack1all/index.html" class="box">Hóa cuối kì 1 all</a>        
-        
-        <a href="./sinhck1all/index.html" class="box">Sinh cuối kì 1 all</a>
-        <a href="./sinhck1b8/index.html" class="box">Sinh cuối kì 1 bài 8</a>
-        <a href="./sinhck1b9/index.html" class="box">Sinh cuối kì 1 bài 9</a>
-        <a href="./sinhck1b10/index.html" class="box">Sinh cuối kì 1 bài 10</a>
-        <a href="./sinhck1b12/index.html" class="box">Sinh cuối kì 1 bài 12</a>
-        <a href="./sinhck1b13/index.html" class="box">Sinh cuối kì 1 bài 13</a>
-        <!-- <a href="./test/index.html" class="box">Test</a> -->
-    </div>    
+        <h2>Chọn Bài Kiểm Tra</h2>
+
+        <label for="subject">Chọn môn học:</label>
+        <select id="subject">
+            <option value="toan">Toán</option>
+            <option value="ly">Vật Lý</option>
+            <option value="hoa">Hóa Học</option>
+            <option value="sinh">Sinh học</option>
+            <option value="su">Lịch Sử</option>
+            <option value="tin">Tin học</option>
+        </select>
+
+        <label for="test">Chọn bài kiểm tra:</label>
+        <select id="test">
+            <option value="bai1">Bài 1</option>
+            <option value="bai2">Bài 2</option>
+            <option value="bai3">Bài 3</option>
+            <option value="bai4">Bài 4</option>
+            <option value="bai5">Bài 5</option>
+            <option value="bai6">Bài 6</option>
+            <option value="bai7">Bài 7</option>
+            <option value="bai8">Bài 8</option>
+            <option value="bai9">Bài 9</option>
+            <option value="bai10">Bài 10</option>
+            <option value="bai11">Bài 11</option>
+            <option value="bai12">Bài 12</option>
+            <option value="bai13">Bài 13</option>
+            <option value="bai14">Bài 14</option>
+            <option value="bai15">Bài 15</option>
+            <option value="bai16">Bài 16</option>
+            <option value="bai17">Bài 17</option>
+            <option value="bai18">Bài 18</option>
+            <option value="bai19">Bài 19</option>
+            <option value="bai20">Bài 20</option>
+        </select>
+
+        <label for="questionType">Chọn dạng câu hỏi:</label>
+        <select id="questionType">
+            <option value="tracnghiem">Trắc nghiệm</option>
+            <option value="dungsai">Đúng/Sai</option>
+            <option value="traloi">Trả lời ngắn</option>
+        </select>
+
+        <button onclick="confirmSelection()">Xác nhận</button>
+
+        <div id="result"></div> <!-- Khu vực hiển thị thông báo nếu không có bài -->
+    </div>
     <script src="./assets/main.js"></script>
 </body>
 </html>
