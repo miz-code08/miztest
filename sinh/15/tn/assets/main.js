@@ -37,7 +37,7 @@ const answers = [
     ["Hướng nước.", "Hướng nước âm.", "Hướng phân bón.", "Hướng hóa."],
     ["Phía có bón phân đạm.", "Phía không được bón phân đạm.", "Phía có nhiều nước.", "Phía được chiếu sáng."],
     ["Phía có bón phân đạm.", "Phía không được bón phân đạm.", "Phía có nhiều nước.", "Phía được chiếu sáng."],
-    ["1.", "2.", "3.", "4."]
+    ["1.", "2.", "3.", "4."],
 ];      
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi

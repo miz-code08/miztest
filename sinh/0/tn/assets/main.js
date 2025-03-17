@@ -1,4 +1,24 @@
 const questions = [
+    // bài 15
+    "Cảm ứng của sinh vật là gì?",
+    "Vận động hướng động của thực vật là phản ứng của",
+    "Các dây leo cuốn quanh cây gỗ là kiểu hướng động nào?",
+    "Khi nói về đặc điểm của cảm ứng ở thực vật, phát biểu nào sau đây đúng?",
+    "Đặc điểm nào đúng khi nói về tính hướng sáng của thực vật?",
+    "Khi nói về cảm ứng ở thực vật, phản ứng nào sau đây được gọi là hướng động?",
+    "Phát biểu nào đúng khi nói về ứng động sinh trưởng?",
+    "Ứng động không sinh trưởng là kiểu ứng động:",
+    "Hướng động là",
+    "Khi nhận xét về tính cảm ứng của thực vật và của động vật, phát biểu nào sau đây sai?",
+    "Khi được chiếu sáng từ 1 phía đối với cây trồng, nguyên nhân nào làm cho ngọn cây hướng về phía ánh sáng?",
+    "Hướng động có đặc điểm gì khác so với ứng động ở thực vật?",
+    "Trồng cây trong một hộp kín có khoét một lỗ tròn. Sau thời gian ngọn cây mọc vươn về phía ánh sáng. Đây là thí nghiệm chứng minh loại hướng động nào?",
+    "Dựa vào sự vận động hướng động nào sau đây mà người ta tưới nước ở rãnh làm rễ vươn rộng, nước thấm sâu, rễ đâm sâu?",
+    "Người ta làm thí nghiệm như sau: lấy một bình thủy tinh hay nhựa trắng có đất vườn, ngăn ở giữa bằng một miếng kính (gỗ mỏng, nhựa cứng), một bên đất khô, một bên thì tưới ẩm. Đặt hạt nảy mầm ở phía trên miệng bình theo dõi rễ mọc về phía đất ẩm, thí nghiệm này chứng minh kiểu hướng động nào của cây?",
+    "Người ta làm thí nghiệm như sau: lấy một bình thủy tinh hay nhựa trắng có đất vườn, ngăn ở giữa bằng một miếng kính (gỗ mỏng, nhựa cứng), một bên bón phân đạm, một bên thì không bón phân. Đặt hạt nảy mầm ở phía trên miệng bình theo dõi sự phân bố của hệ rễ. Theo em rễ mọc nhiều về phía nào?",
+    "Người ta làm thí nghiệm như sau: lấy một bình thủy tinh hay nhựa trắng có đất vườn, ngăn ở giữa bằng một miếng kính (gỗ mỏng, nhựa cứng), một bên bón phân đạm, một bên thì không bón phân. Đặt hạt nảy mầm ở phía trên miệng bình theo dõi sự phân bố của hệ rễ. Theo em rễ mọc nhiều về phía nào?",
+    "Con người vận dụng ứng động vào trong sản xuất trồng trọt để làm gì? <br> I. Điều khiển sự nở hoa vào các thời gian mong muốn của con người. <br> II. Giữ không để  chồi mọc mầm ở củ, ở thân dùng để ăn. <br> III. Dùng tác nhân kích thích để đánh thức chồi, củ, hạt. <br> IV. Điều khiển lá xòe hay khép theo ý muốn của con người. <br> Số phát biểu đúng?",
+    // bài 17
     "Cảm ứng của động vật là khả năng cơ thể động vật phản ứng lại các kích thích",
     "Cung phản xạ diễn ra theo trật tự:",
     "Hệ thần kinh dạng lưới được tạo thành bởi các tế bào thần kinh",
@@ -18,9 +38,39 @@ const questions = [
     "Xét các đặc điểm sau: <br> (1) Hình thành trong đời sống cá thể. <br> (2) Rất bền vững và không thay đổi. <br> (3) Tác nhân kích thích ứng với thụ thể cảm giác. <br> (4) Có sự tham gia của vỏ não. <br> Trong các đặc điểm trên, những đặc điểm của phản xạ có điều kiện gồm:",
     "Trong quá trình dẫn truyền xung thần kinh qua xinap hóa học, ion Ca2+ có vai trò gì?",
     "Quá trình truyền tin qua xinap gồm các giai đoạn theo thứ tự là",
+    // bài 18
+    "Tập tính động vật là gì?",
+    "Tập tính không có vai trò nào sau đây?",
+    "Tập tính hỗn hợp ở động vật là gì?",
+    "Chim di cư để tránh rét, cá di cư để đẻ trứng là loại tập tính gì?",
+    "Hươu đực quệt dịch có mùi đặc biệt tiết ra từ tuyến cạnh mắt của nó vào cành cây để thông báo cho các con đực khác là tập tính gì?",
+    "Đâu là tập tính học được ở động vật?",
+    "Ý nào không phải là đặc điểm của tập tính bẩm sinh?",
+    "Tập tính quen nhờn là tập tính động vật không trả lời khi kích thích nào?",
+    "Khi nói về các hình thức học tập ở động vật, hình thức học tập nào sau đây là đơn giản nhất?",
 ];
 
 const answers = [
+    // bài 15
+    ["Là phản ứng của sinh vật đối với kích thích từ môi trường.", "Là phản ứng của thực vật đối với kích thích từ môi trường.", "Là phản ứng của thực vật đối với ánh sáng.", "Là phản ứng của thực vật đối phân bón."],
+    ["Cây trước tác nhân kích thích theo nhiều hướng xác định.", "Cây trước tác nhân kích thích không định hướng.", "Cơ quan thực vật trước tác nhân kích thích từ một hướng xác định.", "Cây trước tác nhân kích thích theo mọi hướng."],
+    ["Hướng đất.", "Hướng tiếp xúc.", "Hướng sáng.", "Hướng nước."],
+    ["Phản ứng nhanh, hình thức đa dạng, dễ nhận thấy.", "Phản ứng nhanh, hình thức đa dạng, khó nhận thấy.", "Phản ứng chậm, hình thức ít đa dạng, dễ nhận thấy.", "Phản ứng chậm, hình thức ít đa dạng, khó nhận thấy."],
+    ["Rễ cây hướng tránh nguồn ánh sáng, thân cây hướng theo chiều ngược lại.", "Rễ cây hướng vào lòng đất nơi có nguồn phân bón, thân cây hướng về ánh sáng.", "Rễ cây hướng vào lòng đất nơi có nguồn nước, ngọn cây thì hướng về phía ánh sáng.", "Rễ cây hướng vào lòng đất, thân cây thì hướng ngược lại."],
+    ["Bắt côn trùng của cây nắp ấm.", "Vận động nở hoa của cây hoa hướng dương.", "Ngọn cây hướng về phía có ánh sáng.", "Vận động cụp lá của cây trinh nữ."],
+    ["Vận động nở hoa có sự cảm ứng của nhiệt độ và ánh sáng.", "Vận động bắt mồi của cây nắp ấm.", "Sự đóng mở của lá cây trinh nữ khí khổng đóng mở.", "Vận động bắt mồi của cây gọng vó."],
+    ["Có sự phân chia và lớn lên của các tế bào (liên quan chủ yếu đến hiện tượng sức trương nước).", "Không có sự phân chia và lớn lên của các tế bào (liên quan chủ yếu đến hiện tượng sức trương nước).", "Không có sự chết đi của các tế bào (liên quan chủ yếu đến hiện tượng sức trương nước).", "Có sự chết đi nhanh chóng của các tế bào (liên quan chủ yếu đến hiện tượng sức trương nước)."],
+    ["Vận động của rễ hướng về lòng đất.", "Hướng mà cây sẽ cử động vươn đến.", "Cử động sinh trưởng cây về phía có ánh sáng.", "Vận động sinh trưởng của cây trước tác nhân kích thích của môi trường."],
+    ["Cảm ứng của thực vật thường diễn ra chậm.", "Cảm ứng của thực vật biểu hiện chủ yếu bằng các cử động dinh dưỡng hoặc sinh trưởng.", "Cảm ứng của động vật diễn ra nhanh hơn của thực vật.", "Tất cả cảm ứng của động vật còn gọi là phản xạ."],
+    ["Auxin phân bố không đều ở hai phía, phía được chiếu sáng thì nhiều auxin hơn.", "Auxin phân bố nhiều hơn về phía không được chiếu sáng, tế bào sinh trưởng nhanh hơn.", "Auxin phân bố ở phía được chiếu sáng nhiều hơn, tế bào sinh trưởng nhanh hơn.", "Auxin phân bố nhiều hơn về phía không được chiếu sáng, ức chế tế bào sinh trưởng."],
+    ["Có nhiều tác nhân kích thích từ môi trường.", "Liên quan đến sự phân chia tế bào.", "Phản ứng của cây với tác nhân kích thích từ 1 hướng xác định.", "Phản ứng của cây với tác nhân kích thích của môi trường."],
+    ["Hướng sáng.", "Hướng sáng âm.", "Hướng sáng âm.", "Hướng sáng và hướng gió."],
+    ["Hướng sáng dương.", "Hướng nước dương.", "Hướng hóa dương.", "Hướng đất dương."],
+    ["Hướng nước.", "Hướng nước âm.", "Hướng phân bón.", "Hướng hóa."],
+    ["Phía có bón phân đạm.", "Phía không được bón phân đạm.", "Phía có nhiều nước.", "Phía được chiếu sáng."],
+    ["Phía có bón phân đạm.", "Phía không được bón phân đạm.", "Phía có nhiều nước.", "Phía được chiếu sáng."],
+    ["1.", "2.", "3.", "4."],
+    // bài 17
     ["của một số tác nhân môi trường sống, đảm bảo cho cơ thể tồn tại và phát triển", "của môi trường sống, đảm bảo cho cơ thể tồn tại và phát triển", "định hướng của môi trường sống, đảm bảo cho cơ thể tồn tại và phát triển", "của môi trường (bên trong và bên ngoài cơ thể) để tồn tại và phát triển"],
     ["bộ phận tiếp nhận kích thích → bộ phận phân tích và tổng hợp thông tin → bộ phận phản hồi thông tin", "bộ phận tiếp nhận kích thích → bộ phận thực hiện phản ứng → bộ phận phân tích và tổng hợp thông tin → bộ phận phản hồi thông tin", "bộ phận tiếp nhận kích thích → bộ phận phân tích và tổng hợp thông tin → bộ phận thực hiện phản ứng", "bộ phận tiếp nhận kích thích → bộ phận trả lời kích thích → bộ phận thực hiện phản ứng"],
     ["rải rác dọc theo khoang cơ thể và liên hệ với nhau qua sợi thần kinh tạo thành mạng lưới tế bào thần kinh", "phân bố đều trong cơ thể và liên hệ với nhau qua sợi thần kinh tạo thành mạng lưới tế bào thần kinh", "rải rác trong cơ thể và liên hệ với nhau qua sợi thần kinh tạo thành mạng lưới tế bào thần kinh", "phân bố tập trung ở một số vùng trong cơ thể và liên hệ với nhau qua sợi thần kinh tạo thành mạng lưới tế bào thần kinh"],
@@ -40,14 +90,33 @@ const answers = [
     ["(1) và (4)", "(2) và (3)", "(2), (3) và (4)", "(1), (2) và (4)"],
     ["Làm thay đổi tính thấm của dung dịch ở tận cùng sợi trục, từ đó làm xuất bào các bóng chứa chất trung gian hóa học", "Tác động lên thụ thể ở màng sau xinap, làm thay đổi tính thấm của màng sau dẫn đến xung thần kinh được dẫn truyền", "Làm tăng nồng độ ion của dung dịch ngoại bào, từ đó làm tăng độ lớn của điện thế nghỉ", "Làm thay đổi hướng truyền của xung thần kinh khi đi qua xinap"],
     ["Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap → Xung thần kinh đến làm Ca2+ đi vào chùy xinap → acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp", "Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap → acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp → Xung thần kinh đến làm Ca2+ đi vào chùy xinap", "acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp → Xung thần kinh đến làm Ca2+ đi vào chùy xinap → Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap"],
+    // bài 18
+    ["Chuỗi những phản ứng trả lời lại các kích thích của môi trường, nhờ đó động vật tồn tại và phát triển.", "Các phản xạ có điều kiện của động vật học được trong quá trình sống.", "Các phản xạ không điều kiện, mang tính bẩm sinh của động vật, giúp chúng được bảo vệ.", "Các phản xạ không điều kiện, nhưng được sự can thiệp của não bộ."],
+    ["Tăng khả năng sinh tồn của động vật.", "Đảm bảo cho sự thành công sinh sản.", "Là một cơ chế cân bằng nội môi, duy trì môi trường ổn định.", "Giảm khả năng sinh tồn của động vật."],
+    ["Trường hợp cơ thể phản ứng trước những hoạt động phức tạp.", "Sự phối hợp giữa tập tính bẩm sinh và tập tính thứ sinh, được hình thành khi điều kiện sống thay đổi.", "Sự phối hợp của nhiều loại tập tính thứ sinh.", "Sự phối hợp của nhiều loại tập tính bẩm sinh."],
+    ["Tập tính thứ sinh.", "Tập tính bẩm sinh.", "Học được.", "Thói quen."],
+    ["Kiếm ăn.", "Sinh sản.", "Di cư.", "Bảo vệ lãnh thổ."],
+    ["Nhện chăng tơ.", "Đèn giao thông màu đỏ, người qua đường dừng lại.", "Thú con bú sữa mẹ.", "Chim sinh sản."],
+    ["Có sự thay đổi linh hoạt trong đời sống cá thể.", "Rất bền vững và không thay đổi.", "Là tập hợp các phản xạ không điều kiện diễn ra theo một trình tự nhất định.", "Do kiểu gen quy định."],
+    ["Không liên tục và không gây nguy hiểm gì.", "Lặp đi lặp lại nhiều lần và không gây nguy hiểm gì.", "Ngắn gọn và không gây nguy hiểm gì.", "Giảm dần cường độ và không gây nguy hiểm gì."],
+    ["In vết.", "Quen nhờn.", "Học liên kết.", "Học xã hội."],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
+    // bài 15
+    0, 2, 1, 3, 0,
+    2, 0, 1, 3, 3,
+    1, 2, 0, 1, 0,
+    0, 0, 2,
+    // bài 17
     3, 2, 2, 1, 3,
     1, 1, 0, 2, 3,
     3, 3, 3, 2, 2,
     2, 0, 0, 3,
+    // bài 18
+    0, 3, 0, 1, 3,
+    1, 0, 1, 1,
 ];
 
 function shuffleOptions() {
