@@ -8,7 +8,7 @@ const questions = [
     "Phong trào Tây Sơn (1771-1802) bùng nổ nhằm thực hiện một trong những nhiệm vụ nào sau đây?",
     "Trong cuộc khởi nghĩa Lam Sơn, để tập hợp lực lượng đặt cơ sở cho sự hình thành hạt nhân đầu tiên, Lê Lợi đã tổ chức?",
     "Các cuộc khởi nghĩa của nhân dân Việt Nam trong thời kỳ Bắc thuộc có một trong những đặc điểm nào sau đây?",
-    "Khác với các cuộc kháng chiến chống xâm lược thời Lý – Trần, khởi nghĩa Lam Sơn diễn ra trong bối cảnh nào?",
+    "Khác với các cuộc kháng chiến chống xâm lược thời Lý - Trần, khởi nghĩa Lam Sơn diễn ra trong bối cảnh nào?",
     "Nhằm tăng cường sức mạnh quân sự để đối phó với cuộc xâm lược của nhà Minh cuối thế kỉ XIV, Hồ Quý Ly đã tiến hành biện pháp nào sau đây?",
     "Năm 1400, Hồ Quý Ly buộc vua Trần nhường ngôi và lập ra triều đại nào?",
     "Công cuộc cải cách của Hồ Quý Ly và triều đại nhà Hồ không đề cập đến lĩnh vực nào sau đây?",
@@ -44,7 +44,7 @@ const answers = [
     ["Nước Đại Ngu đã bị nhà Minh đô hộ", "Đại Việt là quốc gia độc lập, có chủ quyền", "Nhà Minh lâm vào khủng hoảng, suy yếu.", "Nhà Nguyên lâm vào khủng hoảng, suy yếu."],
     ["Cải cách văn hóa, xã hội, giáo dục", "Xây dựng tòa thành Tây Đô kiên cố", "Buộc vua Trần nhường ngôi cho mình.", "Ban hành chính sách hạn điền, hạn nô."],
     ["Nhà Lê Sơ.", "Nhà Nguyễn", "Nhà Hồ.", "Nhà Lý."],
-    ["Văn hóa – Giáo dục", "Chính trị - quân sự.", "Kinh tế - xã hội.", "Thể thao – du lịch."],
+    ["Văn hóa - Giáo dục", "Chính trị - quân sự.", "Kinh tế - xã hội.", "Thể thao - du lịch."],
     ["Cho phát hành tiền giấy", "Ban hành chính sách hạn điền", "Cải cách chế độ giáo dục.", "Thống nhất đơn vị đo lường"],
     ["Kinh tế", "Văn hóa.", "Quân sự", "Xã hội"],
     ["Phật giáo", "Đạo giáo", "Nho giáo", "Thiên Chúa giáo"],
@@ -54,7 +54,7 @@ const answers = [
     ["Ban hành tiền giấy thay thế tiền đồng", "Hạn chế sở hữu ruộng tư của quý tộc", "Thống nhất đơn vị đo lường cả nước", "Chế tạo vũ khí, thuyền chiến"],
     ["Gả các công chúa cho các tù trưởng miền núi", "Thi hành chính sách thần phục nhà Minh", "Tăng cường lực lượng quân đội chính quy", "Quan hệ hòa hiếu với Chăm-pa, Chân Lạp"],
     ["Hoàng Việt luật lệ", "Quốc triều hình luật", "Hình luật.", "Hình thư."],
-    ["Khẳng định nền giáo dục Nho học của nước Đại Việt", "Ghi số lượng những người đỗ Tiến sĩ qua các kỳ thi Hội.", "Đề cao Nho học và tôn vinh những người đỗ đại khoa", "Trùng tu, mở rộng, làm mới Văn Miếu – Quốc Tử Giám"],
+    ["Khẳng định nền giáo dục Nho học của nước Đại Việt", "Ghi số lượng những người đỗ Tiến sĩ qua các kỳ thi Hội.", "Đề cao Nho học và tôn vinh những người đỗ đại khoa", "Trùng tu, mở rộng, làm mới Văn Miếu - Quốc Tử Giám"],
     ["Kinh tế", "Chính trị", "Hành chính", "Quân sự"],
     ["Kinh tế", "Hành chính", "Giáo dục", "Tài chính"],
     ["Kinh tế", "Chính trị", "Giáo dục", "Tài chính"],
@@ -67,11 +67,11 @@ const answers = [
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    1, 0, 2, 0, 1,
+    1, 0, 2, 2, 1,
     0, 0, 1, 0, 0,
     0, 2, 3, 1, 2,
     2, 1, 3, 1, 3,
-    2, 1, 1, 2, 1,
+    2, 1, 2, 2, 1,
     1, 3, 3, 3, 1,
 ];
 
