@@ -10,7 +10,9 @@ function confirmSelection() {
         "hoa": "hoa",
         "sinh": "sinh",
         "su": "su",
-        "tin": "tin"
+        "tin": "tin",
+        "dia": "dia",
+        "ktpl": "ktpl",
     };
 
     // Định dạng loại câu hỏi trong URL
