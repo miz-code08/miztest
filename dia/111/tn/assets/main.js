@@ -35,7 +35,7 @@ const questions = [
     "Phát biểu nào sau đây không đúng với tự nhiên Nhật Bản?",
     "Đặc điểm nổi bật của dân cư Nhật Bản là",
     "Dạng địa hình nào sau đây chiếm phần lớn diện tích tự nhiên của Nhật Bản?",
-    "Đặc điểm nổi bật của dân cư Nhật Bản là",
+    "Phát biểu nào sau đây không đúng về dân cư Nhật Bản",
     "Sự phân bố dân cư không đều theo lãnh thổ của Nhật Bản đã gây khó khăn cho việc",
     "Nhật Bản phát triển thủy điện dựa trên điều kiện thuận lợi chủ yếu là",
     "Vị trí địa lí không tạo thuận lợi để Nhật Bản",
@@ -86,13 +86,13 @@ const answers = [
 ];  
 
 const correctAnswers = [
-    1, 3, 1, 0, 1,
+    2, 3, 1, 0, 1,
     2, 0, 2, 1, 3,
     1, 1, 3, 3, 0,
     0, 3, 3, 0, 0,
     3, 0, 0, 2, 2,
     0, 0, 0, 3, 2,
-    0, 3, 3, 3, 3,
+    0, 3, 2, 3, 3,
     0, 2, 0, 1, 3,
 ];
 
