@@ -39,6 +39,21 @@ const questions = [
     "Cuộc cải cách của vua Minh Mạng (nửa đầu thế kỉ XIX) được thực hiện trong bối cảnh",
     "Cuộc cải cách hành chính của vua Minh Mạng (nửa đầu thế kỉ XIX) không nhằm mục đích nào sau đây?",
     "Cuộc cải cách của vua Minh Mạng (nửa đầu thế kỉ XIX) có ý nghĩa quan trọng nào sau đây?",
+    // bonus
+    "Nhà Hồ thất bại vào năm nào?",
+    "Khởi nghĩa Lam Sơn diễn ra trong khoảng thời gian nào?",
+    "Trận đánh nào năm 1426 đã tiêu diệt 5 vạn quân Minh?",
+    "Trận đánh nào vào tháng 10/1427 đã tiêu diệt 15 vạn viện binh của quân Minh?",
+    "Dưới thời chúa nào ở Đàng Ngoài, các cuộc khởi nghĩa nông dân liên tục nổ ra?",
+    "Ai là người thao túng triều đình Đàng Trong khi Nguyễn Phúc Thuần lên ngôi năm 1765?",
+    "Thành đá duy nhất của Việt Nam là thành nào?",
+    "Loại tiền được phát hành dưới thời nhà Hồ là gì?",
+    "Chính sách tôn giáo của nhà Hồ quy định sư tăng dưới bao nhiêu tuổi phải hoàn tục?",
+    "Bia tiến sĩ dưới thời Lê Thánh Tông có mục đích gì?",
+    "Vua Minh Mạng có tên húy là gì?",
+    "Trực Doanh (từ Thanh Hóa đến Bình Thuận) dưới triều Nguyễn thuộc quyền quản lý của ai?",
+    "Bắc Thành và Gia Định Thành dưới triều Nguyễn do ai quản lý?",
+    "Phép Hồi tị dưới triều Nguyễn quy định điều gì?",
 ];
 
 const answers = [
@@ -82,6 +97,21 @@ const answers = [
     ["tình hình an ninh - xã hội ở nhiều địa phương bất ổn", "bộ máy nhà nước phong kiến cơ bản đã hoàn chỉnh.", "tình trạng phân quyền, thiếu thống nhất đã khắc phục.", "phương thức sản xuất tư bản chủ nghĩa thâm nhập mạnh"],
     ["Khắc phục tình trạng phân quyền, thiếu thống nhất.", "Tăng cường tính thống nhất và tiềm lực của đất nước.", "Tập trung quyền lực và hoàn thiện bộ máy nhà nước.", "Xóa bỏ tình trạng “bế quan tỏa cảng” của đất nước."],
     ["xóa bỏ tình trạng “bế quan tỏa cảng” của đất nước.", "ngăn chặn mọi nguy cơ xâm lược từ bên ngoài.", "đặt cơ sở cho sự phân chia tỉnh, huyện hiện nay.", "hoàn thành thống nhất đất nước về mặt lãnh thổ."],
+    // bonus
+    ["1400", "1407", "1418", "1426"],
+    ["1407 - 1418", "1418 - 1427", "1426 - 1427", "1427 - 1430"],
+    ["Chi Lăng - Xương Giang", "Tốt Động - Chúc Động", "Rạch Gầm - Xoài Mút", "Ngọc Hồi - Đống Đa"],
+    ["Tốt Động - Chúc Động", "Chi Lăng - Xương Giang", "Ngọc Hồi - Đống Đa", "Rạch Gầm - Xoài Mút"],
+    ["Trịnh Sâm", "Trịnh Giang", "Trịnh Doanh", "Trịnh Căn"],
+    ["Nguyễn Huệ", "Trương Phúc Loan", "Nguyễn Nhạc", "Nguyễn Lữ"],
+    ["Thành Cổ Loa", "Thành nhà Hồ", "Thành Thăng Long", "Thành Tây Sơn"],
+    ["Thông Bảo Hội Sao", "Nguyên Bảo Thông Sao", "Minh Đức Thông Bảo", "Đại Định Nguyên Bảo"],
+    ["30 tuổi", "40 tuổi", "50 tuổi", "60 tuổi"],
+    ["Ghi danh người tài", "Noi gương thế hệ sau", "Tưởng nhớ công lao các sĩ tử", "Cả A, B, C đều đúng"],
+    ["Nguyễn Phúc Ánh", "Nguyễn Phúc Đảm", "Nguyễn Phúc Đàm", "Nguyễn Phúc Thuần"],
+    ["Nhà nước", "Quan Tổng trấn", "Chúa Nguyễn", "Vua Lê"],
+    ["Vua trực tiếp cai quản", "Tổng trấn quản lý", "Nhà nước giám sát chặt chẽ", "Quan địa phương điều hành"],
+    ["Quan lại không được nhận chức ở quê mình", "Quan lại phải luân chuyển ba năm một lần", "Quan lại không được lấy vợ tại địa phương mình cai trị", "Quan lại phải báo cáo tài sản trước khi nhậm chức"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -94,6 +124,10 @@ const correctAnswers = [
     0, 2, 3, 3, 1,
     0, 1, 2, 1, 3,
     1, 0, 0, 3, 2,
+    // bonus
+    1, 1, 1, 1, 1,
+    1, 1, 0, 2, 3,
+    2, 0, 1, 0, 
 ];
 
 function shuffleOptions() {
