@@ -105,7 +105,7 @@ const answers = [
     ["Trịnh Sâm", "Trịnh Giang", "Trịnh Doanh", "Trịnh Căn"],
     ["Nguyễn Huệ", "Trương Phúc Loan", "Nguyễn Nhạc", "Nguyễn Lữ"],
     ["Thành Cổ Loa", "Thành nhà Hồ", "Thành Thăng Long", "Thành Tây Sơn"],
-    ["Thông Bảo Hội Sao", "Nguyên Bảo Thông Sao", "Minh Đức Thông Bảo", "Đại Định Nguyên Bảo"],
+    ["Thông Bảo Hội Sao", "Nguyên Bảo Thông Sao", "Hội Sao Bảo Bối", "Đại Định Nguyên Bảo"],
     ["30 tuổi", "40 tuổi", "50 tuổi", "60 tuổi"],
     ["Ghi danh người tài", "Noi gương thế hệ sau", "Tưởng nhớ công lao các sĩ tử", "Cả A, B, C đều đúng"],
     ["Nguyễn Phúc Ánh", "Nguyễn Phúc Đảm", "Nguyễn Phúc Đàm", "Nguyễn Phúc Thuần"],
@@ -118,7 +118,7 @@ const answers = [
 const correctAnswers = [
     2, 2, 3, 2, 1,
     3, 0, 0, 2, 1,
-    2, 0, 0, 0, 1,
+    2, 0, 0, 2, 1,
     2, 3, 2, 0, 2,
     0, 2, 0, 1, 2,
     0, 2, 3, 3, 1,
@@ -127,7 +127,7 @@ const correctAnswers = [
     // bonus
     1, 1, 1, 1, 1,
     1, 1, 0, 2, 3,
-    2, 0, 1, 0, 
+    1, 0, 1, 0, 
 ];
 
 function shuffleOptions() {
