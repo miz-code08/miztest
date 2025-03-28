@@ -69,9 +69,9 @@ const questions = [
     "Mô phân sinh đỉnh không có ở vị trí nào của cây?",
     // tln
     "Trong các sinh vật sau: Vi khuẩn E.coli, trùng giày, giun đất, trùng amip, nhện, sinh vật nào không có hệ thần kinh?",
-    "Động vật nào trong nhóm sau có hệ thần kinh dạng lưới? Thủy tức, cá, sứa, cua, giun đốt, mực",
-    "Nhóm động vật nào sau đây có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
-    "Trong các động vật sau, đâu là những loài không có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
+    "Động vật nào trong nhóm sau có hệ thần kinh dạng lưới? <br> Thủy tức, cá, sứa, cua, giun đốt, mực",
+    "Nhóm động vật nào sau đây có hệ thần kinh dạng ống? <br> Sư tử, chó, mèo, cá, sứa, mực",
+    "Trong các động vật sau, đâu là những loài không có hệ thần kinh dạng ống? <br> Sư tử, chó, mèo, cá, sứa, mực",
 
     "Nguyên nhân nào sau đây dẫn đến tập tính di cư ở động vật? <br> Thức ăn, hoạt động sinh sản, thời tiết không thuận lợi, hướng nước chảy",
     "Khi di cư, động vật sống trên cạn định hướng nhờ những yếu tố nào sau đây? <br> Từ trường Trái Đất, vị trí Mặt Trời, vị trí Trăng, thành phần hóa học của nước, hướng dòng nước chảy, địa hình",

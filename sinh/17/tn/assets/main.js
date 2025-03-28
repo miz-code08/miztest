@@ -20,9 +20,9 @@ const questions = [
     "Quá trình truyền tin qua xinap gồm các giai đoạn theo thứ tự là",
     // tln
     "Trong các sinh vật sau: Vi khuẩn E.coli, trùng giày, giun đất, trùng amip, nhện, sinh vật nào không có hệ thần kinh?",
-    "Động vật nào trong nhóm sau có hệ thần kinh dạng lưới? Thủy tức, cá, sứa, cua, giun đốt, mực",
-    "Nhóm động vật nào sau đây có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
-    "Trong các động vật sau, đâu là những loài không có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
+    "Động vật nào trong nhóm sau có hệ thần kinh dạng lưới? <br> Thủy tức, cá, sứa, cua, giun đốt, mực",
+    "Nhóm động vật nào sau đây có hệ thần kinh dạng ống? <br> Sư tử, chó, mèo, cá, sứa, mực",
+    "Trong các động vật sau, đâu là những loài không có hệ thần kinh dạng ống? <br> Sư tử, chó, mèo, cá, sứa, mực",
 ];
 
 const answers = [
