@@ -19,6 +19,10 @@ const questions = [
     "Cho isopentane tác dụng với Cl2 theo tỉ lệ số mol 1:1, số sản phẩm monochloro tối đa thu được là?",
     "Alkane A có công thức phân tử C5H12. A tác dụng với chlorine khi đun nóng chỉ tạo một dẫn xuất monochloro duy nhất. Tên gọi của A là?",
     "Cracking alkane là quá trình phân cắt liên kết C-C (bẻ gãy mạch carbon) của các alkane mạch dài để tạo thành hỗn hợp các hydrocarbon có mạch carbon?",
+    // tln
+    "Số đồng phân cấu tạo của hợp chất có công thức phân tử C₅H₁₂ là bao nhiêu?",
+    "Hàm lượng nguyên tố carbon trong một alkane X là 82,76%. Công thức phân tử của X là?",
+    "Chọn tập hợp các alkane khi tác dụng với chlorine (có ánh sáng hoặc đun nóng) chỉ tạo duy nhất một sản phẩm thế monochloro?",
 ];
 
 const answers = [
@@ -42,6 +46,10 @@ const answers = [
     ["5", "4", "3", "2"],
     ["pentane", "2-methylbutane", "2,2-dimethylpropane", "3-methylbutane"],
     ["ngắn hơn", "dài hơn", "không đổi", "thay đổi"],
+    // tln
+    ["2", "3", "4", "5"],
+    ["C₂H₆", "C₃H₈", "C₄H₁₀", "C₅H₁₂"],
+    ["Methane, ethane, propane", "Ethane, propane, neopentane", "Methane, ethane, neopentane", "Methane, propane, butane"],
 ];
 
 const correctAnswers = [
@@ -49,6 +57,8 @@ const correctAnswers = [
     1, 0, 3, 1, 2,
     1, 0, 0, 1, 1,
     1, 0, 1, 2, 0,
+    // tln
+    1, 2, 1,
 ];
 
 function shuffleOptions() {

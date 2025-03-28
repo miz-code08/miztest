@@ -1,22 +1,25 @@
 const questions = [
-    "Câu hỏi 1?",
-    "Câu hỏi 2?",
-    "Câu hỏi 3?",
-    "Câu hỏi 4?",
-    "Câu hỏi 5?",
+    "Xét các phát biểu về alkyne.",
+    "Hình vẽ sau đây mô tả quá trình điều chế và thử tính chất hóa học của ethylene:",
+    "Hình vẽ sau đây mô tả quá trình điều chế và thử tính chất hóa học của acetylene:",
+    "Dẫn dòng khí gồm acetylene và ethylene lần lượt đi vào ống nghiệm (1) đựng dưng dịch AgNO3/NH3 ở điều kiện thường, sau đó dẫn tiếp qua ống nghiệm (2) đựng nước bromine.",
+    "Xét ứng dụng và điều chế ethylene và acetylene.",
 ];
 
 const answers = [
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
+    ["Các alkyne HC≡CH, CH3-C≡CH, … có công thức chung là CnH2n-2 (n ≥ 2) tạo thành dãy đồng đẳng của acetylene", "Liên kết ba của alkyne được tạo nên từ ba liên kết π", "Các alkyne 2C và 3C chỉ có duy nhất một đồng phân cấu tạo", "Alkyne có đồng phân hình học như alkene"],
+    ["Cồn 96o có thành phần chính là ethanol (C2H5OH)", "Khí thoát ra khỏi bình cầu chỉ có ethylene", "Vai trò của dung dịch NaOH là loại bỏ tạp chất để thu được C2H4 tinh khiết", "C2H4 thoát ra làm mất màu dung dịch nước Br2 hoặc dung dịch KMnO4"],
+    ["Phản ứng xảy ra trong bình cầu là CaC2 + 2H2O → C2H2 + Ca(OH)2", "Dung dịch NaOH có tác dụng làm khô khí acetylene", "Khí acetylene tạo kết tủa khi phản ứng với nước Br2 hoặc dung dịch KMnO4", "Acetylene có tên gọi khác là propyne"],
+    ["Ở ống nghiệm (1) có kết tủa màu vàng nhạt", "Ở ống nghiệm (2) màu của nước bromine nhạt dần", "Ở ống nghiệm (2) chất lỏng chia thành hai lớp", "Ống nghiệm (1) xảy ra phản ứng cộng, ống nghiệm (2) xảy ra phản ứng thế"],
+    ["Trong phòng thí nghiệm, người ta điều chế ethylene bằng cách tách nước ethanol và thu bằng cách dời chỗ của nước", "Một ứng dụng quan trọng của acetylene là làm nhiên liệu trong đèn xì oxygen - acetylene", "Trong công nghiệp, người ta điều chế acetylene bằng cách nhiệt phân nhanh methane có xúc tác hoặc cho calcium carbide (thành phần chính của đất đèn) tác dụng với nước", "Một ứng dụng quan trọng của acetylene là làm nguyên liệu tổng hợp ethylene"],
 ];
 
-// Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    [0, 1, 2, 3], 
+    [0, 2], 
+    [0, 2, 3], 
+    [0], 
+    [0, 1, 2], 
+    [1, 3], 
 ];
 
 function shuffleOptions() {

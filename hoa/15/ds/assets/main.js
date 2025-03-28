@@ -1,22 +1,25 @@
 const questions = [
-    "Câu hỏi 1?",
-    "Câu hỏi 2?",
-    "Câu hỏi 3?",
-    "Câu hỏi 4?",
-    "Câu hỏi 5?",
+    "Xét các phát biểu về alkane?",
+    "Xét các phát biểu về tính chất vật lí của alkane ở điều kiện thường?",
+    "Xét các biện pháp làm giảm ô nhiễm môi trường gây ra do sử dụng nhiên liệu từ dầu mỏ?",
+    "Xét các phát biểu về phản ứng reforming alkane?",
+    "Xét các phát biểu về ứng dụng của alkane?"
 ];
 
 const answers = [
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
+    ["Trong phân tử alkane chỉ chứa các liên kết σ bền vững", "Các phân tử alkane hầu như không phân cực", "Ở điều kiện thường các alkane hoạt động hóa học mạnh", "Trong phân tử methane, bốn liên kết C–H hướng về bốn đỉnh hình vuông"],
+    ["Các alkane từ C1 đến C4 và neopentane ở trạng thái khí", "Các alkane từ C5 đến C17 (trừ neopentane) ở trạng thái lỏng", "Các alkane không tan hoặc tan rất ít trong nước và nhẹ hơn nước", "Các alkane không tan hoặc tan rất ít trong các dung môi hữu cơ"],
+    ["Đưa thêm hợp chất có chứa chì vào xăng để làm tăng chỉ số octane của xăng", "Đưa thêm chất xúc tác vào ống xả động cơ để chuyển hoá các khí thải độc hại", "Tăng cường sử dụng biogas", "Tổ chức thu gom và xử lí dầu cặn"],
+    ["Chuyển alkane mạch không phân nhánh thành các alkane mạch phân nhánh", "Chuyển alkane mạch không phân nhánh thành các hydrocarbon mạch vòng", "Số nguyên tử carbon của chất tham gia và của sản phẩm khác nhau", "Nhiệt độ sôi của sản phẩm lớn hơn nhiều so với alkane tham gia phản ứng"],
+    ["Propane C3H8 và butane C4H10 được sử dụng làm khí đốt", "Các alkane C6, C7, C8 là nguyên liệu để sản xuất một số hydrocarbon thơm", "Các alkane lỏng được sử dụng làm nhiên liệu như xăng hay dầu diesel", "Các alkane từ C11 đến C20 được dùng làm nến và sáp"]
 ];
 
-// Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    [0, 1, 2, 3], 
+    [0, 1], 
+    [0, 1, 2], 
+    [1, 2, 3], 
+    [0, 1], 
+    [0, 1, 2], 
 ];
 
 function shuffleOptions() {

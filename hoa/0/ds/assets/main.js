@@ -1,22 +1,46 @@
 const questions = [
-    "Câu hỏi 1?",
-    "Câu hỏi 2?",
-    "Câu hỏi 3?",
-    "Câu hỏi 4?",
-    "Câu hỏi 5?",
+    // bài 15
+    "Xét các phát biểu về alkane?",
+    "Xét các phát biểu về tính chất vật lí của alkane ở điều kiện thường?",
+    "Xét các biện pháp làm giảm ô nhiễm môi trường gây ra do sử dụng nhiên liệu từ dầu mỏ?",
+    "Xét các phát biểu về phản ứng reforming alkane?",
+    "Xét các phát biểu về ứng dụng của alkane?",
+    // bài 16
+    "Xét các phát biểu về alkyne.",
+    "Hình vẽ sau đây mô tả quá trình điều chế và thử tính chất hóa học của ethylene:",
+    "Hình vẽ sau đây mô tả quá trình điều chế và thử tính chất hóa học của acetylene:",
+    "Dẫn dòng khí gồm acetylene và ethylene lần lượt đi vào ống nghiệm (1) đựng dưng dịch AgNO3/NH3 ở điều kiện thường, sau đó dẫn tiếp qua ống nghiệm (2) đựng nước bromine.",
+    "Xét ứng dụng và điều chế ethylene và acetylene.",
 ];
 
 const answers = [
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
+    // bài 15
+    ["Trong phân tử alkane chỉ chứa các liên kết σ bền vững", "Các phân tử alkane hầu như không phân cực", "Ở điều kiện thường các alkane hoạt động hóa học mạnh", "Trong phân tử methane, bốn liên kết C–H hướng về bốn đỉnh hình vuông"],
+    ["Các alkane từ C1 đến C4 và neopentane ở trạng thái khí", "Các alkane từ C5 đến C17 (trừ neopentane) ở trạng thái lỏng", "Các alkane không tan hoặc tan rất ít trong nước và nhẹ hơn nước", "Các alkane không tan hoặc tan rất ít trong các dung môi hữu cơ"],
+    ["Đưa thêm hợp chất có chứa chì vào xăng để làm tăng chỉ số octane của xăng", "Đưa thêm chất xúc tác vào ống xả động cơ để chuyển hoá các khí thải độc hại", "Tăng cường sử dụng biogas", "Tổ chức thu gom và xử lí dầu cặn"],
+    ["Chuyển alkane mạch không phân nhánh thành các alkane mạch phân nhánh", "Chuyển alkane mạch không phân nhánh thành các hydrocarbon mạch vòng", "Số nguyên tử carbon của chất tham gia và của sản phẩm khác nhau", "Nhiệt độ sôi của sản phẩm lớn hơn nhiều so với alkane tham gia phản ứng"],
+    ["Propane C3H8 và butane C4H10 được sử dụng làm khí đốt", "Các alkane C6, C7, C8 là nguyên liệu để sản xuất một số hydrocarbon thơm", "Các alkane lỏng được sử dụng làm nhiên liệu như xăng hay dầu diesel", "Các alkane từ C11 đến C20 được dùng làm nến và sáp"],
+    // bài 16
+    ["Các alkyne HC≡CH, CH3-C≡CH, … có công thức chung là CnH2n-2 (n ≥ 2) tạo thành dãy đồng đẳng của acetylene", "Liên kết ba của alkyne được tạo nên từ ba liên kết π", "Các alkyne 2C và 3C chỉ có duy nhất một đồng phân cấu tạo", "Alkyne có đồng phân hình học như alkene"],
+    ["Cồn 96o có thành phần chính là ethanol (C2H5OH)", "Khí thoát ra khỏi bình cầu chỉ có ethylene", "Vai trò của dung dịch NaOH là loại bỏ tạp chất để thu được C2H4 tinh khiết", "C2H4 thoát ra làm mất màu dung dịch nước Br2 hoặc dung dịch KMnO4"],
+    ["Phản ứng xảy ra trong bình cầu là CaC2 + 2H2O → C2H2 + Ca(OH)2", "Dung dịch NaOH có tác dụng làm khô khí acetylene", "Khí acetylene tạo kết tủa khi phản ứng với nước Br2 hoặc dung dịch KMnO4", "Acetylene có tên gọi khác là propyne"],
+    ["Ở ống nghiệm (1) có kết tủa màu vàng nhạt", "Ở ống nghiệm (2) màu của nước bromine nhạt dần", "Ở ống nghiệm (2) chất lỏng chia thành hai lớp", "Ống nghiệm (1) xảy ra phản ứng cộng, ống nghiệm (2) xảy ra phản ứng thế"],
+    ["Trong phòng thí nghiệm, người ta điều chế ethylene bằng cách tách nước ethanol và thu bằng cách dời chỗ của nước", "Một ứng dụng quan trọng của acetylene là làm nhiên liệu trong đèn xì oxygen - acetylene", "Trong công nghiệp, người ta điều chế acetylene bằng cách nhiệt phân nhanh methane có xúc tác hoặc cho calcium carbide (thành phần chính của đất đèn) tác dụng với nước", "Một ứng dụng quan trọng của acetylene là làm nguyên liệu tổng hợp ethylene"],
 ];
 
-// Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    [0, 1, 2, 3], 
+    // bài 15
+    [0, 1], 
+    [0, 1, 2], 
+    [1, 2, 3], 
+    [0, 1], 
+    [0, 1, 2], 
+    // bài 16
+    [0, 2], 
+    [0, 2, 3], 
+    [0], 
+    [0, 1, 2], 
+    [1, 3], 
 ];
 
 function shuffleOptions() {
