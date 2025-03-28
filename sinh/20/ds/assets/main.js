@@ -18,7 +18,7 @@ const answers = [
 const correctAnswers = [
     [0, 3], 
     [0, 1, 2, 3], 
-    [1, 3], 
+    [1, 2, 3], 
     [1, 2, 3], 
     [0, 1, 2, 3], 
 ];
