@@ -21,13 +21,13 @@ const answers = [
     ["Cây cam ra hoa.", "Lợn tăng thêm 3 cm sau một tuần.", "Sự tăng kích thước của lá cây.", "Diện tích phiến lá tăng lên."],
     ["Cơ thể thực vật ra hoa.", "Cơ thể thực vật tạo hạt.", "Cơ thể thực vật tăng kích thước.", "Cơ thể thực vật rụng lá, hoa."],
     ["0.", "3.", "4.", "5."],
-    ["Tuổi thọ của người hoàn toàn do yếu tố di truyền quyết định và không thể thay đổi.", "Môi trường sống không ảnh hưởng đến tuổi thọ của người.", "Tuổi thọ của người chịu ảnh hưởng của các yếu tố di truyền và môi trường, xã hội.", "Tầm vóc, thể trạng không ảnh hưởng đến tuổi thọ của người.", "Việc giữ gìn và rèn luyện cơ thể khỏe mạnh có thể giúp con người tăng tuổi thọ."],
+    ["1, 4.", "3, 5.", "2, 3.", "4, 5."],
 ];  
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
     1, 3, 0, 3, 1,
-    3, 0, 2, 0, 0,
+    3, 0, 2, 0, 1,
 ];
 
 function shuffleOptions() {
