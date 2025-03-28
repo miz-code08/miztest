@@ -65,6 +65,11 @@ const questions = [
     "Số đồng phân cấu tạo của hợp chất có công thức phân tử C₅H₁₂ là bao nhiêu?",
     "Hàm lượng nguyên tố carbon trong một alkane X là 82,76%. Công thức phân tử của X là?",
     "Chọn tập hợp các alkane khi tác dụng với chlorine (có ánh sáng hoặc đun nóng) chỉ tạo duy nhất một sản phẩm thế monochloro?",
+
+    "Chất nào sau đây là đồng phân alkyne C₅H₈ có thể tác dụng với AgNO₃/NH₃ tạo kết tủa?",
+    "Tổng số liên kết σ (sigma) và π (pi) trong phân tử vinylacetylene (CH≡CL-CH=CH₂) là bao nhiêu?",
+    "Chất nào sau đây phản ứng với dung dịch AgNO₃/NH₃ tạo kết tủa màu vàng?",
+    "Cho 0,2 mol but-1-yne phản ứng vừa đủ với dung dịch AgNO₃/NH₃, thu được m gam kết tủa vàng nhạt. Giá trị của m là bao nhiêu? (Làm tròn đến hàng phần mười)",
 ];
 
 const answers = [
@@ -134,6 +139,11 @@ const answers = [
     ["2", "3", "4", "5"],
     ["C₂H₆", "C₃H₈", "C₄H₁₀", "C₅H₁₂"],
     ["Methane, ethane, propane", "Ethane, propane, neopentane", "Methane, ethane, neopentane", "Methane, propane, butane"],
+
+    ["Pent-1-yne, 3-Methylbut-1-yne", "Pent-2-yne, 3-Methylbut-2-yne", "Cyclopentyne, But-2-yne", "Pent-2-ene, 2,2-Dimethylpropane"],
+    ["7σ và 3π", "3σ và 7π", "7σ và 4π", "10σ và 4π"],
+    ["Ethane, Propene, But-2-yne", "Acetylene, Propyne, Pent-1-yne", "Propyne, Pent-2-yne, But-2-yne", "Acetylene, Ethane, But-2-yne"],
+    ["34,8 g", "43,2 g", "48,0 g", "50,4 g"],
 ];
 
 const correctAnswers = [
@@ -157,6 +167,8 @@ const correctAnswers = [
 
     // tln
     1, 2, 1,
+
+    0, 0, 1, 0,
 ];
 
 function shuffleOptions() {

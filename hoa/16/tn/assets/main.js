@@ -36,6 +36,11 @@ const questions = [
     "Trong phòng thí nghiệm, khi điều chế C2H4 từ C2H5OH và dung dịch H2SO4 đặc ở 170oC, khí sinh ra có lẫn SO2 và CO2. Dùng dung dịch nào sau đây có để loại bỏ tạp chất, thu C2H4 tinh khiết?",
     "Để phân biệt but-2-yne (CH3C≡CCH3) với but-1-yne (CH≡CCH2CH3) có thể dùng thuốc thử nào sau đây?",
     "Có thể phân biệt acetylene, ethylene và methane bằng hóa chất nào sau đây?",
+    // tln
+    "Chất nào sau đây là đồng phân alkyne C₅H₈ có thể tác dụng với AgNO₃/NH₃ tạo kết tủa?",
+    "Tổng số liên kết σ (sigma) và π (pi) trong phân tử vinylacetylene (CH≡CL-CH=CH₂) là bao nhiêu?",
+    "Chất nào sau đây phản ứng với dung dịch AgNO₃/NH₃ tạo kết tủa màu vàng?",
+    "Cho 0,2 mol but-1-yne phản ứng vừa đủ với dung dịch AgNO₃/NH₃, thu được m gam kết tủa vàng nhạt. Giá trị của m là bao nhiêu? (Làm tròn đến hàng phần mười)",
 ];
 
 const answers = [
@@ -76,6 +81,11 @@ const answers = [
     ["dd KMnO4", "dd NaOH", "dd Na2CO3", "dd Br2"],
     ["Dung dịch HCl", "Dung dịch AgNO3/NH3", "Nước bromine", "Dung dịch KMnO4"],
     ["KMnO4 và NaOH", "KMnO4 và quỳ tím", "AgNO3/NH3", "Br2 và AgNO3/NH3"],
+    // tln
+    ["Pent-1-yne, 3-Methylbut-1-yne", "Pent-2-yne, 3-Methylbut-2-yne", "Cyclopentyne, But-2-yne", "Pent-2-ene, 2,2-Dimethylpropane"],
+    ["7σ và 3π", "3σ và 7π", "7σ và 4π", "10σ và 4π"],
+    ["Ethane, Propene, But-2-yne", "Acetylene, Propyne, Pent-1-yne", "Propyne, Pent-2-yne, But-2-yne", "Acetylene, Ethane, But-2-yne"],
+    ["34,8 g", "43,2 g", "48,0 g", "50,4 g"],
 ];
 
 const correctAnswers = [
@@ -87,6 +97,8 @@ const correctAnswers = [
     2, 0, 0, 3, 1,
     0, 2, 1, 0, 1,
     2, 1, 3,
+    // tln
+    0, 0, 1, 0,
 ];
 
 function shuffleOptions() {
