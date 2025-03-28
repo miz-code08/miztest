@@ -8,6 +8,11 @@ const questions = [
     "Ý nào không phải là đặc điểm của tập tính bẩm sinh?",
     "Tập tính quen nhờn là tập tính động vật không trả lời khi kích thích nào?",
     "Khi nói về các hình thức học tập ở động vật, hình thức học tập nào sau đây là đơn giản nhất?",
+    // tln
+    "Nguyên nhân nào sau đây dẫn đến tập tính di cư ở động vật? <br> Thức ăn, hoạt động sinh sản, thời tiết không thuận lợi, hướng nước chảy",
+    "Khi di cư, động vật sống trên cạn định hướng nhờ những yếu tố nào sau đây? <br> Từ trường Trái Đất, vị trí Mặt Trời, vị trí Trăng, thành phần hóa học của nước, hướng dòng nước chảy, địa hình",
+    "Những tập tính nào sau đây thuộc tập tính sinh sản? <br> Tìm kiếm bạn tình, tìm tổ, kiếm ăn, ấp trứng và bảo vệ con non",
+    "Tập tính nào sau đây thuộc tập tính xã hội? <br> Hợp tác, tìm tổ, thứ bậc, vị tha, chăm sóc con non",
 ];
 
 const answers = [
@@ -20,12 +25,19 @@ const answers = [
     ["Có sự thay đổi linh hoạt trong đời sống cá thể.", "Rất bền vững và không thay đổi.", "Là tập hợp các phản xạ không điều kiện diễn ra theo một trình tự nhất định.", "Do kiểu gen quy định."],
     ["Không liên tục và không gây nguy hiểm gì.", "Lặp đi lặp lại nhiều lần và không gây nguy hiểm gì.", "Ngắn gọn và không gây nguy hiểm gì.", "Giảm dần cường độ và không gây nguy hiểm gì."],
     ["In vết.", "Quen nhờn.", "Học liên kết.", "Học xã hội."],
+    // tln
+    ["Chỉ có Thời tiết không thuận lợi", "Hướng nước chảy, Thời tiết không thuận lợi và Thức ăn", "Thức ăn, Hoạt động sinh sản và Thời tiết không thuận lợi", "Hoạt động sinh sản và Hướng nước chảy"],
+    ["Vị trí Mặt Trời, Vị trí Trăng và Địa hình", "Từ trường Trái Đất, Thành phần hóa học của nước và Hướng dòng nước chảy", "Vị trí Mặt Trời, Từ trường Trái Đất và Thành phần hóa học của nước", "Hướng dòng nước chảy, Địa hình và Thành phần hóa học của nước"],
+    ["Tìm kiếm bạn tình, Tìm tổ, Ấp trứng và Bảo vệ con non", "Kiếm ăn, Ấp trứng và Tìm tổ", "Tìm tổ, Kiếm ăn và Bảo vệ con non", "Chỉ có Tìm kiếm bạn tình và Ấp trứng"],
+    ["Hợp tác, Thứ bậc và Vị tha", "Tìm tổ, Chăm sóc con non và Thứ bậc", "Hợp tác, Chăm sóc con non và Tìm tổ", "Vị tha, Tìm tổ và Chăm sóc con non"],
 ];  
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    0, 3, 0, 1, 3,
+    0, 3, 1, 1, 3,
     1, 0, 1, 1,
+    // tln
+    2, 0, 0, 0,
 ];
 
 function shuffleOptions() {

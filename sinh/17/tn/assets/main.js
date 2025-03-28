@@ -18,6 +18,11 @@ const questions = [
     "Xét các đặc điểm sau: <br> (1) Hình thành trong đời sống cá thể. <br> (2) Rất bền vững và không thay đổi. <br> (3) Tác nhân kích thích ứng với thụ thể cảm giác. <br> (4) Có sự tham gia của vỏ não. <br> Trong các đặc điểm trên, những đặc điểm của phản xạ có điều kiện gồm:",
     "Trong quá trình dẫn truyền xung thần kinh qua xinap hóa học, ion Ca2+ có vai trò gì?",
     "Quá trình truyền tin qua xinap gồm các giai đoạn theo thứ tự là",
+    // tln
+    "Trong các sinh vật sau: Vi khuẩn E.coli, trùng giày, giun đất, trùng amip, nhện, sinh vật nào không có hệ thần kinh?",
+    "Động vật nào trong nhóm sau có hệ thần kinh dạng lưới? Thủy tức, cá, sứa, cua, giun đốt, mực",
+    "Nhóm động vật nào sau đây có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
+    "Trong các động vật sau, đâu là những loài không có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
 ];
 
 const answers = [
@@ -40,6 +45,11 @@ const answers = [
     ["(1) và (4)", "(2) và (3)", "(2), (3) và (4)", "(1), (2) và (4)"],
     ["Làm thay đổi tính thấm của dung dịch ở tận cùng sợi trục, từ đó làm xuất bào các bóng chứa chất trung gian hóa học", "Tác động lên thụ thể ở màng sau xinap, làm thay đổi tính thấm của màng sau dẫn đến xung thần kinh được dẫn truyền", "Làm tăng nồng độ ion của dung dịch ngoại bào, từ đó làm tăng độ lớn của điện thế nghỉ", "Làm thay đổi hướng truyền của xung thần kinh khi đi qua xinap"],
     ["Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap → Xung thần kinh đến làm Ca2+ đi vào chùy xinap → acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp", "Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap → acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp → Xung thần kinh đến làm Ca2+ đi vào chùy xinap", "acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp → Xung thần kinh đến làm Ca2+ đi vào chùy xinap → Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap", "Xung thần kinh đến làm Ca2+ đi vào chùy xinap → Ca2+ vào làm bóng chứa acetylcholine gắn vào màng trước và vỡ ra, giải phóng acetylcholine vào khe xinap → acetylcholine gắn vào thụ thể trên màng sau và làm xuất hiện điện thế hoạt động lan truyền đi tiếp"],
+    // tln
+    ["Giun đất và Nhện", "Vi khuẩn E.coli và Trùng amip", "Trùng giày và Trùng amip", "Nhện và Trùng giày"],
+    ["Cá và Cua", "Chỉ có Thủy tức", "Thủy tức và Sứa", "Giun đốt và Mực"],
+    ["Sư tử, Chó, Mèo và Cá", "Cá, Sứa và Mực", "Mèo, Cá và Mực", "Chỉ có Chó và Mèo"],
+    ["Cá và Sứa", "Sứa và Mực", "Mèo và Cá", "Chó và Mực"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -48,6 +58,8 @@ const correctAnswers = [
     1, 1, 0, 2, 3,
     3, 3, 3, 2, 2,
     2, 0, 0, 3,
+    // tln
+    2, 2, 0, 1,
 ];
 
 function shuffleOptions() {

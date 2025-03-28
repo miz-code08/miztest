@@ -67,6 +67,16 @@ const questions = [
     "Hoocmôn thực vật là những chất hữu cơ có hoạt tính sinh học cao do cơ thể thực vật tiết ra để làm gì?",
     "Mô phân sinh là nhóm tế bào có đặc điểm gì?",
     "Mô phân sinh đỉnh không có ở vị trí nào của cây?",
+    // tln
+    "Trong các sinh vật sau: Vi khuẩn E.coli, trùng giày, giun đất, trùng amip, nhện, sinh vật nào không có hệ thần kinh?",
+    "Động vật nào trong nhóm sau có hệ thần kinh dạng lưới? Thủy tức, cá, sứa, cua, giun đốt, mực",
+    "Nhóm động vật nào sau đây có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
+    "Trong các động vật sau, đâu là những loài không có hệ thần kinh dạng ống? Sư tử, chó, mèo, cá, sứa, mực",
+
+    "Nguyên nhân nào sau đây dẫn đến tập tính di cư ở động vật? <br> Thức ăn, hoạt động sinh sản, thời tiết không thuận lợi, hướng nước chảy",
+    "Khi di cư, động vật sống trên cạn định hướng nhờ những yếu tố nào sau đây? <br> Từ trường Trái Đất, vị trí Mặt Trời, vị trí Trăng, thành phần hóa học của nước, hướng dòng nước chảy, địa hình",
+    "Những tập tính nào sau đây thuộc tập tính sinh sản? <br> Tìm kiếm bạn tình, tìm tổ, kiếm ăn, ấp trứng và bảo vệ con non",
+    "Tập tính nào sau đây thuộc tập tính xã hội? <br> Hợp tác, tìm tổ, thứ bậc, vị tha, chăm sóc con non",
 ];
 
 const answers = [
@@ -138,6 +148,16 @@ const answers = [
     ["Tham gia điều tiết các hoạt động sống của cây.", "Chỉ có tác dụng ức chế hoạt động của cây.", "Có tác dụng kháng bệnh cho cây.", "Chỉ có tác dụng kích thích sinh trưởng của cây."],
     ["Phân hóa, không có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Chưa phân hóa, có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Chưa phân hóa, không có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật.", "Phân hóa, có khả năng phân chia tạo tế bào mới trong suốt đời sống thực vật."],
     ["Ở thân.", "Ở chồi nách.", "Ở đỉnh rễ.", "Ở chồi đỉnh."],
+    // tln
+    ["Giun đất và Nhện", "Vi khuẩn E.coli và Trùng amip", "Trùng giày và Trùng amip", "Nhện và Trùng giày"],
+    ["Cá và Cua", "Chỉ có Thủy tức", "Thủy tức và Sứa", "Giun đốt và Mực"],
+    ["Sư tử, Chó, Mèo và Cá", "Cá, Sứa và Mực", "Mèo, Cá và Mực", "Chỉ có Chó và Mèo"],
+    ["Cá và Sứa", "Sứa và Mực", "Mèo và Cá", "Chó và Mực"],
+
+    ["Chỉ có Thời tiết không thuận lợi", "Hướng nước chảy, Thời tiết không thuận lợi và Thức ăn", "Thức ăn, Hoạt động sinh sản và Thời tiết không thuận lợi", "Hoạt động sinh sản và Hướng nước chảy"],
+    ["Vị trí Mặt Trời, Vị trí Trăng và Địa hình", "Từ trường Trái Đất, Thành phần hóa học của nước và Hướng dòng nước chảy", "Vị trí Mặt Trời, Từ trường Trái Đất và Thành phần hóa học của nước", "Hướng dòng nước chảy, Địa hình và Thành phần hóa học của nước"],
+    ["Tìm kiếm bạn tình, Tìm tổ, Ấp trứng và Bảo vệ con non", "Kiếm ăn, Ấp trứng và Tìm tổ", "Tìm tổ, Kiếm ăn và Bảo vệ con non", "Chỉ có Tìm kiếm bạn tình và Ấp trứng"],
+    ["Hợp tác, Thứ bậc và Vị tha", "Tìm tổ, Chăm sóc con non và Thứ bậc", "Hợp tác, Chăm sóc con non và Tìm tổ", "Vị tha, Tìm tổ và Chăm sóc con non"],
 ];
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
@@ -153,7 +173,7 @@ const correctAnswers = [
     3, 3, 3, 2, 2,
     2, 0, 0, 3,
     // bài 18
-    0, 3, 0, 1, 3,
+    0, 3, 1, 1, 3,
     1, 0, 1, 1,
     // bài 19
     1, 3, 0, 3, 1,
@@ -161,6 +181,10 @@ const correctAnswers = [
     //  bài 20
     1, 3, 1, 2, 0,
     1, 0, 
+    // tln
+    2, 2, 0, 1,
+
+    2, 0, 0, 0,
 ];
 
 function shuffleOptions() {
