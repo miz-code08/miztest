@@ -17,6 +17,10 @@ const answers = [
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
     [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
 ];
 
 function shuffleOptions() {
