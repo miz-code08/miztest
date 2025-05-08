@@ -14,7 +14,7 @@ const answers = [
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    [2, 3], 
+    [1, 2, 3], 
     [0, 1, 3], 
     [0, 2], 
     [0, 1, 3], 
