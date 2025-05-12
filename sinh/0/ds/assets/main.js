@@ -1,26 +1,27 @@
 const questions = [
-    "Câu hỏi 1?",
-    "Câu hỏi 2?",
-    "Câu hỏi 3?",
-    "Câu hỏi 4?",
-    "Câu hỏi 5?",
+    // bài 24
+    "Khi nói về đặc điểm để giúp nhận biết sinh sản vô tính, nhận định nào đúng, nhận định nào sai?",
+    "Khi nói về đặc điểm của sinh sản hữu tính, nhận định nào đúng, nhận định nào sai?",
+    "Khi nói về đặc điểm chỉ có ở sinh sản hữu tính, nhận định nào đúng, nhận định nào sai?",
+    "Đây là hình ảnh cây sống đời (Kalanchoe pinnata). Các ý sau đây về hình thức sinh sản của loài này là đúng hay sai?",
 ];
 
 const answers = [
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
+    // bài 24
+    ["Các cá thể tạo thành thích nghi tốt với môi trường sống ổn định. Không có sự kết hợp giữa giao tử đực và giao tử cái. Có hệ gene chỉ giống một phần hệ gene của thế hệ trước. Nguyên phân là cơ sở tế bào."],
+    ["Sinh sản hữu tính giúp nhân nhanh số lượng lớn cá thể trong thời gian ngắn. Tạo nên sự đa dạng trong di truyền. Cung cấp nguồn nguyên liệu phong phú, đa dạng cho chọn lọc tự nhiên và tiến hoá. Các cá thể mới có thể thích nghi tốt với môi trường biến đổi."],
+    ["Có quá trình thụ tinh. Có quá trình nguyên phân. Các cơ thể con có đặc điểm giống nhau. Ở đời con có sự tái tổ hợp vật chất di truyền của bố và mẹ."],
+    ["Cơ thể mới được hình thành từ một bộ phận (lá, thân....) của cây mẹ. Khi môi trường sống thay đổi các cây con có khả năng thích nghi tốt hơn so với cây mẹ. Cây sống đời chỉ có sinh sản vô tính mà không có sinh sản hữu tính. Con người ứng dụng phương thức sinh sản sinh dưỡng để tạo ra nhiều giống cây trồng mới có đặc tính di truyền đa dạng, rút ngắn thời gian thu hoạch, có khả năng kháng bệnh cao."],
 ];
+
 
 // Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
+    // bài 24
+    [0, 1, 3], 
+    [1, 2, 3], 
+    [0, 3], 
+    [0], 
 ];
 
 function shuffleOptions() {
