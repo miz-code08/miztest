@@ -24,6 +24,17 @@ const questions = [
     "Cho các hormone sau đây: <br> (1) Hormone sinh trưởng (GH). <br> (2) Hormone ecdysone. <br> (3) Hormone thyroxine. <br> (4) Hormone juvenile. <br> (5) Hormone testosterone. <br> (6) Hormone estrogen. <br> Những hormone nào tác động đến quá trình sinh trưởng và phát triển ở bướm?",
     "Vòng đời phát triển của bướm gồm 4 giai đoạn: <br> (1) trứng <br> (2) sâu bướm <br> (3) nhộng <br> (4) bướm trưởng thành. <br> Những giai đoạn nào thuộc giai đoạn phát triển hậu phôi?",
     "Hiện nay, chăn nuôi lợn rừng đang phát triển ở nhiều nơi và trở thành một hướng phát triển kinh tế cho bà con nông dân. Trong chăn nuôi lợn rừng, nhiều người chăn nuôi đang gặp vấn đề sinh sản của lợn nái như lợn nái chậm động dục, động dục nhưng phối giống không đạt, hoặc phối đạt nhưng đẻ ít con…Hiện tượng này thường gặp đối với những người nuôi lợn rừng của Việt Nam hoặc lợn nái lai giữa lợn rừng Việt Nam với lợn địa phương miền núi. Có bao nhiêu giải pháp sau đây cần áp dụng giúp nâng cao năng suất sinh sản của lợn rừng? <br> (1) Sử dụng thức ăn dinh dưỡng phù hợp theo từng giai đoạn sinh trưởng. <br> (2) Sử dụng hormone để kích thích hoạt động sinh dục của lợn nái. <br> (3) Tăng số lần phối giống khi lợn nái động dục. <br> (4) Vệ sinh chuồng trại, tiêm vacxin phòng bệnh cho lợn nuôi.",
+    // bài 24
+    "Sinh sản là gì?",
+    "Sinh sản ở sinh vật có thể là",
+    "Sinh sản hữu tính là hình thức sinh sản",
+    "Sinh sản vô tính là hình thức sinh sản tạo ra cơ thể mới với các đặc điểm",
+    "Sinh sản vô tính ở sinh vật được điều hòa chủ yếu bởi",
+    "Vật chất di truyền của cơ thể được truyền đạt nguyên vẹn cho cơ thể con trong sinh sản vô tính ở sinh vật qua cơ chế",
+    "Sinh sản hữu tính ở sinh vật được điều hòa bởi",
+    "Vật chất di truyền của cơ thể được truyền đạt từ thế hệ mẹ sang thế hệ con trong sinh sản hữu tính ở sinh vật thông qua quá trình",
+    "Sinh sản vô tính nhanh chóng tạo ra các cá thể mới có bộ NST đặc trưng cho loài trong điều kiện môi trường sống",
+    "Vật chất di truyền của cơ thể con trong sinh sản hữu tính được tái tổ hợp từ",
 ];
 
 const answers = [
@@ -52,6 +63,18 @@ const answers = [
     ["2, 4", "1, 3, 5, 6", "1, 3, 4, 6", "1, 2, 4, 5, 6"],
     ["1, 2, 3", "2 ,3", "1, 3, 4", "1, 2, 3, 4"],
     ["1, 2, 3, 4", "2, 3", "1, 3, 4", "4"],
+    // bài 24
+    ["Quá trình tạo ra cơ thể mới, đảm bảo sự sinh trưởng và phát triển của loài.", "Quá trình tạo ra cơ thể mới, bảo đảm sự phát triển liên tục của loài.", "Quá trình tạo ra cơ thể mới, đảm bảo sự tồn tại vĩnh viễn của loài.", "Quá trình tạo ra cơ thể mới, đảm bảo sự sinh trưởng liên tục của loài."],
+    ["sinh sản vô tính hoặc hữu tính.", "sinh sản vô tính hoặc sinh sản bằng bào tử.", "sinh sản sinh dưỡng hoặc hữu tính.", "sinh sản hữu tính."],
+    ["có sự kết hợp giữa giao tử đực và giao tử cái để tạo thành hợp tử.", "không có sự kết hợp của giao tử đực và giao tử cái.", "có sự kết hợp của 2 giao tử đực và 2 giao đực cái để tạo thành hợp tử.", "có sự kết hợp của 2 giao tử đực và 1 giao tử cái để tạo thành hợp tử."],
+    ["khác cá thể ban đầu mà không có sự đóng góp vật chất di truyền của cá thể khác.", "giống cá thể ban đầu mà không có sự đóng góp vật chất di truyền của cá thể khác.", "giống cá thể ban đầu và có sự đóng góp vật chất di truyền của cá thể khác.", "khác cá thể ban đầu và có sự đóng góp vật chất di truyền của cá thể khác."],
+    ["các hormone.", "các chất kích thích.", "các chất ức chế.", "hệ thống kiểm soát chu kì tế bào."],
+    ["giảm phân.", "thụ tinh.", "nguyên phân.", "phiên mã."],
+    ["các hormone.", "các chất kích thích.", "các chất ức chế.", "hệ thống kiểm soát chu kì tế bào."],
+    ["giảm phân và thụ tinh.", "thụ tinh và nguyên phân.", "nguyên phân và giảm phân.", "giảm phân, thụ tinh và nguyên phân."],
+    ["ổn định, thuận lợi.", "bất lợi.", "không ổn định.", "thay đổi."],
+    ["3 nguồn khác nhau nên không có sự sai khác.", "2 nguồn khác nhau nên có sự sai khác.", "2 nguồn khác nhau nên không có sự sai khác.", "1 nguồn nên không có sự sai khác."],
+
 ];
 
 const correctAnswers = [
@@ -62,6 +85,9 @@ const correctAnswers = [
     0, 2, 3, 1,     
     // tln
     0, 0, 0, 0,
+    // bài 24
+    1, 0, 0, 1, 3,
+    2, 0, 3, 0, 1,
 ];
 
 function shuffleOptions() {
