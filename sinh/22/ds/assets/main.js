@@ -14,8 +14,13 @@ const answers = [
     ["1", "2", "3", "4"],
 ];
 
+// Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
 const correctAnswers = [
-    0, 0, 0, 0, 0,
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
+    [0, 1, 2, 3], 
 ];
 
 function shuffleOptions() {
@@ -39,7 +44,7 @@ function shuffleOptions() {
     // Xáo trộn các đáp án trong mỗi câu hỏi
     for (let i = 0; i < answers.length; i++) {
         const answerSet = answers[i];
-        const correctIndex = correctAnswers[i];
+        const correctIndices = correctAnswers[i];
 
         // Tạo mảng chỉ số cho các đáp án
         const answerIndices = Array.from({ length: answerSet.length }, (_, idx) => idx);
@@ -53,7 +58,7 @@ function shuffleOptions() {
         // Áp dụng thứ tự xáo trộn cho các đáp án và cập nhật chỉ số đáp án đúng
         const shuffledAnswers = answerIndices.map(index => answerSet[index]);
         answers[i] = shuffledAnswers;
-        correctAnswers[i] = answerIndices.indexOf(correctIndex);
+        correctAnswers[i] = correctIndices.map(index => answerIndices.indexOf(index));
     }
 }
 
@@ -68,7 +73,7 @@ questions.forEach((_, index) => {
     questionTable.appendChild(questionItem);
 });
 
-const userAnswer = new Array(questions.length).fill(null);
+const userAnswer = new Array(questions.length).fill(null).map(() => []);
 const startTime = Date.now();
 let time;
 
@@ -98,14 +103,21 @@ window.onload = () => {
     function updateQuestion(e) {
         radio.forEach((val, idx) => {
             if (val.checked) {
-                userAnswer[viTri] = idx;
+                if (!userAnswer[viTri].includes(idx)) {
+                    userAnswer[viTri].push(idx);
+                }
+            } else {
+                const index = userAnswer[viTri].indexOf(idx);
+                if (index > -1) {
+                    userAnswer[viTri].splice(index, 1);
+                }
             }
             val.checked = false;
         });
         viTri = e;
-        if (userAnswer[viTri] != null) {
-            radio[userAnswer[viTri]].checked = true;
-        }
+        userAnswer[viTri].forEach(idx => {
+            radio[idx].checked = true;
+        });
         questionContent.innerHTML = `Câu hỏi ${viTri + 1}: ${questions[viTri]}`
         const sttAnswers = ["A", "B", "C", "D"];
         answerDesc.forEach((val, idx) => {
@@ -139,8 +151,9 @@ window.onload = () => {
     const timerInterval = setInterval(updateTimeDisplay, 1000);
 
     function updateResults() {
-        correctAnswers.forEach((correctAnswerIndex, idx) => {
-            if (userAnswer[idx] === correctAnswerIndex) {
+        correctAnswers.forEach((correctAnswerIndices, idx) => {
+            const userSelected = userAnswer[idx];
+            if (correctAnswerIndices.every(val => userSelected.includes(val)) && userSelected.length === correctAnswerIndices.length) {
                 score++;
                 questionItem[idx].classList.add("green");
             } else {
@@ -155,7 +168,9 @@ window.onload = () => {
             answerDesc.forEach(val => {
                 val.style.color = "#000";
             });
-            answerDesc[correctAnswers[viTri]].style.color = "red";
+            correctAnswers[viTri].forEach(correctIndex => {
+                answerDesc[correctIndex].style.color = "red";
+            });
         }
     }
 
@@ -190,8 +205,18 @@ window.onload = () => {
         }
     });
 
-    radio.forEach((val) => {
+    radio.forEach((val, idx) => {
         val.addEventListener('click', () => {
+            if (val.checked) {
+                if (!userAnswer[viTri].includes(idx)) {
+                    userAnswer[viTri].push(idx);
+                }
+            } else {
+                const index = userAnswer[viTri].indexOf(idx);
+                if (index > -1) {
+                    userAnswer[viTri].splice(index, 1);
+                }
+            }
             questionItem[viTri].classList.add("blue");
         });
     })
