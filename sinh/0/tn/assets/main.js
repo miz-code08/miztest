@@ -19,7 +19,11 @@ const questions = [
     "Cho các biện pháp sau đây <br> (1) Cải tạo giống. <br> (2) Cải thiện môi trường sống. <br> (3) Chuyển đổi cơ cấu chăn nuôi. <br> (4) Cải thiện chất lượng dân số. <br> (5) Kế hoạch hoá gia đình. <br> Số biện pháp điều khiển sự sinh trưởng và phát triển ở động vật và người là",
     "Để bảo vệ sức khỏe, chăm sóc bản thân và người khác, nam nữ ở tuổi dậy thì, có bao nhiêu nhận định sau đây là đúng? <br> (1) Chủ động tìm hiểu kiến thức về giới tính, sức khỏe sinh sản từ những nguồn thông tin đáng tin cậy. <br> (2) Không xem phim ảnh, trang mạng không phù hợp. <br> (3) Nên quan hệ tình dục trước tuổi trưởng thành. <br> (4) Không sử dụng các chất kích thích để tránh những ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần. <br> (5) Nâng cao sức khỏe, vệ sinh cá nhân và cơ quan sinh dục đúng cách, sinh hoạt điều độ, tập thể dục thường xuyên; có chế độ dinh dưỡng hợp lí giúp nâng cao sức đề kháng cho cơ thể.",
     "Để bảo vệ sức khỏe, chăm sóc bản thân và người khác, nam nữ ở tuổi dậy thì, có bao nhiêu nhận định sau đây là sai? <br> (1) Chủ động tìm hiểu kiến thức về giới tính, sức khỏe sinh sản từ những nguồn thông tin đáng tin cậy. <br> (2) Xem phim ảnh, trang mạng không phù hợp. <br> (3) Nên quan hệ tình dục trước tuổi trưởng thành. <br> (4) Không sử dụng các chất kích thích để tránh những ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần. <br> (5) Nâng cao sức khỏe, vệ sinh cá nhân và cơ quan sinh dục đúng cách, sinh hoạt điều độ, tập thể dục thường xuyên; có chế độ dinh dưỡng hợp lí giúp nâng cao sức đề kháng cho cơ thể.",
-
+    // tln
+    "Cho các hormone sau đây: <br> (1) Hormone sinh trưởng (GH). <br> (2) Hormone ecdysone. <br> (3) Hormone thyroxine. <br> (4) Hormone juvenile. <br> (5) Hormone testosterone. <br> (6) Hormone estrogen. <br> Những hormone nào gây ảnh hưởng đến quá trình sinh trưởng và phát triển ở động vật có xương sống?",
+    "Cho các hormone sau đây: <br> (1) Hormone sinh trưởng (GH). <br> (2) Hormone ecdysone. <br> (3) Hormone thyroxine. <br> (4) Hormone juvenile. <br> (5) Hormone testosterone. <br> (6) Hormone estrogen. <br> Những hormone nào tác động đến quá trình sinh trưởng và phát triển ở bướm?",
+    "Vòng đời phát triển của bướm gồm 4 giai đoạn: <br> (1) trứng <br> (2) sâu bướm <br> (3) nhộng <br> (4) bướm trưởng thành. <br> Những giai đoạn nào thuộc giai đoạn phát triển hậu phôi?",
+    "Hiện nay, chăn nuôi lợn rừng đang phát triển ở nhiều nơi và trở thành một hướng phát triển kinh tế cho bà con nông dân. Trong chăn nuôi lợn rừng, nhiều người chăn nuôi đang gặp vấn đề sinh sản của lợn nái như lợn nái chậm động dục, động dục nhưng phối giống không đạt, hoặc phối đạt nhưng đẻ ít con…Hiện tượng này thường gặp đối với những người nuôi lợn rừng của Việt Nam hoặc lợn nái lai giữa lợn rừng Việt Nam với lợn địa phương miền núi. Có bao nhiêu giải pháp sau đây cần áp dụng giúp nâng cao năng suất sinh sản của lợn rừng? <br> (1) Sử dụng thức ăn dinh dưỡng phù hợp theo từng giai đoạn sinh trưởng. <br> (2) Sử dụng hormone để kích thích hoạt động sinh dục của lợn nái. <br> (3) Tăng số lần phối giống khi lợn nái động dục. <br> (4) Vệ sinh chuồng trại, tiêm vacxin phòng bệnh cho lợn nuôi.",
 ];
 
 const answers = [
@@ -43,7 +47,11 @@ const answers = [
     ["2", "3", "4", "5"],
     ["1", "2", "3", "4"],
     ["1", "2", "3", "4"],
-
+    // tln
+    ["1, 3, 5, 6", "2 , 4", "1, 3, 4, 6", "1, 2, 4, 5, 6"],
+    ["2, 4", "1, 3, 5, 6", "1, 3, 4, 6", "1, 2, 4, 5, 6"],
+    ["1, 2, 3", "2 ,3", "1, 3, 4", "1, 2, 3, 4"],
+    ["1, 2, 3, 4", "2, 3", "1, 3, 4", "4"],
 ];
 
 const correctAnswers = [
@@ -51,8 +59,9 @@ const correctAnswers = [
     0, 3, 2, 0, 2,
     1, 2, 1, 2, 1,
     2, 0, 1, 1, 1,
-    0, 2, 3, 1,   
-
+    0, 2, 3, 1,     
+    // tln
+    0, 0, 0, 0,
 ];
 
 function shuffleOptions() {
