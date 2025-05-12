@@ -35,6 +35,21 @@ const questions = [
     "Vật chất di truyền của cơ thể được truyền đạt từ thế hệ mẹ sang thế hệ con trong sinh sản hữu tính ở sinh vật thông qua quá trình",
     "Sinh sản vô tính nhanh chóng tạo ra các cá thể mới có bộ NST đặc trưng cho loài trong điều kiện môi trường sống",
     "Vật chất di truyền của cơ thể con trong sinh sản hữu tính được tái tổ hợp từ",
+    // bài 25
+    "Các hình thức sinh sản ở thực vật gồm có",
+    "Trong sinh sản sinh dưỡng ở thực vật, cây con được tạo ra",
+    "Thụ phấn là quá trình",
+    "Sinh sản bằng bào tử ở thực vật là hình thức sinh sản mà cơ thể mới được phát triển từ",
+    "Hình thức sinh sản bằng bào tử là một giai đoạn trong vòng đời của một số loài thực vật như",
+    "Các phương pháp nhân giống vô tính ở thực vật gồm",
+    "Qúa trình sinh sản hữu tính ở thực vật có hoa gồm ba giai đoạn kế tiếp nhau",
+    "Kỹ thuật nhân giống mà cây con tạo được bằng cách thúc đẩy hình thành rễ từ vết khoanh vỏ một cành bánh tẻ trên cây mẹ là phương pháp",
+    "…… là phương pháp được thực hiện dựa trên công nghệ nuôi cấy mô, tế bào thực vật. Dấu “…” sẽ là",
+    "Khi nói về ưu điểm của phương pháp nuôi cấy mô, có bao nhiêu nhận định sau đây đúng?",
+    "Dựa trên các phương pháp nhân giống vô tính ở thực vật. Có bao nhiêu phát biểu sau đây đúng về ưu và nhược điểm? <br> I. Phương pháp giâm cành có ưu điểm tạo được số lượng lớn cây con có chất lượng đồng đều trong thời gian ngắn. <br> II. Phương pháp chiết cành có ưu điểm tỉ lệ sống của cây con cao (có thể lên tới 100%), cây thấp, tán lá gọn, sinh trưởng nhanh. <br> III. Phương pháp ghép cành có ưu điểm giữ được các đặc tính của giống muốn nhân. <br> IV. Phương pháp nuôi cấy mô có ưu điểm tạo ra số lượng lớn các giống cây trồng có năng suất cao, chất lượng tốt, thích nghi với điều kiện sinh thái nhất định, chống chịu tốt với nhiều loại sâu bệnh, ...",
+    "Khi tìm hiểu các giống cây trồng ở địa phương được nhân giống bằng hình thức hữu tính. Có bao nhiêu phát biểu sau đây đúng? <br> I. Lúa là loại cây trồng được nhân giống bằng phương pháp giao phối tự nhiên giữa các cây khác nhau. <br> II. Việc lai tạo các giống lúa mới giúp tăng cường sức đề kháng và năng suất của lúa. <br> III. Bông là loại cây trồng chủ yếu để sản xuất sợi bông và được nhân giống bằng phương pháp lai tạo giữa các giống khác nhau. <br> IV. Cao su cũng được nhân giống bằng phương pháp lai tạo giữa các giống khác nhau để tạo ra những giống mới có năng suất và chất lượng tốt hơn.",
+    "Khi nói đến sinh sản hữu tính so với sinh sản vô tính ở thực vật. Có bao nhiêu phát biểu sau đây đúng? <br> I. Tạo ra được nhiều biến dị tổ hợp làm nguyên liệu cho chọn giống và tiến hóa. <br>  <br> II. Duy trì ổn định những tính trạng tốt về mặt di truyền. <br> III. Có khả năng thích nghi với những điều kiện môi trường biến đổi. <br> IV. Là hình thức sinh sản phổ biến.",
+
 ];
 
 const answers = [
@@ -74,6 +89,20 @@ const answers = [
     ["giảm phân và thụ tinh.", "thụ tinh và nguyên phân.", "nguyên phân và giảm phân.", "giảm phân, thụ tinh và nguyên phân."],
     ["ổn định, thuận lợi.", "bất lợi.", "không ổn định.", "thay đổi."],
     ["3 nguồn khác nhau nên không có sự sai khác.", "2 nguồn khác nhau nên có sự sai khác.", "2 nguồn khác nhau nên không có sự sai khác.", "1 nguồn nên không có sự sai khác."],
+    // bài 25
+    ["sinh sản sinh dưỡng và sinh sản bào tử", "sinh sản bằng rễ và bằng thân và bằng lá", "sinh sản bằng hạt và sinh sản bằng chồi", "sinh sản vô tính và sinh sản hữu tính"],
+    ["từ các bộ phận sinh dưỡng khác nhau của cây mẹ", "chỉ từ một phần thân của cây", "chỉ từ rễ của cây", "chỉ từ lá của cây"],
+    ["hạt phấn phát tán và rơi trên núm nhụy", "vận chuyển hạt phấn từ nhụy đến núm nhị", "hợp nhất nhân giao tử đực và nhân tế bào trứng", "hợp nhất giữa nhị và nhụy"],
+    ["bào tử (2n)", "hợp tử (2n)", "bào tử (n)", "giao tử (n)"],
+    ["rêu, củ khoai tây", "rêu, dương xỉ", "dương xỉ, lá cây thuốc bỏng", "cây rau má, củ khoai tây"],
+    ["giâm cành, chiết cành, ghép, nhân giống in vitro", "giâm cành, chiết cành, ghép", "giâm cành, ghép, nhân giống in vitro", "giâm cành, chiết cành, nhân giống in vitro"],
+    ["hình thành hạt và quả, thụ phấn và thụ tinh, hình thành hạt phấn và túi phôi", "thụ phấn và thụ tinh, hình thành hạt phấn và túi phôi, hình thành hạt và quả", "hình thành hạt phấn và túi phôi, hình thành hạt và quả, thụ phấn và thụ tinh", "hình thành hạt phấn và túi phôi, thụ phấn và thụ tinh, hình thành hạt và quả"],
+    ["chiết cành", "giâm cành", "ghép", "nhân giống in vitro"],
+    ["chiết cành", "giâm cành", "ghép", "nhân giống in vitro"],
+    ["1", "2", "3", "4"],
+    ["1", "2", "3", "4"],
+    ["1", "2", "3", "4"],
+    ["1", "2", "3", "4"],
 
 ];
 
@@ -88,6 +117,11 @@ const correctAnswers = [
     // bài 24
     1, 0, 0, 1, 3,
     2, 0, 3, 0, 1,
+    // bài 25
+    3, 0, 0, 2, 1,
+    0, 3, 0, 3, 2,
+    3, 3, 2, 
+    
 ];
 
 function shuffleOptions() {
