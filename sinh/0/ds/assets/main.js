@@ -4,6 +4,12 @@ const questions = [
     "Khi nói về đặc điểm của sinh sản hữu tính, nhận định nào đúng, nhận định nào sai?",
     "Khi nói về đặc điểm chỉ có ở sinh sản hữu tính, nhận định nào đúng, nhận định nào sai?",
     "Đây là hình ảnh cây sống đời (Kalanchoe pinnata). Các ý sau đây về hình thức sinh sản của loài này là đúng hay sai?",
+    // bài 25
+    "Khi nói về quá trình sinh sản ở thực vật, mỗi nhận định sau đây là đúng hay sai?",
+    "Khi nói về thụ tinh của thực vật có hoa, mỗi nhận định sau đây là Đúng hay Sai khi nói về quá trình này?",
+    "Vườn nhà bác Minh có một cây bưởi cho quả rất ngon, bác muốn nhân giống để trồng thêm vài cây nữa ở khu vườn, Bạn Nam gợi ý cho bác Minh phương pháp nhân giống phù hợp theo em bạn Nam đưa ra và giải thích như vậy là Đúng hay Sai?",
+    "Khi nói về sự thụ phấn ở thực vật, có bao nhiêu phát biểu sau đây đúng hay Sai?",
+
 ];
 
 const answers = [
@@ -12,6 +18,12 @@ const answers = [
     ["Sinh sản hữu tính giúp nhân nhanh số lượng lớn cá thể trong thời gian ngắn. Tạo nên sự đa dạng trong di truyền. Cung cấp nguồn nguyên liệu phong phú, đa dạng cho chọn lọc tự nhiên và tiến hoá. Các cá thể mới có thể thích nghi tốt với môi trường biến đổi."],
     ["Có quá trình thụ tinh. Có quá trình nguyên phân. Các cơ thể con có đặc điểm giống nhau. Ở đời con có sự tái tổ hợp vật chất di truyền của bố và mẹ."],
     ["Cơ thể mới được hình thành từ một bộ phận (lá, thân....) của cây mẹ. Khi môi trường sống thay đổi các cây con có khả năng thích nghi tốt hơn so với cây mẹ. Cây sống đời chỉ có sinh sản vô tính mà không có sinh sản hữu tính. Con người ứng dụng phương thức sinh sản sinh dưỡng để tạo ra nhiều giống cây trồng mới có đặc tính di truyền đa dạng, rút ngắn thời gian thu hoạch, có khả năng kháng bệnh cao."],
+    // bài 25
+    ["Quả được hình thành từ đầu nhị", "Sinh sản bào tử tạo ra thế hệ mới từ bào tử được phát sinh do nguyên phân ở những thực vật có xen kẽ thế hệ thể bào tử thể và giao tử thể", "Tự thụ phấn là sự thụ phấn giữa hạt phấn với nhụy của cùng một hoa hay khác hoa cùng một cây", "Thụ phấn là quá trình vận chuyển hạt phấn từ nhị đến núm nhụy"],
+    ["Nhóm thực vật có thụ tinh kép là thực vật hạt kín", "Ở thực vật có hoa, hạt được hình thành từ bộ phận túi phôi", "Tế bào mẹ giảm phân cho 4 tiểu bào tử Mỗi tiểu bào tử nguyên phân 1 lần cho 1 hạt phấn chứa 1 tế bào sinh sản và 1 tế bào ống phấn Tế bào sinh sản nguyên phân một lần tạo 2 giao tử đực", "Quá trình thụ tinh của thực vật có hoa diễn ra ở ống phấn"],
+    ["Phương pháp nhân giống phù hợp cho cây bưởi trong vườn nhà bác Minh là phương pháp chiết cành. Vì phương pháp này phù hợp cho cây ăn quả thân gỗ", "Quá trình rễ được tạo ra ở đoạn cành được áp dụng kĩ thuật này nhờ cytokinin phân hóa mô sẹo sau đó hình thành rễ bất định", "Kỹ thuật này cho cây con có tỉ lệ sống cao (có thể lên tới 100%), giữ nguyên được đặc tính của cây; cây con có tán lá gọn, sinh trưởng nhanh và khỏe", "Bạn Nam khuyên bác Minh có thể nhân giống đại trà để tăng năng suất và thương mại hóa"],
+    ["Trong quá trình thụ phấn, nếu số lượng hạt phấn rơi trên đầu nhụy càng nhiều thì bầu càng dễ phát triển thành quả", "Trong tự nhiên, dựa vào tác nhân thụ phấn mà người ta chia thành các hình thức thụ phấn là: thụ phấn nhờ gió, thụ phấn nhờ sâu bọ côn trùng, thụ phấn nhờ nước", "Những cây thích nghi với hình thức thụ phấn nhờ gió có đầu nhụy to và nhớt dính giúp đón và giữ hạt phấn tốt", "Dựa vào nguồn gốc của hạt phấn và nhụy tham gia thụ phấn mà người ta chia thành các hình thức thụ phấn là: tự thụ phấn và thụ phấn chéo"],
+
 ];
 
 
@@ -22,6 +34,11 @@ const correctAnswers = [
     [1, 2, 3], 
     [0, 3], 
     [0], 
+    // bài 25
+    [2, 3], 
+    [0, 2], 
+    [0, 2], 
+    [3], 
 ];
 
 function shuffleOptions() {

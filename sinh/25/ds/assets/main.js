@@ -1,26 +1,23 @@
 const questions = [
-    "Câu hỏi 1?",
-    "Câu hỏi 2?",
-    "Câu hỏi 3?",
-    "Câu hỏi 4?",
-    "Câu hỏi 5?",
+    "Khi nói về quá trình sinh sản ở thực vật, mỗi nhận định sau đây là đúng hay sai?",
+    "Khi nói về thụ tinh của thực vật có hoa, mỗi nhận định sau đây là Đúng hay Sai khi nói về quá trình này?",
+    "Vườn nhà bác Minh có một cây bưởi cho quả rất ngon, bác muốn nhân giống để trồng thêm vài cây nữa ở khu vườn, Bạn Nam gợi ý cho bác Minh phương pháp nhân giống phù hợp theo em bạn Nam đưa ra và giải thích như vậy là Đúng hay Sai?",
+    "Khi nói về sự thụ phấn ở thực vật, có bao nhiêu phát biểu sau đây đúng hay Sai?",
 ];
 
 const answers = [
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
-    ["1", "2", "3", "4"],
+    ["Quả được hình thành từ đầu nhị", "Sinh sản bào tử tạo ra thế hệ mới từ bào tử được phát sinh do nguyên phân ở những thực vật có xen kẽ thế hệ thể bào tử thể và giao tử thể", "Tự thụ phấn là sự thụ phấn giữa hạt phấn với nhụy của cùng một hoa hay khác hoa cùng một cây", "Thụ phấn là quá trình vận chuyển hạt phấn từ nhị đến núm nhụy"],
+    ["Nhóm thực vật có thụ tinh kép là thực vật hạt kín", "Ở thực vật có hoa, hạt được hình thành từ bộ phận túi phôi", "Tế bào mẹ giảm phân cho 4 tiểu bào tử Mỗi tiểu bào tử nguyên phân 1 lần cho 1 hạt phấn chứa 1 tế bào sinh sản và 1 tế bào ống phấn Tế bào sinh sản nguyên phân một lần tạo 2 giao tử đực", "Quá trình thụ tinh của thực vật có hoa diễn ra ở ống phấn"],
+    ["Phương pháp nhân giống phù hợp cho cây bưởi trong vườn nhà bác Minh là phương pháp chiết cành. Vì phương pháp này phù hợp cho cây ăn quả thân gỗ", "Quá trình rễ được tạo ra ở đoạn cành được áp dụng kĩ thuật này nhờ cytokinin phân hóa mô sẹo sau đó hình thành rễ bất định", "Kỹ thuật này cho cây con có tỉ lệ sống cao (có thể lên tới 100%), giữ nguyên được đặc tính của cây; cây con có tán lá gọn, sinh trưởng nhanh và khỏe", "Bạn Nam khuyên bác Minh có thể nhân giống đại trà để tăng năng suất và thương mại hóa"],
+    ["Trong quá trình thụ phấn, nếu số lượng hạt phấn rơi trên đầu nhụy càng nhiều thì bầu càng dễ phát triển thành quả", "Trong tự nhiên, dựa vào tác nhân thụ phấn mà người ta chia thành các hình thức thụ phấn là: thụ phấn nhờ gió, thụ phấn nhờ sâu bọ côn trùng, thụ phấn nhờ nước", "Những cây thích nghi với hình thức thụ phấn nhờ gió có đầu nhụy to và nhớt dính giúp đón và giữ hạt phấn tốt", "Dựa vào nguồn gốc của hạt phấn và nhụy tham gia thụ phấn mà người ta chia thành các hình thức thụ phấn là: tự thụ phấn và thụ phấn chéo"],
 ];
 
-// Chỉ số của đáp án đúng ban đầu cho mỗi câu hỏi
+
 const correctAnswers = [
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
-    [0, 1, 2, 3], 
+    [2, 3], 
+    [0, 2], 
+    [0, 2], 
+    [3], 
 ];
 
 function shuffleOptions() {
