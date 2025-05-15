@@ -49,7 +49,26 @@ const questions = [
     "Dựa trên các phương pháp nhân giống vô tính ở thực vật. Có bao nhiêu phát biểu sau đây đúng về ưu và nhược điểm? <br> I. Phương pháp giâm cành có ưu điểm tạo được số lượng lớn cây con có chất lượng đồng đều trong thời gian ngắn. <br> II. Phương pháp chiết cành có ưu điểm tỉ lệ sống của cây con cao (có thể lên tới 100%), cây thấp, tán lá gọn, sinh trưởng nhanh. <br> III. Phương pháp ghép cành có ưu điểm giữ được các đặc tính của giống muốn nhân. <br> IV. Phương pháp nuôi cấy mô có ưu điểm tạo ra số lượng lớn các giống cây trồng có năng suất cao, chất lượng tốt, thích nghi với điều kiện sinh thái nhất định, chống chịu tốt với nhiều loại sâu bệnh, ...",
     "Khi tìm hiểu các giống cây trồng ở địa phương được nhân giống bằng hình thức hữu tính. Có bao nhiêu phát biểu sau đây đúng? <br> I. Lúa là loại cây trồng được nhân giống bằng phương pháp giao phối tự nhiên giữa các cây khác nhau. <br> II. Việc lai tạo các giống lúa mới giúp tăng cường sức đề kháng và năng suất của lúa. <br> III. Bông là loại cây trồng chủ yếu để sản xuất sợi bông và được nhân giống bằng phương pháp lai tạo giữa các giống khác nhau. <br> IV. Cao su cũng được nhân giống bằng phương pháp lai tạo giữa các giống khác nhau để tạo ra những giống mới có năng suất và chất lượng tốt hơn.",
     "Khi nói đến sinh sản hữu tính so với sinh sản vô tính ở thực vật. Có bao nhiêu phát biểu sau đây đúng? <br> I. Tạo ra được nhiều biến dị tổ hợp làm nguyên liệu cho chọn giống và tiến hóa. <br>  <br> II. Duy trì ổn định những tính trạng tốt về mặt di truyền. <br> III. Có khả năng thích nghi với những điều kiện môi trường biến đổi. <br> IV. Là hình thức sinh sản phổ biến.",
-
+    // bài 27
+    "Hình thức sinh sản mà cơ thể mẹ nguyên phân nhiều lần để tạo thành một chồi non, chồi con tách khỏi mẹ tạo thành cá thể mới được gọi là",
+    "Trong sinh sản vô tính các cá thể mới sinh ra",
+    "Ở ong mật, kết quả của quá trình trinh sản là tạo ra",
+    "Giun dẹp có khả năng thắt giữa để tạo ra 2 cơ thể mới hoặc cơ thể có thể tách ra nhiều phần và mỗi phần tạo ra một cơ thể mới. Giun dẹp có các hình thức sinh sản nào sau đây?",
+    "Sinh sản hữu tính ở động vật là",
+    "Trong cơ chế điều hòa sinh tinh ở động vật, GnRH có vai trò kích thích",
+    "Trong cơ chế điều hòa sinh tinh ở động vật, hormone LH có vai trò kích thích",
+    "Ở nam giới, testosterone có vai trò kích thích",
+    "Trong cơ chế điều hòa sinh sản, hormone LH ở phụ nữ có vai trò kích thích",
+    "Trong cơ chế điều hòa sinh trứng, hormone FSH có vai trò kích thích",
+    "Ở nam giới, khi nồng độ testosterone trong máu cao có tác dụng",
+    "Khi nồng độ testôstêron trong máu cao có tác dụng",
+    "Khi nồng độ estrogen và progesterone trong máu tăng cao sẽ",
+    "Trong cơ chế điều hoà sinh trứng, nồng độ hormone progesterone và estrogen cao gây",
+    // tln
+    "Thứ tự đúng của các giai đoạn trong quá trình sinh sản hữu tính ở người. <br> (1) Thụ tinh <br> (2) Hình thành giao tử <br> (3) Đẻ con <br> (4) Phát triển phôi thai <br>",
+    "Cho các giai đoạn sau: <br> 1. Tinh trùng thụ tinh với trứng ở vòi trứng <br> 2. Hợp tử phân chia tạo thành phôi <br> 3. Dưới tác dụng của oxytocin, cổ tử cung mở rộng, thai được đẩy ra ngoài <br> 4. Phôi phát triển thành thai trong tử cung <br> Trật tự đúng các giai đoạn trong quá trình sinh sản hữu tính ở người là như thế nào?",
+    "Cho các biện pháp điều hòa sinh sản sau: tránh thai ức chế quá trình chín và rụng trứng, lựa chọn giới tính thai nhi, tránh thai ngăn cản tinh trùng gặp trứng, thay đổi điều kiện nhiệt độ, tránh thai ngăn cản sự làm tổ của phôi thai trong tử cung. Có bao nhiêu biện pháp đang được áp dụng ở người?",
+    "Trong số các loài sau đây có bao nhiêu loài đẻ con: bò, thú mỏ vịt, cá voi, cá sấu, ếch nhái",
 ];
 
 const answers = [
@@ -103,7 +122,26 @@ const answers = [
     ["1", "2", "3", "4"],
     ["1", "2", "3", "4"],
     ["1", "2", "3", "4"],
-
+    // bài 27
+    ["trinh sinh", "phân đôi", "phân mảnh", "nảy chồi"],
+    ["giống nhau và giống cá thể gốc", "khác nhau và giống cá thể gốc", "giống nhau và khác cá thể gốc", "khác nhau và khác cá thể gốc"],
+    ["ong đực mang bộ NST lưỡng bội", "ong đực mang bộ NST đơn bội", "ong thợ mang bộ NST đơn bội", "ong đực mang bộ NST lưỡng bội"],
+    ["Phân đôi và trinh sinh", "Nảy chồi và phân mảnh", "Nảy chồi và phân đôi", "Phân mảnh và phân đôi"],
+    ["sự kết hợp của nhiều giao tử đực với 1 giao tử cái -> hợp tử -> cơ thể mới", "kiểu sinh sản tạo ra cơ thể mới qua hình thành và hợp nhất hai giao tử đơn bội (đực và cái) -> hợp tử -> cơ thể mới", "sự kết hợp có chọn lọc của hai giao tử đực và cái -> hợp tử -> cơ thể mới", "sự kết hợp có chọn lọc của nhiều giao tử cái và nhiều giao tử đực -> hợp tử -> cơ thể mới"],
+    ["ống sinh tinh phát triển", "tế bào kẽ sản sinh ra testosterone", "ống sinh tinh sản xuất ra tinh trùng", "tuyến yên tiết FSH và LH"],
+    ["ống sinh tinh sản xuất tinh trùng", "tế bào kẽ tiết ra hormone testosterone", "vùng dưới đồi sản xuất hormone GnRH", "tuyến yên sản xuất hormone ICSH (LH)"],
+    ["vùng dưới đồi tiết GnRH", "tế bào Sertoli của tinh hoàn tiết inhibin", "ống sinh tinh sản xuất ra tinh trùng", "tuyến yên tiết FSH"],
+    ["buồng trứng tạo trứng", "dạ con phát triển chuẩn bị cho hợp tử làm tổ", "trứng chín, rụng, tạo thể vàng", "nang trứng phát triển và tiết estrogen"],
+    ["buồng trứng tạo trứng", "vùng dưới đồi tiết GnRH", "trứng chín, rụng, tạo thể vàng", "nang trứng phát triển và tiết estrogen"],
+    ["ức chế tuyến yên và vùng dưới đồi, làm giảm tiết GnRH, FSH và LH", "ức chế tuyến yên và vùng dưới đồi, làm hai bộ phận này mất chức năng", "ức chế tuyến yên tiết FSH và LH, đồng thời kích thích vùng dưới đồi làm tăng tiết GnRH", "kích thích tuyến yên và vùng dưới đồi, làm tăng tiết GnRH, FSH và LH"],
+    ["gây ức chế ngược lên vùng dưới đồi và tuyến yên giảm tiết hormone gây ức chế quá trình sinh tinh trùng", "gây ức chế ngược lên vùng dưới đồi và tuyến yên giảm tiết hormone làm cho trứng không chín và rụng", "kích thích vùng dưới đồi và tuyến yên tăng tiết hormone kích thích quá trình sinh tinh trùng", "kích thích vùng dưới đồi và tuyến yên giảm tiết hormone ức chế quá trình sinh tinh trùng"],
+    ["kích thích quá trình sinh trứng", "làm cho trứng không chín và rụng", "làm niêm mạc tử cung bong ra", "kích thích nang trứng phát triển"],
+    ["ức chế tuyến yên giảm tiết hormone FSH và LH", "ức chế vùng dưới đồi và tuyến yên giảm tiết hormone GnRH, FSH và LH", "kích thích vùng dưới đồi và tuyến yên tăng tiết hormone GnRH, FSH và LH", "ức chế vùng dưới đồi giảm tiết hormone GnRH"],
+    // tln
+    ["2 -> 1 -> 4 -> 3", "1 -> 2 -> 4 -> 3", "1 -> 4 -> 2 -> 3", "1 -> 2 -> 3 -> 4"],
+    ["1 -> 2 - > 4 -> 3", "1 -> 2 -> 3 -> 4", "1 -> 3 -> 4 -> 2", "3 -> 1 -> 2 -> 4"],
+    ["3", "4", "5", "6"],
+    ["2", "1", "3", "4"],
 ];
 
 const correctAnswers = [
@@ -121,7 +159,12 @@ const correctAnswers = [
     3, 0, 0, 2, 1,
     0, 3, 0, 3, 2,
     3, 3, 2, 
-    
+    // bài 27
+    3, 0, 1, 3, 1,
+    3, 1, 2, 2, 3,
+    0, 0, 1, 1, 
+    // tln
+    0, 0, 0, 0,
 ];
 
 function shuffleOptions() {
